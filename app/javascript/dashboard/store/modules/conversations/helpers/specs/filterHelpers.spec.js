@@ -395,7 +395,7 @@ describe('filterHelpers', () => {
 
     it('should match conversation with contains operator for referer', () => {
       const conversation = {
-        additional_attributes: { referer: 'https://www.buzzcrm.ai/pricing' },
+        additional_attributes: { referer: 'https://www.buzzcrm.ai' },
       };
       const filters = [
         {

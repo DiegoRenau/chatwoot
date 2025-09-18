@@ -39,7 +39,6 @@
   display_title: 'Widget Brand URL'
   description: 'The URL that would be used in the widget under the section “Powered By”'
 - name: BRAND_NAME
-  value: 'BuzzCRM'
   value: 'Buzz'
   display_title: 'Brand Name'
   description: 'The name that would be used in emails and the widget'
@@ -53,8 +52,6 @@
   description: 'The privacy policy URL displayed in the app'
 - name: DISPLAY_MANIFEST
   value: true
-  display_title: 'Buzz Metadata'
-  description: 'Display default Buzz metadata like favicons and upgrade warnings'
   display_title: 'Buzz Metadata'
   description: 'Display default Buzz metadata like favicons and upgrade warnings'
   type: boolean

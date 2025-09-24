@@ -128,7 +128,7 @@ const menuItems = computed(() => {
       to: accountScopedRoute('inbox_view'),
       activeOn: ['inbox_view', 'inbox_view_conversation'],
       getterKeys: {
-        badge: 'notifications/getHasUnreadNotifications',
+        count: 'notifications/getUnreadCount',
       },
     },
     {
@@ -401,6 +401,12 @@ const menuItems = computed(() => {
           to: accountScopedRoute('settings_teams_list'),
         },
         {
+          name: 'Settings Agent Assignment',
+          label: t('SIDEBAR.AGENT_ASSIGNMENT'),
+          icon: 'i-lucide-user-cog',
+          to: accountScopedRoute('assignment_policy_index'),
+        },
+        {
           name: 'Settings Inboxes',
           label: t('SIDEBAR.INBOXES'),
           icon: 'i-lucide-inbox',
@@ -441,6 +447,12 @@ const menuItems = computed(() => {
           label: t('SIDEBAR.INTEGRATIONS'),
           icon: 'i-lucide-blocks',
           to: accountScopedRoute('settings_applications'),
+        },
+        {
+          name: 'Settings Billing',
+          label: t('SIDEBAR.BILLING'),
+          icon: 'i-lucide-credit-card',
+          to: accountScopedRoute('billing_settings_index'),
         },
       ],
     },

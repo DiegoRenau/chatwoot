@@ -1,5 +1,5 @@
 # pre-build stage
-FROM node:23-alpine as node
+FROM node:23.7.0-alpine as node
 FROM ruby:3.3.0-alpine AS pre-builder
 
 ARG NODE_VERSION="23.7.0"
@@ -91,13 +91,13 @@ RUN if [ "$RAILS_ENV" = "production" ]; then \
 RUN git rev-parse HEAD > /app/.git_sha
 
 # Remove unnecessary files
-RUN rm -rf /gems/ruby/3.4.0/cache/*.gem \
-  && find /gems/ruby/3.4.0/gems/ \( -name "*.c" -o -name "*.o" \) -delete \
+RUN rm -rf /gems/ruby/3.3.0/cache/*.gem \
+  && find /gems/ruby/3.3.0/gems/ \( -name "*.c" -o -name "*.o" \) -delete \
   && rm -rf .git \
   && rm .gitignore
 
 # final build stage
-FROM ruby:3.4.4-alpine3.21
+FROM ruby:3.3.0-alpine
 
 ARG NODE_VERSION="23.7.0"
 ARG PNPM_VERSION="10.2.0"

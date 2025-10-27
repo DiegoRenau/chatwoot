@@ -272,3 +272,10 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
 end
+
+# Load devise-two-factor after Devise is configured
+begin
+  require 'devise-two-factor'
+rescue LoadError => e
+  Rails.logger.warn "devise-two-factor gem not available: #{e.message}"
+end

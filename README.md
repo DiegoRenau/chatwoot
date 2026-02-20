@@ -3,7 +3,9 @@
 
 ___
 
-# Chatwoot
+# Chatwoot (Enterprise Enabled Fork)
+
+This fork has been updated to the latest version of Chatwoot and has **all Enterprise features enabled by default**. It operates independently of the official Chatwoot Hub, bypassing license and remote plan verification.
 
 The modern customer support platform, an open-source alternative to Intercom, Zendesk, Salesforce Service Cloud etc.
 

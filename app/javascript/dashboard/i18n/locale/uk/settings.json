@@ -309,7 +309,7 @@
     "ACTIVE": "Активний",
     "COMPANIES": "Companies",
     "ALL_COMPANIES": "All Companies",
-    "CAPTAIN": "Captain",
+    "CAPTAIN": "Agentrix",
     "CAPTAIN_ASSISTANTS": "Assistants",
     "CAPTAIN_DOCUMENTS": "Documents",
     "CAPTAIN_RESPONSES": "FAQs",
@@ -396,12 +396,12 @@
       "BUTTON_TXT": "Перейти на портал для платежів"
     },
     "CAPTAIN": {
-      "TITLE": "Captain",
-      "DESCRIPTION": "Manage usage and credits for Captain AI.",
+      "TITLE": "Agentrix",
+      "DESCRIPTION": "Manage usage and credits for Agentrix AI.",
       "BUTTON_TXT": "Buy more credits",
       "DOCUMENTS": "Documents",
       "RESPONSES": "Responses",
-      "UPGRADE": "Captain is not available on the free plan, upgrade now to get access to assistants, copilot and more.",
+      "UPGRADE": "Agentrix is not available on the free plan, upgrade now to get access to assistants, copilot and more.",
       "REFRESH_CREDITS": "Оновити"
     },
     "CHAT_WITH_US": {
@@ -413,7 +413,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Buy more credits",
       "MODAL_TITLE": "Buy AI Credits",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Captain AI.",
+      "MODAL_DESCRIPTION": "Purchase additional credits for Agentrix AI.",
       "CREDITS": "CREDITS",
       "ONE_TIME": "one-time",
       "POPULAR": "Most Popular",

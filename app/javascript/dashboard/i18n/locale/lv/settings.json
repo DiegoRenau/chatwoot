@@ -309,7 +309,7 @@
     "ACTIVE": "Aktīvs",
     "COMPANIES": "Companies",
     "ALL_COMPANIES": "All Companies",
-    "CAPTAIN": "Captain",
+    "CAPTAIN": "Agentrix",
     "CAPTAIN_ASSISTANTS": "Asistenti",
     "CAPTAIN_DOCUMENTS": "Dokumenti",
     "CAPTAIN_RESPONSES": "Bieži uzdotie jautājumi",
@@ -396,12 +396,12 @@
       "BUTTON_TXT": "Doties uz norēķinu portālu"
     },
     "CAPTAIN": {
-      "TITLE": "Captain",
-      "DESCRIPTION": "Pārvaldīt Captain AI lietošanu un kredītus.",
+      "TITLE": "Agentrix",
+      "DESCRIPTION": "Pārvaldīt Agentrix AI lietošanu un kredītus.",
       "BUTTON_TXT": "Iegādāties vairāk kredītu",
       "DOCUMENTS": "Dokumenti",
       "RESPONSES": "Atbildes",
-      "UPGRADE": "Captain nav pieejams bezmaksas abonementā. Modernizējiet abonementu tūlīt, lai piekļūtu asistentiem un copilot.",
+      "UPGRADE": "Agentrix nav pieejams bezmaksas abonementā. Modernizējiet abonementu tūlīt, lai piekļūtu asistentiem un copilot.",
       "REFRESH_CREDITS": "Atjaunot"
     },
     "CHAT_WITH_US": {
@@ -413,7 +413,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Iegādāties vairāk kredītu",
       "MODAL_TITLE": "Buy AI Credits",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Captain AI.",
+      "MODAL_DESCRIPTION": "Purchase additional credits for Agentrix AI.",
       "CREDITS": "CREDITS",
       "ONE_TIME": "one-time",
       "POPULAR": "Most Popular",

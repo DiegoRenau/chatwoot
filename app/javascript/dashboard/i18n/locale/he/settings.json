@@ -397,11 +397,11 @@
     },
     "CAPTAIN": {
       "TITLE": "קפטן",
-      "DESCRIPTION": "נהל שימוש וזיכויים עבור Captain AI.",
+      "DESCRIPTION": "נהל שימוש וזיכויים עבור Agentrix AI.",
       "BUTTON_TXT": "קנה עוד זיכויים",
       "DOCUMENTS": "מסמכים",
       "RESPONSES": "תגובות",
-      "UPGRADE": "Captain אינו זמין בתוכנית החינמית, שדרג עכשיו כדי לקבל גישה לעוזרים, ל-Copilot ועוד.",
+      "UPGRADE": "Agentrix אינו זמין בתוכנית החינמית, שדרג עכשיו כדי לקבל גישה לעוזרים, ל-Copilot ועוד.",
       "REFRESH_CREDITS": "רענן"
     },
     "CHAT_WITH_US": {
@@ -413,7 +413,7 @@
     "TOPUP": {
       "BUY_CREDITS": "קנה עוד זיכויים",
       "MODAL_TITLE": "Buy AI Credits",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Captain AI.",
+      "MODAL_DESCRIPTION": "Purchase additional credits for Agentrix AI.",
       "CREDITS": "CREDITS",
       "ONE_TIME": "one-time",
       "POPULAR": "Most Popular",

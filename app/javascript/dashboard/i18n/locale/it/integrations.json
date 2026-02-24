@@ -20,10 +20,10 @@
     "LEARN_MORE": "Scopri di più sulle integrazioni",
     "LOADING": "Caricamento integrazioni",
     "CAPTAIN": {
-      "DISABLED": "Captain non è abilitato sul tuo account.",
+      "DISABLED": "Agentrix non è abilitato sul tuo account.",
       "CLICK_HERE_TO_CONFIGURE": "Clicca qui per configurare",
-      "LOADING_CONSOLE": "Caricamento Console Captain...",
-      "FAILED_TO_LOAD_CONSOLE": "Caricamento della Console Captain non riuscito. Aggiorna e riprova."
+      "LOADING_CONSOLE": "Caricamento Console Agentrix...",
+      "FAILED_TO_LOAD_CONSOLE": "Caricamento della Console Agentrix non riuscito. Aggiorna e riprova."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Eventi Sottoscritti",
@@ -346,7 +346,7 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Captain",
+    "NAME": "Agentrix",
     "HEADER_KNOW_MORE": "Scopri di più",
     "ASSISTANT_SWITCHER": {
       "ASSISTANTS": "Assistenti",
@@ -361,7 +361,7 @@
       "KICK_OFF_MESSAGE": "Hai bisogno di un riassunto rapido, vuoi controllare le conversazioni passate o vuoi scrivere risposte migliori? Copilot è qui per te.",
       "SEND_MESSAGE": "Invia messaggio...",
       "EMPTY_MESSAGE": "Si è verificato un errore durante la generazione della risposta. Riprova.",
-      "LOADER": "Captain sta pensando",
+      "LOADER": "Agentrix sta pensando",
       "YOU": "Tu",
       "USE": "Usa questo",
       "RESET": "Reset",
@@ -396,11 +396,11 @@
       "MESSAGE_PLACEHOLDER": "Scrivi il tuo messaggio...",
       "HEADER": "Playground",
       "DESCRIPTION": "Usa questo playground per inviare messaggi al tuo assistente e controllare se risponde correttamente, rapidamente e con il tono che ti aspetti.",
-      "CREDIT_NOTE": "I messaggi inviati qui vengono scalati dai crediti Captain."
+      "CREDIT_NOTE": "I messaggi inviati qui vengono scalati dai crediti Agentrix."
     },
     "PAYWALL": {
-      "TITLE": "Aggiorna per usare Captain AI",
-      "AVAILABLE_ON": "Captain non è disponibile sul piano gratuito.",
+      "TITLE": "Aggiorna per usare Agentrix AI",
+      "AVAILABLE_ON": "Agentrix non è disponibile sul piano gratuito.",
       "UPGRADE_PROMPT": "Aggiorna il tuo piano per ottenere l'accesso ai nostri assistenti, copilot e altro ancora.",
       "UPGRADE_NOW": "Aggiorna ora",
       "CANCEL_ANYTIME": "Puoi modificare o annullare il tuo piano in qualsiasi momento"
@@ -410,8 +410,8 @@
       "ASK_ADMIN": "Contatta il tuo amministratore per l'aggiornamento."
     },
     "BANNER": {
-      "RESPONSES": "Hai usato oltre l'80% del tuo limite di risposte. Per continuare a utilizzare Captain AI, per favore aggiorna.",
-      "DOCUMENTS": "Raggiunto il limite di documenti. Aggiorna per continuare a usare Captain AI."
+      "RESPONSES": "Hai usato oltre l'80% del tuo limite di risposte. Per continuare a utilizzare Agentrix AI, per favore aggiorna.",
+      "DOCUMENTS": "Raggiunto il limite di documenti. Aggiorna per continuare a usare Agentrix AI."
     },
     "FORM": {
       "CANCEL": "Annulla",
@@ -531,8 +531,8 @@
         "TITLE": "Nessun assistente disponibile",
         "SUBTITLE": "Crea un assistente per fornire risposte rapide e accurate agli utenti. Può imparare dagli articoli dell'Help Center e dalle conversazioni passate.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Assistant",
-          "NOTE": "Captain Assistant interagisce direttamente con i clienti, impara dai documenti e dalle conversazioni passate e fornisce risposte rapide e accurate. Gestisce le richieste iniziali, fornendo risoluzioni rapide prima di trasferire ad un operatore quando necessario."
+          "TITLE": "Agentrix Assistant",
+          "NOTE": "Agentrix Assistant interagisce direttamente con i clienti, impara dai documenti e dalle conversazioni passate e fornisce risposte rapide e accurate. Gestisce le richieste iniziali, fornendo risoluzioni rapide prima di trasferire ad un operatore quando necessario."
         }
       },
       "GUARDRAILS": {
@@ -742,8 +742,8 @@
         "TITLE": "Nessun documento disponibile",
         "SUBTITLE": "I documenti sono utilizzati dal tuo assistente per generare FAQ. Puoi importare documenti per fornire contesto al tuo assistente.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Documento Captain",
-          "NOTE": "Un documento in Captain serve come risorsa di knowledge base per l'assistente. Collegando documenti help center e guide, Captain può analizzare il contenuto e fornire risposte accurate per le richieste dei clienti."
+          "TITLE": "Documento Agentrix",
+          "NOTE": "Un documento in Agentrix serve come risorsa di knowledge base per l'assistente. Collegando documenti help center e guide, Agentrix può analizzare il contenuto e fornire risposte accurate per le richieste dei clienti."
         }
       }
     },
@@ -899,7 +899,7 @@
         "ALL": "Tutte"
       },
       "PENDING_BANNER": {
-        "TITLE": "Captain ha trovato delle FAQ tra le domande dei tuoi clienti.",
+        "TITLE": "Agentrix ha trovato delle FAQ tra le domande dei tuoi clienti.",
         "ACTION": "Clicca qui per rivedere"
       },
       "FORM_DESCRIPTION": "Aggiungi una domanda e la sua risposta corrispondente alla knowledge base e seleziona l'assistente con cui dovrebbe essere associata.",
@@ -937,8 +937,8 @@
         "SUBTITLE": "Le FAQ aiutano il tuo assistente a fornire risposte rapide e accurate alle domande dei tuoi clienti. Possono essere generate automaticamente dai tuoi contenuti o possono essere aggiunte manualmente.",
         "CLEAR_SEARCH": "Rimuovi filtri attivi",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain FAQ",
-          "NOTE": "Captain FAQ rileva le domande più frequenti dei clienti, anche se mancano dalla tua knowledge base, e suggerisce delle FAQ per migliorare il supporto. È possibile rivedere ogni suggerimento e decidere se approvarlo o rifiutarlo."
+          "TITLE": "Agentrix FAQ",
+          "NOTE": "Agentrix FAQ rileva le domande più frequenti dei clienti, anche se mancano dalla tua knowledge base, e suggerisce delle FAQ per migliorare il supporto. È possibile rivedere ogni suggerimento e decidere se approvarlo o rifiutarlo."
         }
       }
     },

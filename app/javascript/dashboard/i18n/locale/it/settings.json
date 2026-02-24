@@ -309,7 +309,7 @@
     "ACTIVE": "Attivi",
     "COMPANIES": "Aziende",
     "ALL_COMPANIES": "Tutte le Aziende",
-    "CAPTAIN": "Captain",
+    "CAPTAIN": "Agentrix",
     "CAPTAIN_ASSISTANTS": "Assistenti",
     "CAPTAIN_DOCUMENTS": "Documenti",
     "CAPTAIN_RESPONSES": "FAQ",
@@ -396,12 +396,12 @@
       "BUTTON_TXT": "Vai al portale di fatturazione"
     },
     "CAPTAIN": {
-      "TITLE": "Captain",
-      "DESCRIPTION": "Gestisci utilizzo e crediti per Captain AI.",
+      "TITLE": "Agentrix",
+      "DESCRIPTION": "Gestisci utilizzo e crediti per Agentrix AI.",
       "BUTTON_TXT": "Acquista più crediti",
       "DOCUMENTS": "Documenti",
       "RESPONSES": "Risposte",
-      "UPGRADE": "Captain non è disponibile sul piano gratuito, aggiorna ora per ottenere l'accesso agli assistenti, copilot e altro ancora.",
+      "UPGRADE": "Agentrix non è disponibile sul piano gratuito, aggiorna ora per ottenere l'accesso agli assistenti, copilot e altro ancora.",
       "REFRESH_CREDITS": "Aggiorna"
     },
     "CHAT_WITH_US": {
@@ -413,7 +413,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Acquista più crediti",
       "MODAL_TITLE": "Acquista Crediti AI",
-      "MODAL_DESCRIPTION": "Acquista crediti aggiuntivi per Captain AI.",
+      "MODAL_DESCRIPTION": "Acquista crediti aggiuntivi per Agentrix AI.",
       "CREDITS": "CREDITI",
       "ONE_TIME": "una tantum",
       "POPULAR": "Più Popolare",

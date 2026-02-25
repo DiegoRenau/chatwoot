@@ -20,10 +20,10 @@
     "LEARN_MORE": "連携について詳しく知る",
     "LOADING": "連携を取得中",
     "CAPTAIN": {
-      "DISABLED": "Captainはあなたのアカウントで有効になっていません。",
+      "DISABLED": "Agentrixはあなたのアカウントで有効になっていません。",
       "CLICK_HERE_TO_CONFIGURE": "設定するにはここをクリック",
-      "LOADING_CONSOLE": "Captainコンソールを読み込み中...",
-      "FAILED_TO_LOAD_CONSOLE": "Captainコンソールの読み込みに失敗しました。リフレッシュしてもう一度お試しください。"
+      "LOADING_CONSOLE": "Agentrixコンソールを読み込み中...",
+      "FAILED_TO_LOAD_CONSOLE": "Agentrixコンソールの読み込みに失敗しました。リフレッシュしてもう一度お試しください。"
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "購読イベント",
@@ -45,6 +45,10 @@
             "CONVERSATION_TYPING_ON": "Conversation Typing On",
             "CONVERSATION_TYPING_OFF": "Conversation Typing Off"
           }
+        },
+        "NAME": {
+          "LABEL": "Webhook Name",
+          "PLACEHOLDER": "Enter the name of the webhook"
         },
         "END_POINT": {
           "LABEL": "Webhook URL",
@@ -344,6 +348,12 @@
   "CAPTAIN": {
     "NAME": "キャプテン",
     "HEADER_KNOW_MORE": "Know more",
+    "ASSISTANT_SWITCHER": {
+      "ASSISTANTS": "アシスタント",
+      "SWITCH_ASSISTANT": "Switch between assistants",
+      "NEW_ASSISTANT": "Create Assistant",
+      "EMPTY_LIST": "No assistants found, please create one to get started"
+    },
     "COPILOT": {
       "TITLE": "コパイロット",
       "TRY_THESE_PROMPTS": "これらのプロンプトを試してください",
@@ -351,7 +361,7 @@
       "KICK_OFF_MESSAGE": "Need a quick summary, want to check past conversations, or draft a better reply? Copilot’s here to speed things up.",
       "SEND_MESSAGE": "メッセージを送信...",
       "EMPTY_MESSAGE": "There was an error generating the response. Please try again.",
-      "LOADER": "Captainが考え中",
+      "LOADER": "Agentrixが考え中",
       "YOU": "あなた",
       "USE": "これを使用",
       "RESET": "リセット",
@@ -386,11 +396,11 @@
       "MESSAGE_PLACEHOLDER": "Type your message...",
       "HEADER": "Playground",
       "DESCRIPTION": "Use this playground to send messages to your assistant and check if it responds accurately, quickly, and in the tone you expect.",
-      "CREDIT_NOTE": "Messages sent here will count toward your Captain credits."
+      "CREDIT_NOTE": "Messages sent here will count toward your Agentrix credits."
     },
     "PAYWALL": {
-      "TITLE": "アップグレードしてCaptain AIを利用する",
-      "AVAILABLE_ON": "Captainは無料プランでは利用できません。",
+      "TITLE": "アップグレードしてAgentrix AIを利用する",
+      "AVAILABLE_ON": "Agentrixは無料プランでは利用できません。",
       "UPGRADE_PROMPT": "アシスタント、Copilotなどにアクセスするには、プランをアップグレードしてください。",
       "UPGRADE_NOW": "今すぐアップグレード",
       "CANCEL_ANYTIME": "プランはいつでも変更またはキャンセルできます"
@@ -400,8 +410,8 @@
       "ASK_ADMIN": "管理者にアップグレードを依頼してください。"
     },
     "BANNER": {
-      "RESPONSES": "利用制限の 80% を超過しました。引き続き Captain AI を利用するには、アップグレードしてください。",
-      "DOCUMENTS": "ドキュメントの上限に達しました。Captain AI を引き続き利用するには、アップグレードしてください。"
+      "RESPONSES": "利用制限の 80% を超過しました。引き続き Agentrix AI を利用するには、アップグレードしてください。",
+      "DOCUMENTS": "ドキュメントの上限に達しました。Agentrix AI を引き続き利用するには、アップグレードしてください。"
     },
     "FORM": {
       "CANCEL": "キャンセル",
@@ -483,9 +493,7 @@
         "NOT_FOUND": "Could not find the assistant. Please try again."
       },
       "SETTINGS": {
-        "BREADCRUMB": {
-          "ASSISTANT": "アシスタント"
-        },
+        "HEADER": "設定",
         "BASIC_SETTINGS": {
           "TITLE": "Basic settings",
           "DESCRIPTION": "Customize what the assistant says when ending a conversation or transferring to a human."
@@ -502,15 +510,16 @@
               "TITLE": "Guardrails",
               "DESCRIPTION": "Keeps things on track—only the kinds of questions you want your assistant to answer, nothing off-limits or off-topic."
             },
-            "SCENARIOS": {
-              "TITLE": "Scenarios",
-              "DESCRIPTION": "Give your assistant some context—like “what to do when a user is stuck,” or “how to act during a refund request.”"
-            },
             "RESPONSE_GUIDELINES": {
               "TITLE": "Response guidelines",
               "DESCRIPTION": "The vibe and structure of your assistant’s replies—clear and friendly? Short and snappy? Detailed and formal?"
             }
           }
+        },
+        "DELETE": {
+          "TITLE": "アシスタントを削除",
+          "DESCRIPTION": "この操作は永久的です。アシスタントを削除すると、すべての接続された受信トレイから削除され、生成されたすべての知識が永久に消去されます。",
+          "BUTTON_TEXT": "{assistantName}を削除"
         }
       },
       "OPTIONS": {
@@ -522,16 +531,13 @@
         "TITLE": "利用可能なアシスタントがありません",
         "SUBTITLE": "アシスタントを作成して、お客様に迅速かつ正確な回答を提供します。アシスタントは、ヘルプ記事や過去の会話から学習します。",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Assistant",
-          "NOTE": "Captain Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "Agentrix Assistant",
+          "NOTE": "Agentrix Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
         }
       },
       "GUARDRAILS": {
         "TITLE": "Guardrails",
         "DESCRIPTION": "Keeps things on track—only the kinds of questions you want your assistant to answer, nothing off-limits or off-topic.",
-        "BREADCRUMB": {
-          "TITLE": "Guardrails"
-        },
         "BULK_ACTION": {
           "SELECTED": "{count} item selected | {count} items selected",
           "SELECT_ALL": "Select all ({count})",
@@ -577,9 +583,6 @@
       "RESPONSE_GUIDELINES": {
         "TITLE": "Response Guidelines",
         "DESCRIPTION": "The vibe and structure of your assistant’s replies—clear and friendly? Short and snappy? Detailed and formal?",
-        "BREADCRUMB": {
-          "TITLE": "Response Guidelines"
-        },
         "BULK_ACTION": {
           "SELECTED": "{count} item selected | {count} items selected",
           "SELECT_ALL": "Select all ({count})",
@@ -625,9 +628,6 @@
       "SCENARIOS": {
         "TITLE": "Scenarios",
         "DESCRIPTION": "Give your assistant some context—like “what to do when a user is stuck,” or “how to act during a refund request.”",
-        "BREADCRUMB": {
-          "TITLE": "Scenarios"
-        },
         "BULK_ACTION": {
           "SELECTED": "{count} item selected | {count} items selected",
           "SELECT_ALL": "Select all ({count})",
@@ -725,11 +725,6 @@
         "NAME": {
           "LABEL": "Document Name (Optional)",
           "PLACEHOLDER": "Enter a name for the document"
-        },
-        "ASSISTANT": {
-          "LABEL": "アシスタント",
-          "PLACEHOLDER": "アシスタントを選択",
-          "ERROR": "アシスタントの選択が必要です"
         }
       },
       "DELETE": {
@@ -747,8 +742,8 @@
         "TITLE": "利用可能なドキュメントがありません",
         "SUBTITLE": "ドキュメントはアシスタントがFAQを生成するために使用されます。ドキュメントをインポートしてアシスタントにコンテキストを提供できます。",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Document",
-          "NOTE": "A document in Captain serves as a knowledge resource for the assistant. By connecting your help center or guides, Captain can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "Agentrix Document",
+          "NOTE": "A document in Agentrix serves as a knowledge resource for the assistant. By connecting your help center or guides, Agentrix can analyze the content and provide accurate responses for customer inquiries."
         }
       }
     },
@@ -863,6 +858,7 @@
     },
     "RESPONSES": {
       "HEADER": "FAQ",
+      "PENDING_FAQS": "Pending FAQs",
       "ADD_NEW": "新しいFAQを作成",
       "DOCUMENTABLE": {
         "CONVERSATION": "会話 #{id}"
@@ -902,6 +898,10 @@
         "APPROVED": "承認済み",
         "ALL": "すべて"
       },
+      "PENDING_BANNER": {
+        "TITLE": "Agentrix has found some FAQs your customers were looking for.",
+        "ACTION": "Click here to review"
+      },
       "FORM_DESCRIPTION": "質問とその対応する回答をナレッジベースに追加し、それに関連付けるアシスタントを選択してください。",
       "CREATE": {
         "TITLE": "FAQを追加",
@@ -918,11 +918,6 @@
           "LABEL": "回答",
           "PLACEHOLDER": "ここに回答を入力",
           "ERROR": "有効な回答を入力してください。"
-        },
-        "ASSISTANT": {
-          "LABEL": "アシスタント",
-          "PLACEHOLDER": "アシスタントを選択",
-          "ERROR": "アシスタントを選択してください。"
         }
       },
       "EDIT": {
@@ -932,16 +927,18 @@
         "APPROVE_SUCCESS_MESSAGE": "FAQが承認済みとしてマークされました"
       },
       "OPTIONS": {
-        "APPROVE": "承認済みとしてマーク",
-        "EDIT_RESPONSE": "FAQを編集",
-        "DELETE_RESPONSE": "FAQを削除"
+        "APPROVE": "Approve",
+        "EDIT_RESPONSE": "編集",
+        "DELETE_RESPONSE": "削除"
       },
       "EMPTY_STATE": {
         "TITLE": "FAQが見つかりません",
+        "NO_PENDING_TITLE": "There are no more pending FAQs to review",
         "SUBTITLE": "FAQは、アシスタントがお客様からの質問に迅速かつ正確に回答するのに役立ちます。コンテンツから自動的に生成することも、手動で追加することもできます。",
+        "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain FAQ",
-          "NOTE": "Captain FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "Agentrix FAQ",
+          "NOTE": "Agentrix FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         }
       }
     },

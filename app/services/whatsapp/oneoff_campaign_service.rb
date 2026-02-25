@@ -3,8 +3,9 @@ class Whatsapp::OneoffCampaignService
 
   def perform
     validate_campaign!
-    process_audience(extract_audience_labels)
+    # marks campaign completed so that other jobs won't pick it up
     campaign.completed!
+    process_audience(extract_audience_labels)
   end
 
   private
@@ -57,7 +58,11 @@ class Whatsapp::OneoffCampaignService
       return
     end
 
-    send_whatsapp_template_message(to: contact.phone_number)
+    contact_inbox = contact.contact_inboxes.find_by!(inbox_id: inbox.id)
+    conversation = find_or_create_conversation(contact_inbox)
+    message = create_campaign_message(conversation)
+
+    send_whatsapp_template_message(to: contact.phone_number, message: message)
   end
 
   def process_audience(audience_labels)
@@ -69,7 +74,7 @@ class Whatsapp::OneoffCampaignService
     Rails.logger.info "Campaign #{campaign.id} processing completed"
   end
 
-  def send_whatsapp_template_message(to:)
+  def send_whatsapp_template_message(to:, message: nil)
     processor = Whatsapp::TemplateProcessorService.new(
       channel: channel,
       template_params: campaign.template_params
@@ -84,12 +89,36 @@ class Whatsapp::OneoffCampaignService
                             namespace: namespace,
                             lang_code: lang_code,
                             parameters: processed_parameters
-                          }, nil)
+                          }, message)
 
   rescue StandardError => e
     Rails.logger.error "Failed to send WhatsApp template message to #{to}: #{e.message}"
     Rails.logger.error "Backtrace: #{e.backtrace.first(5).join('\n')}"
     # continue processing remaining contacts
     nil
+  end
+
+  def find_or_create_conversation(contact_inbox)
+    conversation = contact_inbox.conversations.last
+    return conversation if conversation.present? && !conversation.resolved?
+
+    Conversation.create!(
+      account_id: campaign.account_id,
+      inbox_id: inbox.id,
+      contact_id: contact_inbox.contact_id,
+      contact_inbox_id: contact_inbox.id,
+      campaign_id: campaign.id
+    )
+  end
+
+  def create_campaign_message(conversation)
+    Messages::MessageBuilder.new(campaign.sender, conversation, {
+                                   content: campaign.message,
+                                   message_type: :outgoing,
+                                   campaign_id: campaign.id,
+                                   content_attributes: {
+                                     template_params: campaign.template_params
+                                   }
+                                 }).perform
   end
 end

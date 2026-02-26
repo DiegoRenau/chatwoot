@@ -13,6 +13,8 @@
 module Reauthorizable
   extend ActiveSupport::Concern
 
+  include Backoffable
+
   AUTHORIZATION_ERROR_THRESHOLD = 2
 
   # model attribute
@@ -65,6 +67,7 @@ module Reauthorizable
   def reauthorized!
     ::Redis::Alfred.delete(authorization_error_count_key)
     ::Redis::Alfred.delete(reauthorization_required_key)
+    clear_backoff!
 
     invalidate_inbox_cache unless instance_of?(::AutomationRule)
   end
@@ -76,6 +79,7 @@ module Reauthorizable
       'Integrations::Hook' => ->(obj) { obj.process_integration_hook_reauthorization_emails },
       'Channel::FacebookPage' => ->(obj) { obj.send_channel_reauthorization_email(:facebook_disconnect) },
       'Channel::Instagram' => ->(obj) { obj.send_channel_reauthorization_email(:instagram_disconnect) },
+      'Channel::Tiktok' => ->(obj) { obj.send_channel_reauthorization_email(:tiktok_disconnect) },
       'Channel::Whatsapp' => ->(obj) { obj.send_channel_reauthorization_email(:whatsapp_disconnect) },
       'Channel::Email' => ->(obj) { obj.send_channel_reauthorization_email(:email_disconnect) },
       'AutomationRule' => ->(obj) { obj.handle_automation_rule_reauthorization }

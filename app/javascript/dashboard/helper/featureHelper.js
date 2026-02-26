@@ -20,6 +20,7 @@ const FEATURE_HELP_URLS = {
   webhook: 'https://buzzcrm.ai',
   billing: 'https://buzzcrm.ai',
   saml: 'https://buzzcrm.ai',
+  captain_billing: 'https://buzzcrm.ai',
 };
 
 export function getHelpUrlForFeature(featureName) {

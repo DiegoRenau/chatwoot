@@ -149,7 +149,7 @@
   enabled: true
 - name: report_v4
   display_name: Report V4
-  enabled: true
+  enabled: false
   deprecated: true
 - name: contact_chatwoot_support_team
   display_name: Contact Chatwoot Support Team

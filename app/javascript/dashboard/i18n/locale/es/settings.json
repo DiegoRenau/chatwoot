@@ -309,7 +309,7 @@
     "ACTIVE": "Activo",
     "COMPANIES": "Empresas",
     "ALL_COMPANIES": "All Companies",
-    "CAPTAIN": "Capitán",
+    "CAPTAIN": "Agentrix",
     "CAPTAIN_ASSISTANTS": "Asistentes",
     "CAPTAIN_DOCUMENTS": "Documentos",
     "CAPTAIN_RESPONSES": "Preguntas frecuentes",
@@ -396,7 +396,7 @@
       "BUTTON_TXT": "Ir al portal de facturación"
     },
     "CAPTAIN": {
-      "TITLE": "Capitán",
+      "TITLE": "Agentrix",
       "DESCRIPTION": "Gestione el uso y los créditos para Agentrix AI.",
       "BUTTON_TXT": "Comprar más créditos",
       "DOCUMENTS": "Documentos",

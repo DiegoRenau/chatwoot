@@ -6,6 +6,7 @@ class Captain::InboxPendingConversationsResolutionJob < ApplicationJob
 
   def perform(inbox)
     return if inbox.account.captain_auto_resolve_disabled?
+    return if captain_auto_resolve_hours <= 0
 
     if evaluate_conversation_completion?(inbox.account)
       perform_with_evaluation(inbox)
@@ -67,7 +68,11 @@ class Captain::InboxPendingConversationsResolutionJob < ApplicationJob
   end
 
   def auto_resolve_cutoff_time
-    Time.now.utc - 1.hour
+    Time.now.utc - captain_auto_resolve_hours.hours
+  end
+
+  def captain_auto_resolve_hours
+    ENV['CAPTAIN_AUTO_RESOLVE_HOURS'].to_i
   end
 
   def resolve_conversation(conversation, inbox, reason)

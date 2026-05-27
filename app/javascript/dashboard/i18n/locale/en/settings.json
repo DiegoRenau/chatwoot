@@ -68,8 +68,7 @@
         "API_SUCCESS": "Signature saved successfully",
         "IMAGE_UPLOAD_ERROR": "Couldn't upload image! Try again",
         "IMAGE_UPLOAD_SUCCESS": "Image added successfully. Please click on save to save the signature",
-        "IMAGE_UPLOAD_SIZE_ERROR": "Image size should be less than {size}MB",
-        "INLINE_IMAGE_WARNING": "Pasted inline images were removed. Please use the image upload button to add images to your signature."
+        "IMAGE_UPLOAD_SIZE_ERROR": "Image size should be less than {size}MB"
       },
       "MESSAGE_SIGNATURE": {
         "LABEL": "Message Signature",
@@ -311,7 +310,7 @@
     "ACTIVE": "Active",
     "COMPANIES": "Companies",
     "ALL_COMPANIES": "All Companies",
-    "CAPTAIN": "Captain",
+    "CAPTAIN": "Agentrix",
     "CAPTAIN_ASSISTANTS": "Assistants",
     "CAPTAIN_DOCUMENTS": "Documents",
     "CAPTAIN_RESPONSES": "FAQs",
@@ -381,15 +380,15 @@
     },
     "DOCS": "Read docs",
     "SECURITY": "Security",
-    "CAPTAIN_AI": "Captain",
+    "CAPTAIN_AI": "Agentrix",
     "CONVERSATION_WORKFLOW": "Conversation Workflow"
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Captain Settings",
-    "DESCRIPTION": "Configure your AI models and features for Captain. Captain follows a credit based billing, you will be charged credits for every action Captain takes based on the model selected.",
-    "LOADING": "Loading Captain configuration...",
-    "LINK_TEXT": "Learn more about Captain Credits",
-    "NOT_ENABLED": "Captain is not enabled for your account. Please upgrade your plan to access Captain features.",
+    "TITLE": "Agentrix Settings",
+    "DESCRIPTION": "Configure your AI models and features for Agentrix. Agentrix follows a credit based billing, you will be charged credits for every action Agentrix takes based on the model selected.",
+    "LOADING": "Loading Agentrix configuration...",
+    "LINK_TEXT": "Learn more about Agentrix Credits",
+    "NOT_ENABLED": "Agentrix is not enabled for your account. Please upgrade your plan to access Agentrix features.",
     "MODEL_CONFIG": {
       "TITLE": "Model Configuration",
       "DESCRIPTION": "Select AI models for different features.",
@@ -428,8 +427,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Captain settings updated successfully.",
-      "ERROR": "Failed to update Captain settings. Please try again."
+      "SUCCESS": "Agentrix settings updated successfully.",
+      "ERROR": "Failed to update Agentrix settings. Please try again."
     }
   },
   "BILLING_SETTINGS": {
@@ -448,12 +447,12 @@
       "BUTTON_TXT": "Go to the billing portal"
     },
     "CAPTAIN": {
-      "TITLE": "Captain",
-      "DESCRIPTION": "Manage usage and credits for Captain AI.",
+      "TITLE": "Agentrix",
+      "DESCRIPTION": "Manage usage and credits for Agentrix AI.",
       "BUTTON_TXT": "Buy more credits",
       "DOCUMENTS": "Documents",
       "RESPONSES": "Credits",
-      "UPGRADE": "Captain is not available on the free plan, upgrade now to get access to assistants, copilot and more.",
+      "UPGRADE": "Agentrix is not available on the free plan, upgrade now to get access to assistants, copilot and more.",
       "REFRESH_CREDITS": "Refresh"
     },
     "CHAT_WITH_US": {
@@ -465,7 +464,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Buy more credits",
       "MODAL_TITLE": "Buy AI Credits",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Captain AI.",
+      "MODAL_DESCRIPTION": "Purchase additional credits for Agentrix AI.",
       "CREDITS": "CREDITS",
       "ONE_TIME": "one-time",
       "POPULAR": "Most Popular",

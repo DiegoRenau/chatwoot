@@ -20,10 +20,10 @@
     "LEARN_MORE": "Más información acerca de integraciones",
     "LOADING": "Obteniendo integraciones",
     "CAPTAIN": {
-      "DISABLED": "El capitán no está habilitado en tu cuenta.",
+      "DISABLED": "Agentrix no está habilitado en tu cuenta.",
       "CLICK_HERE_TO_CONFIGURE": "Haz clic aquí para configurar",
-      "LOADING_CONSOLE": "Cargando consola del capitán...",
-      "FAILED_TO_LOAD_CONSOLE": "No se pudo cargar la consola del capitán. Por favor, actualiza e inténtalo de nuevo."
+      "LOADING_CONSOLE": "Cargando consola de Agentrix...",
+      "FAILED_TO_LOAD_CONSOLE": "No se pudo cargar la consola de Agentrix. Por favor, actualiza e inténtalo de nuevo."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Eventos suscritos",
@@ -346,7 +346,7 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Capitán",
+    "NAME": "Agentrix",
     "HEADER_KNOW_MORE": "Know more",
     "ASSISTANT_SWITCHER": {
       "ASSISTANTS": "Assistants",

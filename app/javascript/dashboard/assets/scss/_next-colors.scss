@@ -29,19 +29,20 @@
     --iris-11: 87 83 198;
     --iris-12: 39 41 98;
 
-    // BuzzCRM cyan accent (light). --blue-9 is the primary solid #0891B2.
-    --blue-1: 236 254 255;
-    --blue-2: 224 252 254;
-    --blue-3: 207 250 254;
-    --blue-4: 186 246 253;
-    --blue-5: 165 243 252;
-    --blue-6: 103 232 249;
-    --blue-7: 34 211 238;
-    --blue-8: 6 182 212;
-    --blue-9: 8 145 178;
-    --blue-10: 14 116 144;
-    --blue-11: 21 94 117;
-    --blue-12: 8 51 68;
+    // BuzzCRM neutral primary (light). --blue-9 is the near-black primary solid.
+    // Cyan is reserved as a minimal brand accent (logo, unread dots), not primary.
+    --blue-1: 249 249 251;
+    --blue-2: 240 240 243;
+    --blue-3: 232 232 236;
+    --blue-4: 224 225 230;
+    --blue-5: 217 217 224;
+    --blue-6: 205 206 214;
+    --blue-7: 185 187 198;
+    --blue-8: 96 100 108;
+    --blue-9: 26 27 31;
+    --blue-10: 15 16 19;
+    --blue-11: 40 44 52;
+    --blue-12: 11 13 16;
 
     --ruby-1: 255 252 253;
     --ruby-2: 255 247 248;
@@ -113,20 +114,20 @@
     --surface-2: 255 255 255;
     --surface-active: 255 255 255;
     --background-input-box: 0, 0, 0, 0.03;
-    --text-blue: 8 51 68; // #083344
+    --text-blue: 26 27 31; // neutral near-black
     --text-purple: 2 4 49;
     --text-amber: 37 24 1;
     --border-container: 236 236 236;
     --border-strong: 226 227 231;
     --border-weak: 234 234 234;
-    --border-blue-strong: 21 94 117; // #155E75
+    --border-blue-strong: 96 100 108; // neutral
     --solid-1: 255 255 255;
     --solid-2: 255 255 255;
     --solid-3: 255 255 255;
     --solid-active: 255 255 255;
     --solid-amber: 255 228 181;
-    --solid-blue: 207 250 254; // #CFFAFE
-    --solid-blue-2: 236 254 255; // #ECFEFF
+    --solid-blue: 240 240 243; // neutral tint
+    --solid-blue-2: 249 249 251; // neutral tint
     --solid-iris: 230 231 255;
     --solid-purple: 230 231 255;
     --solid-red: 254 200 201;
@@ -144,7 +145,7 @@
     --alpha-3: 255, 255, 255, 0.96;
     --black-alpha-1: 0, 0, 0, 0.12;
     --black-alpha-2: 0, 0, 0, 0.04;
-    --border-blue: 8, 145, 178, 0.5;
+    --border-blue: 26, 27, 31, 0.35;
     --white-alpha: 255, 255, 255, 0.8;
 
     // Voice call widget - light mode
@@ -182,19 +183,19 @@
     --iris-11: 158 177 255;
     --iris-12: 224 223 254;
 
-    // BuzzCRM cyan accent (dark). --blue-9 is the primary solid #22D3EE.
-    --blue-1: 10 22 24;
-    --blue-2: 15 27 31;
-    --blue-3: 12 45 50;
-    --blue-4: 8 59 66;
-    --blue-5: 8 72 80;
-    --blue-6: 14 90 100;
-    --blue-7: 20 110 122;
-    --blue-8: 24 140 155;
-    --blue-9: 34 211 238;
-    --blue-10: 72 224 248;
-    --blue-11: 103 232 249;
-    --blue-12: 207 250 254;
+    // BuzzCRM neutral primary (dark). Neutral slate ramp; cyan stays accent-only.
+    --blue-1: 24 25 27;
+    --blue-2: 33 34 37;
+    --blue-3: 39 42 45;
+    --blue-4: 46 49 53;
+    --blue-5: 54 58 63;
+    --blue-6: 67 72 78;
+    --blue-7: 90 97 105;
+    --blue-8: 119 123 132;
+    --blue-9: 237 238 240;
+    --blue-10: 255 255 255;
+    --blue-11: 205 206 214;
+    --blue-12: 237 238 240;
 
     --ruby-1: 25 17 19;
     --ruby-2: 30 21 23;
@@ -261,24 +262,24 @@
     --violet-11: 169 153 236;
     --violet-12: 226 221 254;
 
-    --background-color: 15 27 31; // BuzzCRM dark #0F1B1F
+    --background-color: 28 29 32; // BuzzCRM neutral dark
     --surface-1: 20 21 23;
     --surface-2: 22 23 26;
     --surface-active: 53 57 66;
     --background-input-box: 255, 255, 255, 0.02;
-    --text-blue: 230 246 250; // #E6F6FA
+    --text-blue: 237 238 240; // neutral light
     --text-purple: 232 233 254;
     --text-amber: 255 247 234;
     --border-strong: 46 45 50;
     --border-weak: 31 31 37;
-    --border-blue-strong: 165 243 252; // #A5F3FC
+    --border-blue-strong: 205 206 214; // neutral
     --solid-1: 23 23 26;
     --solid-2: 29 30 36;
     --solid-3: 44 45 54;
     --solid-active: 53 57 66;
     --solid-amber: 56 50 41;
-    --solid-blue: 8 72 80; // dark cyan surface
-    --solid-blue-2: 15 27 31;
+    --solid-blue: 46 49 53; // neutral dark surface
+    --solid-blue-2: 33 34 37;
     --solid-iris: 38 42 101;
     --solid-purple: 51 51 107;
     --solid-red: 90 33 34;
@@ -296,7 +297,7 @@
     --alpha-3: 33, 34, 38, 0.95;
     --black-alpha-1: 0, 0, 0, 0.3;
     --black-alpha-2: 0, 0, 0, 0.2;
-    --border-blue: 8, 145, 178, 0.5;
+    --border-blue: 237, 238, 240, 0.2;
     --border-container: 255, 255, 255, 0;
     --white-alpha: 255, 255, 255, 0.1;
 

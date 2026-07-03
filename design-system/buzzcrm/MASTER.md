@@ -6,7 +6,7 @@
 
 ---
 
-**Project:** BuzzWave
+**Project:** BuzzCRM
 **Generated:** 2026-07-03 11:08:19
 **Category:** SaaS (General)
 
@@ -31,7 +31,7 @@
 
 **Dark mode:** accent lifts to `#22D3EE` (`--blue-9` dark) on `#0F1B1F` surfaces, text `#E6F6FA`.
 
-**Color Notes:** BuzzWave brand cyan (matches Tailwind cyan scale) on off-white surfaces with near-black text. Flat, no gradients. The full `woot`/`--blue-*` scales (25→900) are defined in `theme/colors.js` and `app/javascript/dashboard/assets/scss/_next-colors.scss`.
+**Color Notes:** BuzzCRM brand cyan (matches Tailwind cyan scale) on off-white surfaces with near-black text. Flat, no gradients. The full `woot`/`--blue-*` scales (25→900) are defined in `theme/colors.js` and `app/javascript/dashboard/assets/scss/_next-colors.scss`.
 
 ### Typography
 

@@ -12,7 +12,7 @@ const {
 } = require('@radix-ui/colors');
 
 export const colors = {
-  // BuzzWave brand cyan scale (matches Tailwind cyan). Token names/stops
+  // BuzzCRM brand cyan scale (matches Tailwind cyan). Token names/stops
   // preserved from Chatwoot; only values changed so components keep working.
   woot: {
     25: '#ECFEFF',
@@ -22,7 +22,7 @@ export const colors = {
     200: '#67E8F9',
     300: '#22D3EE',
     400: '#06B6D4',
-    500: '#0891B2', // BuzzWave primary
+    500: '#0891B2', // BuzzCRM primary
     600: '#0E7490',
     700: '#155E75',
     800: '#164E63',

@@ -109,7 +109,7 @@ const handleDialogConfirm = async () => {
     slug: state.slug,
     custom_domain: state.domain,
     blob_id: state.avatarBlobId || null,
-    color: '#0891B2', // BuzzWave default cyan
+    color: '#0891B2', // BuzzCRM default cyan
   };
   await createPortal(portal);
 };

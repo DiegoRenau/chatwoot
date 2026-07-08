@@ -129,18 +129,18 @@ export const twilioTemplates = [
     template_type: 'quick_reply',
   },
   {
-    body: 'What type of Chatwoot installation are you using? Select "Chatwoot Cloud" if you are using app.chatwoot.com, otherwise select "Self-hosted Chatwoot".',
+    body: 'What type of BuzzCRM installation are you using? Select "BuzzCRM Cloud" if you are using app.buzzcrm.ai, otherwise select "Self-hosted BuzzCRM".',
     types: {
       'twilio/quick-reply': {
-        body: 'What type of Chatwoot installation are you using? Select "Chatwoot Cloud" if you are using app.chatwoot.com, otherwise select "Self-hosted Chatwoot".',
+        body: 'What type of BuzzCRM installation are you using? Select "BuzzCRM Cloud" if you are using app.buzzcrm.ai, otherwise select "Self-hosted BuzzCRM".',
         actions: [
           {
-            id: 'Chatwoot Cloud_payload',
-            title: 'Chatwoot Cloud',
+            id: 'BuzzCRM Cloud_payload',
+            title: 'BuzzCRM Cloud',
           },
           {
-            id: 'Self-hosted Chatwoot_payload',
-            title: 'Self-hosted Chatwoot',
+            id: 'Self-hosted BuzzCRM_payload',
+            title: 'Self-hosted BuzzCRM',
           },
         ],
       },

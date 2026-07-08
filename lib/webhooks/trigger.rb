@@ -53,11 +53,11 @@ class Webhooks::Trigger
 
   def request_headers(body)
     headers = { 'Content-Type' => 'application/json', 'Accept' => 'application/json' }
-    headers['X-Chatwoot-Delivery'] = @delivery_id if @delivery_id.present?
+    headers['X-BuzzCRM-Delivery'] = @delivery_id if @delivery_id.present?
     if @secret.present?
       ts = Time.now.to_i.to_s
-      headers['X-Chatwoot-Timestamp'] = ts
-      headers['X-Chatwoot-Signature'] = "sha256=#{OpenSSL::HMAC.hexdigest('SHA256', @secret, "#{ts}.#{body}")}"
+      headers['X-BuzzCRM-Timestamp'] = ts
+      headers['X-BuzzCRM-Signature'] = "sha256=#{OpenSSL::HMAC.hexdigest('SHA256', @secret, "#{ts}.#{body}")}"
     end
     headers
   end

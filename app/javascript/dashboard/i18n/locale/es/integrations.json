@@ -13,7 +13,8 @@
         "CANCEL": "Cancelar",
         "SUBMIT": "Connect Store"
       },
-      "ERROR": "There was an error connecting to Shopify. Please try again or contact support if the issue persists."
+      "ERROR": "There was an error connecting to Shopify. Please try again or contact support if the issue persists.",
+      "HEADER": "Shopify"
     },
     "HEADER": "Integraciones",
     "DESCRIPTION": "BuzzCRM se integra con múltiples herramientas y servicios para mejorar la eficiencia de tu equipo. Explora la lista de abajo para configurar tus aplicaciones favoritas.",
@@ -101,7 +102,10 @@
           "YES": "Sí, eliminar ",
           "NO": "No, mantenerlo"
         }
-      }
+      },
+      "COUNT": "{n} webhook | {n} webhooks",
+      "SEARCH_PLACEHOLDER": "Buscar webhooks...",
+      "NO_RESULTS": "No se encontraron webhooks que coincidan con tu búsqueda"
     },
     "SLACK": {
       "DELETE": "Eliminar",
@@ -124,7 +128,8 @@
       },
       "UPDATE_ERROR": "Se presento un error actualizando la integración, por favor inténtelo nuevamente",
       "UPDATE_SUCCESS": "El canal está conectado correctamente",
-      "FAILED_TO_FETCH_CHANNELS": "Hubo un error obteniendo los canales de Slack, por favor inténtalo de nuevo"
+      "FAILED_TO_FETCH_CHANNELS": "Hubo un error obteniendo los canales de Slack, por favor inténtalo de nuevo",
+      "HEADER": "Slack"
     },
     "DYTE": {
       "CLICK_HERE_TO_JOIN": "Haga clic aquí para unirse",
@@ -145,7 +150,11 @@
         "EXPAND": "Expandir",
         "MAKE_FRIENDLY": "Cambiar tono de mensaje a amigable",
         "MAKE_FORMAL": "Usar tono formal",
-        "SIMPLIFY": "Simplificar"
+        "SIMPLIFY": "Simplificar",
+        "CONFIDENT": "Usar tono seguro",
+        "PROFESSIONAL": "Usar tono profesional",
+        "CASUAL": "Usar tono informal",
+        "STRAIGHTFORWARD": "Usar tono directo"
       },
       "ASSISTANCE_MODAL": {
         "DRAFT_TITLE": "Contenido de borrador",
@@ -184,7 +193,25 @@
         "GENERATING": "Generando...",
         "CANCEL": "Cancelar"
       },
-      "GENERATE_ERROR": "Hubo un error al procesar el contenido, por favor verifique su clave API OpenAI e inténtelo de nuevo"
+      "GENERATE_ERROR": "Hubo un error al procesar el contenido, por favor verifique su clave API OpenAI e inténtelo de nuevo",
+      "REPLY_OPTIONS": {
+        "IMPROVE_REPLY": "Mejorar respuesta",
+        "IMPROVE_REPLY_SELECTION": "Mejorar la selección",
+        "CHANGE_TONE": {
+          "TITLE": "Cambiar tono",
+          "OPTIONS": {
+            "PROFESSIONAL": "Profesional",
+            "CASUAL": "Informal",
+            "STRAIGHTFORWARD": "Directo",
+            "CONFIDENT": "Seguro",
+            "FRIENDLY": "Amigable"
+          }
+        },
+        "GRAMMAR": "Corregir gramática y ortografía",
+        "SUGGESTION": "Sugerir una respuesta",
+        "SUMMARIZE": "Resumir la conversación",
+        "ASK_COPILOT": "Preguntarle a Copilot"
+      }
     },
     "DELETE": {
       "BUTTON_TEXT": "Eliminar",
@@ -206,7 +233,8 @@
         "LOADING": "Obteniendo aplicaciones del tablero...",
         "TABLE_HEADER": {
           "NAME": "Nombre",
-          "ENDPOINT": "Endpoint"
+          "ENDPOINT": "Endpoint",
+          "ACTIONS": "Acciones"
         },
         "EDIT_TOOLTIP": "Editar aplicación",
         "DELETE_TOOLTIP": "Eliminar aplicación"
@@ -240,7 +268,10 @@
         "MESSAGE": "¿Está seguro que desea eliminar la aplicación - {appName}?",
         "API_SUCCESS": "Panel de control eliminado con éxito",
         "API_ERROR": "No pudimos eliminar la aplicación. Por favor, inténtalo de nuevo más tarde"
-      }
+      },
+      "COUNT": "{n} aplicación de panel | {n} aplicaciones de panel",
+      "SEARCH_PLACEHOLDER": "Buscar aplicaciones de panel...",
+      "NO_RESULTS": "No se encontraron aplicaciones de panel que coincidan con tu búsqueda"
     },
     "LINEAR": {
       "ADD_OR_LINK_BUTTON": "Crear/Enlazar Problema Linear",
@@ -334,7 +365,8 @@
         "AGENT_DESCRIPTION": "Linear workspace is not connected. Request your administrator to connect a workspace to use this integration.",
         "DESCRIPTION": "Linear workspace is not connected. Click the button below to connect your workspace to use this integration.",
         "BUTTON_TEXT": "Connect Linear workspace"
-      }
+      },
+      "HEADER": "Linear"
     },
     "NOTION": {
       "DELETE": {
@@ -342,8 +374,11 @@
         "MESSAGE": "Deleting this integration will remove access to your Notion workspace and stop all related functionality.",
         "CONFIRM": "Sí, eliminar",
         "CANCEL": "Cancelar"
-      }
-    }
+      },
+      "HEADER": "Notion"
+    },
+    "SEARCH_PLACEHOLDER": "Buscar integraciones...",
+    "NO_RESULTS": "No se encontraron integraciones que coincidan con tu búsqueda"
   },
   "CAPTAIN": {
     "NAME": "Agentrix",
@@ -361,7 +396,7 @@
       "KICK_OFF_MESSAGE": "Need a quick summary, want to check past conversations, or draft a better reply? Copilot’s here to speed things up.",
       "SEND_MESSAGE": "Enviar mensaje...",
       "EMPTY_MESSAGE": "There was an error generating the response. Please try again.",
-      "LOADER": "Agentrix is thinking",
+      "LOADER": "Agentrix está pensando",
       "YOU": "Tú",
       "USE": "Use this",
       "RESET": "Reset",
@@ -396,22 +431,23 @@
       "MESSAGE_PLACEHOLDER": "Escribe tu mensaje...",
       "HEADER": "Playground",
       "DESCRIPTION": "Use this playground to send messages to your assistant and check if it responds accurately, quickly, and in the tone you expect.",
-      "CREDIT_NOTE": "Messages sent here will count toward your Agentrix credits."
+      "CREDIT_NOTE": "Los mensajes enviados aquí contarán para tus créditos de Agentrix."
     },
     "PAYWALL": {
-      "TITLE": "Upgrade to use Agentrix AI",
-      "AVAILABLE_ON": "Agentrix is not available on the free plan.",
+      "TITLE": "Actualiza para usar Agentrix AI",
+      "AVAILABLE_ON": "Agentrix no está disponible en el plan gratuito.",
       "UPGRADE_PROMPT": "Upgrade your plan to get access to our assistants, copilot and more.",
       "UPGRADE_NOW": "Actualizar ahora",
       "CANCEL_ANYTIME": "Puede cambiar o cancelar su plan en cualquier momento"
     },
     "ENTERPRISE_PAYWALL": {
       "UPGRADE_PROMPT": "Upgrade your plan to get access to our assistants, copilot and more.",
-      "ASK_ADMIN": "Por favor, comuníquese con su administrador para la actualización."
+      "ASK_ADMIN": "Por favor, comuníquese con su administrador para la actualización.",
+      "AVAILABLE_ON": "Agentrix AI solo está disponible en los planes Enterprise."
     },
     "BANNER": {
-      "RESPONSES": "You've used over 80% of your response limit. To continue using Agentrix AI, please upgrade.",
-      "DOCUMENTS": "Document limit reached. Upgrade to continue using Agentrix AI."
+      "RESPONSES": "Has usado más del 80% de tu límite de respuestas. Para continuar usando Agentrix AI, actualiza tu plan.",
+      "DOCUMENTS": "Límite de documentos alcanzado. Actualiza para continuar usando Agentrix AI."
     },
     "FORM": {
       "CANCEL": "Cancelar",
@@ -531,8 +567,8 @@
         "TITLE": "No assistants available",
         "SUBTITLE": "Create an assistant to provide quick and accurate responses to your users. It can learn from your help articles and past conversations.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Assistant",
-          "NOTE": "Agentrix Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "Asistente Agentrix",
+          "NOTE": "El Asistente Agentrix interactúa directamente con los clientes, aprende de tus documentos de ayuda y conversaciones pasadas, y ofrece respuestas instantáneas y precisas. Gestiona las consultas iniciales, proporcionando resoluciones rápidas antes de transferir a un agente cuando sea necesario."
         }
       },
       "GUARDRAILS": {
@@ -742,8 +778,8 @@
         "TITLE": "No documents available",
         "SUBTITLE": "Documents are used by your assistant to generate FAQs. You can import documents to provide context for your assistant.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Document",
-          "NOTE": "A document in Agentrix serves as a knowledge resource for the assistant. By connecting your help center or guides, Agentrix can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "Documento Agentrix",
+          "NOTE": "Un documento en Agentrix sirve como recurso de conocimiento para el asistente. Al conectar tu centro de ayuda o guías, Agentrix puede analizar el contenido y proporcionar respuestas precisas a las consultas de los clientes."
         }
       }
     },
@@ -859,7 +895,7 @@
     "RESPONSES": {
       "HEADER": "Preguntas frecuentes",
       "PENDING_FAQS": "Pending FAQs",
-      "ADD_NEW": "Create new FAQ",
+      "ADD_NEW": "Crear nueva FAQ",
       "DOCUMENTABLE": {
         "CONVERSATION": "Conversation #{id}"
       },
@@ -899,7 +935,7 @@
         "ALL": "Todos"
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix has found some FAQs your customers were looking for.",
+        "TITLE": "Agentrix ha encontrado algunas FAQs que tus clientes estaban buscando.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "Add a question and its corresponding answer to the knowledge base and select the assistant it should be associated with.",
@@ -937,8 +973,8 @@
         "SUBTITLE": "FAQs help your assistant provide quick and accurate answers to questions from your customers. They can be generated automatically from your content or can be added manually.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix FAQ",
-          "NOTE": "Agentrix FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "FAQ de Agentrix",
+          "NOTE": "Agentrix FAQ detecta preguntas comunes de clientes, ya sea que falten en tu base de conocimiento o se pregunten con frecuencia, y genera FAQs relevantes para mejorar el soporte. Puedes revisar cada sugerencia y decidir si aprobarla o rechazarla."
         }
       }
     },

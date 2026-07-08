@@ -273,7 +273,8 @@
     "FILE_BUBBLE": {
       "DOWNLOAD": "Descargar",
       "UPLOADING": "Subiendo...",
-      "INSTAGRAM_STORY_UNAVAILABLE": "Esta historia ya no está disponible."
+      "INSTAGRAM_STORY_UNAVAILABLE": "Esta historia ya no está disponible.",
+      "INSTAGRAM_STORY_REPLY": "Respondió a tu historia:"
     },
     "LOCATION_BUBBLE": {
       "SEE_ON_MAP": "Ver en el mapa"
@@ -378,7 +379,9 @@
       "INFO_SHORT": "Marcar automáticamente sin conexión cuando no está usando la aplicación."
     },
     "DOCS": "Leer documentos",
-    "SECURITY": "Security"
+    "SECURITY": "Security",
+    "CAPTAIN_AI": "Agentrix",
+    "CONVERSATION_WORKFLOW": "Flujo de conversación"
   },
   "BILLING_SETTINGS": {
     "TITLE": "Facturación",
@@ -412,8 +415,8 @@
     "NO_BILLING_USER": "Tu cuenta de facturación está siendo configurada. Por favor, actualiza la página e inténtalo de nuevo.",
     "TOPUP": {
       "BUY_CREDITS": "Comprar más créditos",
-      "MODAL_TITLE": "Buy AI Credits",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Agentrix AI.",
+      "MODAL_TITLE": "Comprar créditos de IA",
+      "MODAL_DESCRIPTION": "Compra créditos adicionales para Agentrix AI.",
       "CREDITS": "CREDITS",
       "ONE_TIME": "one-time",
       "POPULAR": "Most Popular",
@@ -591,7 +594,8 @@
         "CREATE_BUTTON": "Create policy",
         "API": {
           "SUCCESS_MESSAGE": "Assignment policy created successfully",
-          "ERROR_MESSAGE": "Failed to create assignment policy"
+          "ERROR_MESSAGE": "Failed to create assignment policy",
+          "INBOX_LINKED": "La bandeja de entrada se vinculó a la política"
         }
       },
       "EDIT": {
@@ -618,6 +622,12 @@
             "SUCCESS_MESSAGE": "Inbox removed from policy successfully",
             "ERROR_MESSAGE": "Failed to remove inbox from policy"
           }
+        },
+        "INBOX_LINK_PROMPT": {
+          "TITLE": "Vincular bandeja de entrada a la política",
+          "DESCRIPTION": "¿Deseas vincular esta bandeja de entrada a la política de asignación?",
+          "LINK_BUTTON": "Vincular bandeja de entrada",
+          "CANCEL_BUTTON": "Omitir"
         }
       },
       "FORM": {
@@ -643,7 +653,9 @@
           },
           "BALANCED": {
             "LABEL": "Balanced",
-            "DESCRIPTION": "Assign conversations based on available capacity."
+            "DESCRIPTION": "Assign conversations based on available capacity.",
+            "PREMIUM_MESSAGE": "Actualiza tu plan para acceder a la asignación equilibrada y la gestión de capacidad de agentes.",
+            "PREMIUM_BADGE": "Premium"
           }
         },
         "ASSIGNMENT_PRIORITY": {
@@ -729,6 +741,20 @@
             "SUCCESS_MESSAGE": "Agent removed from policy successfully",
             "ERROR_MESSAGE": "Failed to remove agent from policy"
           }
+        },
+        "INBOX_LIMIT_API": {
+          "ADD": {
+            "SUCCESS_MESSAGE": "Límite de bandeja de entrada agregado con éxito",
+            "ERROR_MESSAGE": "No se pudo agregar el límite de bandeja de entrada"
+          },
+          "UPDATE": {
+            "SUCCESS_MESSAGE": "Límite de bandeja de entrada actualizado con éxito",
+            "ERROR_MESSAGE": "No se pudo actualizar el límite de bandeja de entrada"
+          },
+          "DELETE": {
+            "SUCCESS_MESSAGE": "Límite de bandeja de entrada eliminado con éxito",
+            "ERROR_MESSAGE": "No se pudo eliminar el límite de bandeja de entrada"
+          }
         }
       },
       "FORM": {
@@ -791,6 +817,106 @@
       "DESCRIPTION": "Are you sure you want to delete this policy? This action cannot be undone.",
       "CONFIRM_BUTTON_LABEL": "Eliminar",
       "CANCEL_BUTTON_LABEL": "Cancelar"
+    }
+  },
+  "CAPTAIN_SETTINGS": {
+    "TITLE": "Configuración de Agentrix",
+    "DESCRIPTION": "Configura los modelos de IA y las funciones de Agentrix. Agentrix funciona con facturación basada en créditos: se te cobrarán créditos por cada acción que realice Agentrix según el modelo seleccionado.",
+    "LOADING": "Cargando la configuración de Agentrix...",
+    "LINK_TEXT": "Más información sobre los créditos de Agentrix",
+    "NOT_ENABLED": "Agentrix no está habilitado para tu cuenta. Actualiza tu plan para acceder a las funciones de Agentrix.",
+    "MODEL_CONFIG": {
+      "TITLE": "Configuración de modelos",
+      "DESCRIPTION": "Selecciona los modelos de IA para las distintas funciones.",
+      "SELECT_MODEL": "Seleccionar modelo",
+      "CREDITS_PER_MESSAGE": "{credits} crédito/mensaje",
+      "COMING_SOON": "Próximamente",
+      "EDITOR": {
+        "TITLE": "Funciones del editor",
+        "DESCRIPTION": "Impulsa la redacción inteligente, las correcciones gramaticales, los ajustes de tono y la mejora de contenido en tu editor de mensajes."
+      },
+      "ASSISTANT": {
+        "TITLE": "Asistente",
+        "DESCRIPTION": "Se encarga de las respuestas automatizadas, los resúmenes de conversaciones y las sugerencias inteligentes de respuesta para las interacciones con los clientes."
+      },
+      "COPILOT": {
+        "TITLE": "Copiloto",
+        "DESCRIPTION": "Ofrece sugerencias contextuales en tiempo real, recomendaciones de la base de conocimientos e información proactiva durante las conversaciones."
+      }
+    },
+    "FEATURES": {
+      "TITLE": "Funciones",
+      "DESCRIPTION": "Activa o desactiva las funciones impulsadas por IA.",
+      "AUDIO_TRANSCRIPTION": {
+        "TITLE": "Transcripción de audio",
+        "DESCRIPTION": "Convierte automáticamente los mensajes de voz y las grabaciones de llamadas en transcripciones de texto que se pueden buscar."
+      },
+      "HELP_CENTER_SEARCH": {
+        "TITLE": "Indexación de búsqueda del Centro de ayuda",
+        "DESCRIPTION": "Usa IA para realizar búsquedas contextuales dentro de los artículos de tu Centro de ayuda."
+      },
+      "LABEL_SUGGESTION": {
+        "TITLE": "Sugerencia de etiquetas",
+        "DESCRIPTION": "Sugiere automáticamente etiquetas relevantes para las conversaciones según el análisis del contenido y el contexto.",
+        "MODEL_TITLE": "Modelo de sugerencia de etiquetas",
+        "MODEL_DESCRIPTION": "Selecciona el modelo de IA que se usará para analizar las conversaciones y sugerir las etiquetas adecuadas"
+      }
+    },
+    "API": {
+      "SUCCESS": "Configuración de Agentrix actualizada con éxito.",
+      "ERROR": "No se pudo actualizar la configuración de Agentrix. Intenta de nuevo."
+    }
+  },
+  "CONVERSATION_WORKFLOW": {
+    "INDEX": {
+      "HEADER": {
+        "TITLE": "Flujos de conversación",
+        "DESCRIPTION": "Configura reglas y campos obligatorios para la resolución de conversaciones."
+      }
+    },
+    "REQUIRED_ATTRIBUTES": {
+      "TITLE": "Atributos requeridos al resolver",
+      "DESCRIPTION": "Al resolver una conversación, se pedirá a los agentes que completen estos atributos si aún no lo han hecho.",
+      "NO_ATTRIBUTES": "Todavía no se agregaron atributos",
+      "ADD": {
+        "TITLE": "Agregar atributos",
+        "SEARCH_PLACEHOLDER": "Buscar atributos"
+      },
+      "SAVE": {
+        "SUCCESS": "Atributos requeridos actualizados",
+        "ERROR": "No se pudieron actualizar los atributos requeridos, intenta de nuevo"
+      },
+      "MODAL": {
+        "TITLE": "Resolver conversación",
+        "DESCRIPTION": "Completa los siguientes atributos personalizados antes de resolver esta conversación",
+        "ACTIONS": {
+          "RESOLVE": "Resolver conversación",
+          "CANCEL": "Cancelar"
+        },
+        "PLACEHOLDERS": {
+          "TEXT": "Escribe una nota...",
+          "NUMBER": "Ingresa un número",
+          "LINK": "Agrega un enlace",
+          "DATE": "Elige una fecha",
+          "LIST": "Selecciona una opción"
+        },
+        "CHECKBOX": {
+          "YES": "Sí",
+          "NO": "No"
+        }
+      },
+      "PAYWALL": {
+        "TITLE": "Actualiza tu plan para usar atributos requeridos",
+        "AVAILABLE_ON": "La función de atributos requeridos de conversación está disponible en los planes Business y Enterprise.",
+        "UPGRADE_PROMPT": "Actualiza tu plan para pedirles a los agentes que completen los atributos requeridos antes de resolver la conversación.",
+        "UPGRADE_NOW": "Actualizar ahora",
+        "CANCEL_ANYTIME": "Puedes cambiar o cancelar tu plan en cualquier momento"
+      },
+      "ENTERPRISE_PAYWALL": {
+        "AVAILABLE_ON": "La función de atributos requeridos de conversación está disponible en los planes pagos.",
+        "UPGRADE_PROMPT": "Actualiza a un plan pago para exigir atributos requeridos antes de resolver la conversación.",
+        "ASK_ADMIN": "Comunícate con tu administrador para realizar la actualización."
+      }
     }
   }
 }

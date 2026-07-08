@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "Lo sentimos, no podemos encontrar la conversación. Por favor, inténtalo de nuevo",
     "SELECT_A_CONVERSATION": "Por favor, selecciona una conversación del panel izquierdo",
     "CSAT_REPLY_MESSAGE": "Por favor, valora la conversación",
-    "404": "Lo sentimos, no podemos encontrar la conversación. Por favor, inténtalo de nuevo",
     "SWITCH_VIEW_LAYOUT": "Cambiar el diseño",
     "DASHBOARD_APP_TAB_MESSAGES": "Mensajes",
     "UNVERIFIED_SESSION": "La identidad de este usuario no está verificada",
@@ -264,7 +264,8 @@
         "REMOVE_PREVIEW": "Remove quoted email thread",
         "COLLAPSE": "Collapse preview",
         "EXPAND": "Expand preview"
-      }
+      },
+      "IMAGE_UPLOAD_SUCCESS": "Imagen subida con éxito"
     },
     "VISIBLE_TO_AGENTS": "Nota privada: solo visible para ti y tu equipo",
     "CHANGE_STATUS": "Estado de la conversación cambiado",
@@ -400,7 +401,8 @@
       "VIEW_ALL": "Ver todo",
       "SHOW_LESS": "Show less",
       "MORE_COUNT": "+{count}",
-      "UNTITLED_FILE": "Untitled file"
+      "UNTITLED_FILE": "Untitled file",
+      "JUMP_TO_MESSAGE": "Ir al mensaje"
     },
     "SHOPIFY": {
       "ORDER_ID": "Order #{id}",

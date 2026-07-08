@@ -653,6 +653,10 @@
       },
       "CREDENTIALS": {
         "DESCRIPTION": "Voice calling requires Twilio API Key credentials. These are used to generate tokens for agent voice connections."
+      },
+      "INBOUND": {
+        "LABEL": "Permitir llamadas entrantes",
+        "DESCRIPTION": "Permite que los clientes llamen a este número. Si está desactivado, las llamadas entrantes se rechazan automáticamente: los agentes no reciben notificaciones y no se crea ninguna conversación. Los agentes igual pueden realizar llamadas salientes."
       }
     },
     "WHATSAPP_CALLING": {

@@ -62,7 +62,8 @@
       "CUSTOM_ATTRIBUTE_LINK": "Enlace",
       "CUSTOM_ATTRIBUTE_CHECKBOX": "Casilla",
       "CREATED_AT": "Creado el",
-      "LAST_ACTIVITY": "Última actividad"
+      "LAST_ACTIVITY": "Última actividad",
+      "CONTACT": "Contacto"
     },
     "ERRORS": {
       "VALUE_REQUIRED": "El valor es requerido",
@@ -114,6 +115,8 @@
           "ERROR_MESSAGE": "Error al eliminar segmento."
         }
       }
-    }
+    },
+    "CONTACT_SEARCH_PLACEHOLDER": "Buscar contactos",
+    "CONTACT_FALLBACK": "Contacto #{id}"
   }
 }

@@ -510,7 +510,8 @@
         "ATTRIBUTES": "Atributos",
         "HISTORY": "Historial",
         "NOTES": "Notas",
-        "MERGE": "Combinar"
+        "MERGE": "Combinar",
+        "MEDIA": "Multimedia"
       },
       "HISTORY": {
         "EMPTY_STATE": "No hay conversaciones previas asociadas a este contacto"

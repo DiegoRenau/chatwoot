@@ -2,8 +2,8 @@
   "AGENT_BOTS": {
     "HEADER": "Bots",
     "LOADING_EDITOR": "Cargando el editor...",
-    "DESCRIPTION": "Los bots de agentes son como los miembros más fabulosos de tu equipo. Ellos pueden manejar las cosas pequeñas, así que usted puede centrarse en las cosas que importan. Inténtalos. Puedes administrar tus bots desde esta página o crear nuevos usando el botón 'Configurar un nuevo bot'.",
-    "LEARN_MORE": "Conocé más sobre los bots de agente",
+    "DESCRIPTION": "Los bots de agente son como un integrante más de tu equipo: se encargan de las tareas simples para que puedas enfocarte en lo que importa. Puedes gestionar tus bots desde esta página o crear uno nuevo con el botón 'Agregar Bot'.",
+    "LEARN_MORE": "Conoce más sobre los bots de agente",
     "COUNT": "{n} bot | {n} bots",
     "SEARCH_PLACEHOLDER": "Buscar bots...",
     "NO_RESULTS": "No se encontraron bots que coincidan con tu búsqueda",

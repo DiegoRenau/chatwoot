@@ -68,7 +68,8 @@
         "API_SUCCESS": "Signature saved successfully",
         "IMAGE_UPLOAD_ERROR": "Couldn't upload image! Try again",
         "IMAGE_UPLOAD_SUCCESS": "Image added successfully. Please click on save to save the signature",
-        "IMAGE_UPLOAD_SIZE_ERROR": "Image size should be less than {size}MB"
+        "IMAGE_UPLOAD_SIZE_ERROR": "Image size should be less than {size}MB",
+        "INLINE_IMAGE_WARNING": "Inline images in your signature may not display correctly in all email clients."
       },
       "MESSAGE_SIGNATURE": {
         "LABEL": "Message Signature",
@@ -224,6 +225,17 @@
         "LABEL": "Confirm new password",
         "ERROR": "Confirm password should match the password",
         "PLACEHOLDER": "Please re-enter your new password"
+      },
+      "SESSIONS_SECTION": {
+        "CURRENT": "Current session",
+        "FETCH_ERROR": "Could not fetch active sessions, please try again",
+        "LAST_ACTIVE": "Last active",
+        "NOTE": "Manage the devices currently signed in to your account.",
+        "REVOKE": "Revoke",
+        "REVOKE_ERROR": "Could not revoke the session, please try again",
+        "REVOKE_SUCCESS": "Session revoked successfully",
+        "TITLE": "Active sessions",
+        "UNKNOWN_DEVICE": "Unknown device"
       }
     }
   },
@@ -381,7 +393,21 @@
     "DOCS": "Read docs",
     "SECURITY": "Security",
     "CAPTAIN_AI": "Agentrix",
-    "CONVERSATION_WORKFLOW": "Conversation Workflow"
+    "CONVERSATION_WORKFLOW": "Conversation Workflow",
+    "SORT_GROUPS": {
+      "ALPHABETICAL": "Alphabetical",
+      "CREATED": "Date created",
+      "UNREAD_COUNT": "Unread count"
+    },
+    "SORT_OPTIONS": {
+      "ALPHABETICAL_ASC": "A to Z",
+      "ALPHABETICAL_DESC": "Z to A",
+      "CREATED_ASC": "Oldest first",
+      "CREATED_DESC": "Newest first",
+      "UNREAD_COUNT_ASC": "Lowest first",
+      "UNREAD_COUNT_DESC": "Highest first"
+    },
+    "SORT_TOOLTIP": "Sort conversations"
   },
   "CAPTAIN_SETTINGS": {
     "TITLE": "Agentrix Settings",
@@ -413,11 +439,15 @@
       "DESCRIPTION": "Enable or disable AI-powered features.",
       "AUDIO_TRANSCRIPTION": {
         "TITLE": "Audio Transcription",
-        "DESCRIPTION": "Automatically convert voice messages and call recordings into searchable text transcripts."
+        "DESCRIPTION": "Automatically convert voice messages and call recordings into searchable text transcripts.",
+        "MODEL_TITLE": "Audio Transcription Model",
+        "MODEL_DESCRIPTION": "Select the AI model to use for transcribing voice messages and call recordings"
       },
       "HELP_CENTER_SEARCH": {
         "TITLE": "Help Center Search Indexing",
-        "DESCRIPTION": "Use AI for context aware search inside your help center articles."
+        "DESCRIPTION": "Use AI for context aware search inside your help center articles.",
+        "MODEL_TITLE": "Help Center Search Model",
+        "MODEL_DESCRIPTION": "Select the AI model to use for context aware search inside your help center articles"
       },
       "LABEL_SUGGESTION": {
         "TITLE": "Label Suggestion",

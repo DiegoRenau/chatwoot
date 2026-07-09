@@ -107,6 +107,14 @@
           "YES": "Yes, Delete ",
           "NO": "No, Keep it"
         }
+      },
+      "SECRET": {
+        "COPY": "Copy secret",
+        "COPY_SUCCESS": "Secret copied to clipboard",
+        "CREATED_DESC": "Copy this secret now — you won't be able to see it again.",
+        "DONE": "Done",
+        "LABEL": "Signing secret",
+        "TOGGLE": "Show/hide secret"
       }
     },
     "SLACK": {
@@ -519,7 +527,8 @@
           "TITLE": "Features",
           "ALLOW_CONVERSATION_FAQS": "Generate FAQs from resolved conversations",
           "ALLOW_MEMORIES": "Capture key details as memories from customer interactions.",
-          "ALLOW_CITATIONS": "Include source citations in responses"
+          "ALLOW_CITATIONS": "Include source citations in responses",
+          "ALLOW_CONTACT_ATTRIBUTES": "Allow Agentrix to update contact attributes"
         }
       },
       "EDIT": {
@@ -770,10 +779,11 @@
         "SUCCESS_MESSAGE": "The document has been successfully deleted",
         "ERROR_MESSAGE": "There was an error deleting the document, please try again."
       },
-
       "OPTIONS": {
         "VIEW_RELATED_RESPONSES": "View Related Responses",
-        "DELETE_DOCUMENT": "Delete Document"
+        "DELETE_DOCUMENT": "Delete Document",
+        "RETRY_SYNC": "Retry sync",
+        "SYNC_NOW": "Sync now"
       },
       "EMPTY_STATE": {
         "TITLE": "No documents available",
@@ -781,8 +791,60 @@
         "FEATURE_SPOTLIGHT": {
           "TITLE": "Agentrix Document",
           "NOTE": "A document in Agentrix serves as a knowledge resource for the assistant. By connecting your help center or guides, Agentrix can analyze the content and provide accurate responses for customer inquiries."
+        },
+        "FILTERED_SUBTITLE": "Try adjusting your filters to find what you're looking for.",
+        "FILTERED_TITLE": "No documents match your filters"
+      },
+      "BULK_DELETE_BUTTON": "Delete",
+      "BULK_SYNC": {
+        "ERROR_MESSAGE": "Failed to sync the selected documents",
+        "SUCCESS_MESSAGE": "{count} documents queued for sync",
+        "SUCCESS_MESSAGE_ONE": "1 document queued for sync",
+        "ZERO_MESSAGE": "No documents were queued for sync"
+      },
+      "BULK_SYNC_BUTTON": "Sync",
+      "FILTERS": {
+        "SEARCH_PLACEHOLDER": "Search documents...",
+        "SOURCE": {
+          "ALL": "All sources",
+          "WEB": "Web",
+          "PDF": "PDF"
+        },
+        "STATUS": {
+          "ANY": "Any status",
+          "UPDATED": "Up to date",
+          "NEEDS_UPDATE": "Needs update",
+          "UPDATING": "Updating",
+          "FAILED": "Failed"
+        },
+        "SORT": {
+          "RECENTLY_UPDATED": "Recently updated",
+          "RECENTLY_CREATED": "Recently created"
         }
-      }
+      },
+      "SELECTED": "{count} selected",
+      "SELECT_ALL": "Select all ({count})",
+      "SYNC": {
+        "ERROR_MESSAGE": "Failed to queue the document for sync",
+        "QUEUED_MESSAGE": "Document queued for sync"
+      },
+      "SYNC_ERRORS": {
+        "ACCESS_DENIED": "Access to the source was denied",
+        "CONTENT_EMPTY": "The source content was empty",
+        "DEFAULT": "Something went wrong while syncing this document",
+        "FETCH_FAILED": "Failed to fetch the source content",
+        "NOT_FOUND": "The source could not be found",
+        "SYNC_ERROR": "An error occurred while syncing",
+        "TIMEOUT": "The sync request timed out"
+      },
+      "SYNC_STATUS": {
+        "FAILED": "Sync failed",
+        "NEVER_SYNCED": "Never synced",
+        "STALE_SYNC": "Out of date",
+        "SYNCED": "Synced {time}",
+        "SYNCING": "Syncing..."
+      },
+      "UNSELECT_ALL": "Unselect all ({count})"
     },
     "CUSTOM_TOOLS": {
       "HEADER": "Tools",
@@ -891,6 +953,13 @@
         "ERRORS": {
           "PARAM_NAME_REQUIRED": "Parameter name is required"
         }
+      },
+      "SOFT_LIMIT_WARNING": "You are approaching the limit of custom tools for your account.",
+      "TEST": {
+        "BUTTON": "Test",
+        "DISABLED_HINT": "Fill in the endpoint URL to test this tool",
+        "ERROR": "Something went wrong while testing this tool",
+        "SUCCESS": "Test succeeded with status {status}"
       }
     },
     "RESPONSES": {

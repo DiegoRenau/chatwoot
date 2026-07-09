@@ -105,7 +105,15 @@
       },
       "COUNT": "{n} webhook | {n} webhooks",
       "SEARCH_PLACEHOLDER": "Buscar webhooks...",
-      "NO_RESULTS": "No se encontraron webhooks que coincidan con tu búsqueda"
+      "NO_RESULTS": "No se encontraron webhooks que coincidan con tu búsqueda",
+      "SECRET": {
+        "COPY": "Copiar clave secreta",
+        "COPY_SUCCESS": "Clave secreta copiada al portapapeles",
+        "CREATED_DESC": "Copia esta clave secreta ahora, no podrás volver a verla.",
+        "DONE": "Listo",
+        "LABEL": "Clave secreta de firma",
+        "TOGGLE": "Mostrar/ocultar clave secreta"
+      }
     },
     "SLACK": {
       "DELETE": "Eliminar",
@@ -519,7 +527,8 @@
           "TITLE": "Características",
           "ALLOW_CONVERSATION_FAQS": "Generar FAQs desde conversaciones resueltas",
           "ALLOW_MEMORIES": "Capturar detalles clave como recuerdos de las interacciones con los clientes.",
-          "ALLOW_CITATIONS": "Incluir citas de fuentes en las respuestas"
+          "ALLOW_CITATIONS": "Incluir citas de fuentes en las respuestas",
+          "ALLOW_CONTACT_ATTRIBUTES": "Permitir que Agentrix actualice los atributos del contacto"
         }
       },
       "EDIT": {
@@ -543,7 +552,7 @@
           "DESCRIPTION": "Añade más control al asistente. (un poco más visual como una historia: Guardrail de consulta → escenarios → salida) Anima al usuario a utilizarlos realmente.",
           "OPTIONS": {
             "GUARDRAILS": {
-              "TITLE": "Guardrails",
+              "TITLE": "Salvaguardas",
               "DESCRIPTION": "Mantiene el rumbo: solo los tipos de preguntas que quieres que tu asistente responda, nada prohibido o fuera de tema."
             },
             "RESPONSE_GUIDELINES": {
@@ -572,7 +581,7 @@
         }
       },
       "GUARDRAILS": {
-        "TITLE": "Guardrails",
+        "TITLE": "Salvaguardas",
         "DESCRIPTION": "Mantiene el rumbo: solo los tipos de preguntas que quieres que tu asistente responda, nada prohibido o fuera de tema.",
         "BULK_ACTION": {
           "SELECTED": "{count} elemento seleccionado | {count} elementos seleccionados",
@@ -772,7 +781,9 @@
       },
       "OPTIONS": {
         "VIEW_RELATED_RESPONSES": "Ver respuestas relacionadas",
-        "DELETE_DOCUMENT": "Eliminar documento"
+        "DELETE_DOCUMENT": "Eliminar documento",
+        "RETRY_SYNC": "Reintentar sincronización",
+        "SYNC_NOW": "Sincronizar ahora"
       },
       "EMPTY_STATE": {
         "TITLE": "No hay documentos disponibles",
@@ -780,8 +791,60 @@
         "FEATURE_SPOTLIGHT": {
           "TITLE": "Documento Agentrix",
           "NOTE": "Un documento en Agentrix sirve como recurso de conocimiento para el asistente. Al conectar tu centro de ayuda o guías, Agentrix puede analizar el contenido y proporcionar respuestas precisas a las consultas de los clientes."
+        },
+        "FILTERED_SUBTITLE": "Intenta ajustar los filtros para encontrar lo que buscas.",
+        "FILTERED_TITLE": "Ningún documento coincide con tus filtros"
+      },
+      "BULK_DELETE_BUTTON": "Eliminar",
+      "BULK_SYNC": {
+        "ERROR_MESSAGE": "No se pudieron sincronizar los documentos seleccionados",
+        "SUCCESS_MESSAGE": "{count} documentos en cola para sincronizar",
+        "SUCCESS_MESSAGE_ONE": "1 documento en cola para sincronizar",
+        "ZERO_MESSAGE": "No se puso ningún documento en cola para sincronizar"
+      },
+      "BULK_SYNC_BUTTON": "Sincronizar",
+      "FILTERS": {
+        "SEARCH_PLACEHOLDER": "Buscar documentos...",
+        "SOURCE": {
+          "ALL": "Todas las fuentes",
+          "WEB": "Web",
+          "PDF": "PDF"
+        },
+        "STATUS": {
+          "ANY": "Cualquier estado",
+          "UPDATED": "Actualizado",
+          "NEEDS_UPDATE": "Necesita actualización",
+          "UPDATING": "Actualizando",
+          "FAILED": "Fallido"
+        },
+        "SORT": {
+          "RECENTLY_UPDATED": "Actualizado recientemente",
+          "RECENTLY_CREATED": "Creado recientemente"
         }
-      }
+      },
+      "SELECTED": "{count} seleccionados",
+      "SELECT_ALL": "Seleccionar todo ({count})",
+      "SYNC": {
+        "ERROR_MESSAGE": "No se pudo poner el documento en cola para sincronizar",
+        "QUEUED_MESSAGE": "Documento en cola para sincronizar"
+      },
+      "SYNC_ERRORS": {
+        "ACCESS_DENIED": "Se denegó el acceso a la fuente",
+        "CONTENT_EMPTY": "El contenido de la fuente estaba vacío",
+        "DEFAULT": "Ocurrió un error al sincronizar este documento",
+        "FETCH_FAILED": "No se pudo obtener el contenido de la fuente",
+        "NOT_FOUND": "No se pudo encontrar la fuente",
+        "SYNC_ERROR": "Ocurrió un error durante la sincronización",
+        "TIMEOUT": "La solicitud de sincronización superó el tiempo de espera"
+      },
+      "SYNC_STATUS": {
+        "FAILED": "Sincronización fallida",
+        "NEVER_SYNCED": "Nunca sincronizado",
+        "STALE_SYNC": "Desactualizado",
+        "SYNCED": "Sincronizado {time}",
+        "SYNCING": "Sincronizando..."
+      },
+      "UNSELECT_ALL": "Deseleccionar todo ({count})"
     },
     "CUSTOM_TOOLS": {
       "HEADER": "Herramientas",
@@ -890,6 +953,13 @@
         "ERRORS": {
           "PARAM_NAME_REQUIRED": "El nombre del parámetro es obligatorio"
         }
+      },
+      "SOFT_LIMIT_WARNING": "Estás por alcanzar el límite de herramientas personalizadas de tu cuenta.",
+      "TEST": {
+        "BUTTON": "Probar",
+        "DISABLED_HINT": "Completa la URL del endpoint para probar esta herramienta",
+        "ERROR": "Ocurrió un error al probar esta herramienta",
+        "SUCCESS": "La prueba se realizó con éxito con estado {status}"
       }
     },
     "RESPONSES": {

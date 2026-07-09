@@ -1,9 +1,9 @@
 export default [
   {
     id: 1,
-    name: 'Getting Started',
+    name: 'Primeros pasos',
     icon: '🚀',
-    description: 'Quick guides to help new users onboard.',
+    description: 'Guías rápidas para ayudar a los nuevos usuarios a empezar.',
     slug: 'getting-started',
     meta: {
       articles_count: 5,
@@ -11,9 +11,9 @@ export default [
   },
   {
     id: 2,
-    name: 'Advanced Features',
+    name: 'Funciones avanzadas',
     icon: '💡',
-    description: 'Explore advanced features for power users.',
+    description: 'Explora las funciones avanzadas para usuarios expertos.',
     slug: 'advanced-features',
     meta: {
       articles_count: 8,
@@ -23,7 +23,7 @@ export default [
     id: 3,
     name: 'FAQs',
     icon: '❓',
-    description: 'Commonly asked questions and helpful answers.',
+    description: 'Preguntas frecuentes y respuestas útiles.',
     slug: 'faqs',
     meta: {
       articles_count: 3,
@@ -31,9 +31,9 @@ export default [
   },
   {
     id: 4,
-    name: 'Troubleshooting',
+    name: 'Resolución de problemas',
     icon: '🛠️',
-    description: 'Resolve common issues with step-by-step guidance.',
+    description: 'Resuelve problemas comunes con una guía paso a paso.',
     slug: 'troubleshooting',
     meta: {
       articles_count: 6,
@@ -41,9 +41,9 @@ export default [
   },
   {
     id: 5,
-    name: 'Community Guidelines',
+    name: 'Normas de la comunidad',
     icon: '👥',
-    description: 'Rules and practices for community engagement.',
+    description: 'Reglas y prácticas para la participación en la comunidad.',
     slug: 'community-guidelines',
     meta: {
       articles_count: 2,
@@ -51,9 +51,9 @@ export default [
   },
   {
     id: 6,
-    name: 'Account Management',
+    name: 'Gestión de la cuenta',
     icon: '🔑',
-    description: 'Manage your account and settings efficiently.',
+    description: 'Gestiona tu cuenta y tu configuración de forma eficiente.',
     slug: 'account-management',
     meta: {
       articles_count: 7,
@@ -61,9 +61,9 @@ export default [
   },
   {
     id: 7,
-    name: 'Security Tips',
+    name: 'Consejos de seguridad',
     icon: '🔒',
-    description: 'Best practices for securing your account.',
+    description: 'Buenas prácticas para proteger tu cuenta.',
     slug: 'security-tips',
     meta: {
       articles_count: 4,
@@ -73,7 +73,7 @@ export default [
     id: 8,
     name: 'Integrations',
     icon: '🔗',
-    description: 'Connect to third-party services and tools easily.',
+    description: 'Conecta fácilmente con servicios y herramientas de terceros.',
     slug: 'integrations',
     meta: {
       articles_count: 9,
@@ -81,9 +81,9 @@ export default [
   },
   {
     id: 9,
-    name: 'Billing & Payments',
+    name: 'Facturación y pagos',
     icon: '💳',
-    description: 'Manage your billing and payment details seamlessly.',
+    description: 'Gestiona tus datos de facturación y pago sin complicaciones.',
     slug: 'billing-payments',
     meta: {
       articles_count: 5,
@@ -91,9 +91,9 @@ export default [
   },
   {
     id: 10,
-    name: 'Customization',
+    name: 'Personalización',
     icon: '🎨',
-    description: 'Personalize and customize your user experience.',
+    description: 'Personaliza y adapta tu experiencia de usuario.',
     slug: 'customization',
     meta: {
       articles_count: 7,
@@ -101,9 +101,10 @@ export default [
   },
   {
     id: 11,
-    name: 'Notifications',
+    name: 'Notificaciones',
     icon: '🔔',
-    description: 'Adjust your notification settings and preferences.',
+    description:
+      'Ajusta tu configuración y tus preferencias de notificaciones.',
     slug: 'notifications',
     meta: {
       articles_count: 3,
@@ -111,9 +112,9 @@ export default [
   },
   {
     id: 12,
-    name: 'Privacy',
+    name: 'Privacidad',
     icon: '🛡️',
-    description: 'Understand how your data is collected and used.',
+    description: 'Entiende cómo se recopilan y usan tus datos.',
     slug: 'privacy',
     meta: {
       articles_count: 2,
@@ -121,9 +122,9 @@ export default [
   },
   {
     id: 13,
-    name: 'Mobile App',
+    name: 'App móvil',
     icon: '📱',
-    description: 'Guides for using the mobile app effectively.',
+    description: 'Guías para usar la app móvil de forma eficaz.',
     slug: 'mobile-app',
     meta: {
       articles_count: 6,
@@ -131,9 +132,9 @@ export default [
   },
   {
     id: 14,
-    name: 'Beta Features',
+    name: 'Funciones beta',
     icon: '🧪',
-    description: 'Learn about new experimental features in beta.',
+    description: 'Conoce las nuevas funciones experimentales en beta.',
     slug: 'beta-features',
     meta: {
       articles_count: 4,

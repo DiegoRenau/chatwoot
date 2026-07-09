@@ -2,9 +2,9 @@ export default [
   {
     additionalAttributes: {
       city: 'Los Angeles',
-      country: 'United States',
+      country: 'Estados Unidos',
       description:
-        "I'm Candice, a developer focusing on building web solutions. Currently, I’m working as a Product Developer at Lumora.",
+        'Soy Candice, desarrolladora enfocada en crear soluciones web. Actualmente trabajo como Product Developer en Lumora.',
       companyName: 'Lumora',
       countryCode: 'US',
       socialProfiles: {
@@ -25,8 +25,8 @@ export default [
     customAttributes: {
       dateContact: '2024-11-11T11:53:09.299Z',
       linkContact: 'https://example.com',
-      listContact: 'Follow-Up',
-      textContact: 'Hi there!',
+      listContact: 'Seguimiento',
+      textContact: '¡Hola!',
       numberContact: '42',
       checkboxContact: false,
     },
@@ -36,8 +36,8 @@ export default [
   {
     additionalAttributes: {
       city: 'San Francisco',
-      country: 'United States',
-      description: 'Passionate about design and user experience.',
+      country: 'Estados Unidos',
+      description: 'Apasionada por el diseño y la experiencia de usuario.',
       companyName: 'Designify',
       countryCode: 'US',
       socialProfiles: {
@@ -58,8 +58,8 @@ export default [
     customAttributes: {
       dateContact: '2024-10-05T10:12:34.567Z',
       linkContact: 'https://designify.com',
-      listContact: 'Prospects',
-      textContact: 'Looking forward to connecting!',
+      listContact: 'Prospectos',
+      textContact: '¡Espero poder conectar!',
     },
     lastActivityAt: 1712123233,
     createdAt: 1712123233,
@@ -67,8 +67,8 @@ export default [
   {
     additionalAttributes: {
       city: 'Austin',
-      country: 'United States',
-      description: 'Avid coder and tech enthusiast.',
+      country: 'Estados Unidos',
+      description: 'Programador incansable y entusiasta de la tecnología.',
       companyName: 'CodeHub',
       countryCode: 'US',
       socialProfiles: {
@@ -87,7 +87,7 @@ export default [
     identifier: null,
     thumbnail: '',
     customAttributes: {
-      textContact: 'Let’s collaborate!',
+      textContact: '¡Colaboremos!',
       checkboxContact: true,
     },
     lastActivityAt: 1712123233,
@@ -96,8 +96,8 @@ export default [
   {
     additionalAttributes: {
       city: 'Seattle',
-      country: 'United States',
-      description: 'Product manager with a love for innovation.',
+      country: 'Estados Unidos',
+      description: 'Product manager con pasión por la innovación.',
       companyName: 'InnovaTech',
       countryCode: 'US',
       socialProfiles: {
@@ -116,7 +116,7 @@ export default [
     identifier: null,
     thumbnail: '',
     customAttributes: {
-      textContact: 'Let’s schedule a call.',
+      textContact: 'Agendemos una llamada.',
     },
     lastActivityAt: 1712123232,
     createdAt: 1712123232,
@@ -124,8 +124,8 @@ export default [
   {
     additionalAttributes: {
       city: 'Chicago',
-      country: 'United States',
-      description: 'Marketing specialist and content creator.',
+      country: 'Estados Unidos',
+      description: 'Especialista en marketing y creadora de contenido.',
       companyName: 'Contently',
       countryCode: 'US',
       socialProfiles: {
@@ -150,8 +150,8 @@ export default [
   {
     additionalAttributes: {
       city: 'Boston',
-      country: 'United States',
-      description: 'SEO expert and analytics enthusiast.',
+      country: 'Estados Unidos',
+      description: 'Experto en SEO y entusiasta de las analíticas.',
       companyName: 'OptiSearch',
       countryCode: 'US',
       socialProfiles: {
@@ -176,8 +176,9 @@ export default [
   {
     additionalAttributes: {
       city: 'Denver',
-      country: 'United States',
-      description: 'UI/UX designer with a flair for minimalist designs.',
+      country: 'Estados Unidos',
+      description:
+        'Diseñadora UI/UX con talento para los diseños minimalistas.',
       companyName: 'Minimal Designs',
       countryCode: 'US',
       socialProfiles: {
@@ -202,8 +203,8 @@ export default [
   {
     additionalAttributes: {
       city: 'Miami',
-      country: 'United States',
-      description: 'Entrepreneur with a background in e-commerce.',
+      country: 'Estados Unidos',
+      description: 'Emprendedor con experiencia en comercio electrónico.',
       companyName: 'Ecom Solutions',
       countryCode: 'US',
       socialProfiles: {

@@ -33,12 +33,34 @@ es:
     login_saml_user: 'Esta cuenta utiliza autenticación SAML. Inicia sesión a través del proveedor SAML de tu organización.'
     saml_not_available: 'La autenticación SAML no está disponible en esta instalación.'
     inbox_deletetion_response: Su solicitud de eliminación de la bandeja de entrada será procesada en algún tiempo.
+  data_imports:
+    intercom:
+      activities:
+        assignment: '%{actor} asignó la conversación'
+        assignment_with_target: '%{actor} asignó la conversación a %{target}'
+        assign_and_reopen: '%{actor} asignado y reabierto la conversación'
+        assign_and_reopen_with_target: '%{actor} asignó la conversación a %{target} y la reabrió'
+        open: '%{actor} abrió la conversación'
+        close: '%{actor} cerró la conversación'
+        snoozed: '%{actor} silenció la conversación'
+        participant_added: '%{actor} agregó un participante'
+        participant_added_with_target: '%{actor} agregó a %{target} como participante'
+        participant_removed: '%{actor} eliminó un participante'
+        participant_removed_with_target: '%{actor} eliminó %{target} como participante'
+        conversation_attribute_updated: '%{actor} actualizó los atributos de la conversación'
+        ticket_attribute_updated: '%{actor} actualizó los atributos del ticket'
+        ticket_state_updated: '%{actor} actualizó el estado del ticket'
+        custom_action_started: '%{actor} inició una acción personalizada'
+        custom_action_finished: '%{actor} terminó una acción personalizada'
+        quick_reply: '%{actor} usó una respuesta rápida'
+        generic: '%{actor} grabado %{event}'
 
   profile_settings:
     sessions:
       cannot_revoke_current: 'No puedes revocar la sesión actual.'
   errors:
     account:
+      not_authorized: No está autorizado a acceder a esta cuenta
       reporting_timezone:
         invalid: 'no es una zona horaria válida'
       support_email:
@@ -68,6 +90,8 @@ es:
       file_too_large: 'El archivo supera el tamaño máximo permitido'
       unsupported_content_type: 'Tipo de archivo no compatible (solo se permiten imágenes y vídeos)'
       unexpected: 'Se ha producido un error inesperado'
+    database:
+      query_canceled: 'La solicitud tardó demasiado en completarse. Por favor, inténtalo de nuevo.'
     saml:
       feature_not_enabled: 'La función SAML no está habilitada para esta cuenta'
       sso_not_enabled: 'El SSO de SAML no está habilitado para esta instalación'
@@ -99,6 +123,15 @@ es:
         unique: debe ser único en la categoría y el portal
     dyte:
       invalid_message_type: 'Tipo de mensaje inválido. Acción no permitida'
+      realtimekit_credentials_required: 'Las credenciales de Cloudflare RealtimeKit son requeridas. Elimina la integración existente de Dyte y vuelve a crearla con las credenciales Cloudflare RealtimeKit.'
+    cloudflare:
+      realtimekit:
+        invalid_credentials: 'Las credenciales de Cloudflare RealtimeKit no son válidas. Por favor, comprueba el ID de cuenta, el ID de la aplicación RealtimeKit y los permisos de token de la API.'
+        missing_credentials: 'ID de la cuenta Cloudflare, ID de la aplicación RealtimeKit, y token API son requeridos.'
+        invalid_api_token: 'El token de la API de Cloudflare no es válido o está inactivo. Por favor, crea un nuevo token con permisos de administración de tiempo real.'
+        invalid_account_or_permissions: 'El ID de cuenta de Cloudflare no es válido, o el token de la API no tiene acceso de Administrador de tiempo real a esta cuenta.'
+        app_not_found: 'El ID de la aplicación RealtimeKit no se ha encontrado en esta cuenta Cloudflare. Por favor, comprueba la aplicación seleccionada.'
+        verification_failed: 'No se han podido verificar las credenciales de Cloudflare RealtimeKit en este momento. Por favor, inténtalo de nuevo.'
     slack:
       invalid_channel_id: 'Canal de slack inválido. Por favor, inténtalo de nuevo'
     whatsapp:
@@ -111,6 +144,7 @@ es:
         not_supported: 'La reautorización no es compatible con este tipo de canal de WhatsApp.'
       calls:
         not_enabled: 'Las llamadas no están habilitadas para esta bandeja de entrada'
+        already_ended: 'Esta llamada ya ha finalizado'
         no_recording: 'No se ha proporcionado ningún archivo de grabación'
         no_message: 'La llamada no tiene ningún mensaje asociado'
         sdp_offer_required: 'sdp_offer es obligatorio'
@@ -149,6 +183,9 @@ es:
       invalid_token: 'Token de MFA no válido o caducado'
       invalid_credentials: 'Credenciales o código de verificación no válidos'
       feature_unavailable: 'La función de MFA no está disponible. Configura las claves de cifrado.'
+    billing:
+      invalid_currency: Moneda de facturación no válida
+      currency_locked: La moneda de facturación no se puede cambiar después de que se haya configurado la facturación
     topup:
       credits_required: 'Se requiere la cantidad de créditos'
       invalid_credits: 'Cantidad de créditos no válida'
@@ -441,7 +478,10 @@ es:
       browse_by_topic_subtitle: 'Encuentra guías, tutoriales y respuestas organizadas por categoría.'
       popular_articles: 'Artículos populares'
       popular_articles_subtitle: 'Lo que otras personas están leyendo ahora mismo.'
+      recommended: 'Artículos recomendados'
+      recommended_subtitle: 'Artículos elegidos a mano para empezar.'
       popular_label: 'Temas populares:'
+      recommended_label: 'Temas recomendados:'
       authors_others: '%{names} y %{count} más'
       primary_nav: 'Principal'
     hero:
@@ -477,6 +517,7 @@ es:
         light: Claro
         dark: Oscuro
       featured_articles: Artículos destacados
+      recommended: Artículos recomendados
       uncategorized: Sin categoría
     404:
       title: Página no encontrada
@@ -551,6 +592,29 @@ es:
     ssl_status:
       custom_domain_not_configured: 'El dominio personalizado no está configurado'
   super_admin:
+    captain_model_overrides:
+      form:
+        helper_text: 'Deje un modelo en blanco para usar el valor por defecto de YAML para esa función de IA.'
+        use_default: 'Usar por defecto: %{model} (%{model_id})'
+      show:
+        summary: 'Ver ruta del modelo'
+        provider: 'Proveedor'
+        model: 'Modelo'
+      sources:
+        account_override: 'Anulación de cuenta'
+        default: 'Predeterminado'
+      features:
+        editor: 'Editor'
+        assistant: 'Asistente'
+        copilot: 'Copilot'
+        label_suggestion: 'Sugerencia de etiqueta'
+        document_faq_generation: 'Generación de FAQ de documentos'
+        conversation_faq_generation: 'Generación de FAQ de conversación'
+        help_center_article_generation: 'Centro de ayuda para la generación de artículos'
+        onboarding_content_generation: 'Generación de contenidos integrados'
+        help_center_query_translation: 'Traducción de consultas al centro de ayuda'
+        audio_transcription: 'Transcripción de audio'
+        help_center_search: 'Centro de búsqueda de ayuda'
     push_diagnostics:
       user_not_found: 'Usuario no encontrado.'
       no_subscriptions_to_test: 'Selecciona al menos una suscripción para probar.'

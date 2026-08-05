@@ -25,6 +25,10 @@
     "ACTIONS": {
       "CREATE": "Agregar empresa"
     },
+    "SELECTOR": {
+      "PLACEHOLDER": "Selecciona una empresa",
+      "CREATE_OPTION": "Agregar \"{name}\""
+    },
     "CREATE": {
       "TITLE": "Agregar datos de la empresa",
       "ACTIONS": {
@@ -139,10 +143,6 @@
     },
     "EMPTY_STATE": {
       "TITLE": "No se encontraron empresas"
-    },
-    "SELECTOR": {
-      "PLACEHOLDER": "Selecciona una empresa",
-      "CREATE_OPTION": "Agregar \"{name}\""
     }
   },
   "COMPANIES_LAYOUT": {

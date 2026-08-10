@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_07_18_000000) do
+ActiveRecord::Schema[7.1].define(version: 2026_08_06_000000) do
   # These extensions should be enabled to support this database
   enable_extension "pg_stat_statements"
   enable_extension "pg_trgm"
@@ -1116,6 +1116,21 @@ ActiveRecord::Schema[7.1].define(version: 2026_07_18_000000) do
     t.index ["user_id"], name: "index_leaves_on_user_id"
   end
 
+  create_table "linked_buzzdesk_tickets", force: :cascade do |t|
+    t.bigint "account_id", null: false
+    t.bigint "conversation_id", null: false
+    t.bigint "hook_id", null: false
+    t.string "ticket_id", null: false
+    t.string "ticket_number", null: false
+    t.string "title", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["account_id"], name: "index_linked_buzzdesk_tickets_on_account_id"
+    t.index ["conversation_id", "ticket_id"], name: "idx_linked_buzzdesk_tickets_on_conversation_and_ticket", unique: true
+    t.index ["conversation_id"], name: "index_linked_buzzdesk_tickets_on_conversation_id"
+    t.index ["hook_id"], name: "index_linked_buzzdesk_tickets_on_hook_id"
+  end
+
   create_table "macros", force: :cascade do |t|
     t.bigint "account_id", null: false
     t.string "name", null: false
@@ -1501,6 +1516,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_07_18_000000) do
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "inboxes", "portals"
+  add_foreign_key "linked_buzzdesk_tickets", "integrations_hooks", column: "hook_id"
   add_foreign_key "user_sessions", "users"
   create_trigger("accounts_after_insert_row_tr", :generated => true, :compatibility => 1).
       on("accounts").

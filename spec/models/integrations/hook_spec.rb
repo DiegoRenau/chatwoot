@@ -302,7 +302,69 @@ RSpec.describe Integrations::Hook do
     end
   end
 
+  describe 'buzzdesk credential validation' do
+    let(:account) { create(:account) }
+    let(:settings) { { 'base_url' => 'https://support.example.com', 'api_token' => 'api_token' } }
+
+    it 'prevents saving a BuzzDesk hook with an invalid API token' do
+      allow(Integrations::Buzzdesk::CredentialsValidator).to receive(:validate)
+        .and_return(buzzdesk_validator_result(false, :invalid_token))
+
+      hook = build(:integrations_hook, :buzzdesk, account: account, settings: settings)
+
+      expect(hook).not_to be_valid
+      expect(hook.errors[:base]).to include(I18n.t('errors.buzzdesk.invalid_token'))
+    end
+
+    it 'prevents saving a BuzzDesk hook with an unreachable base URL' do
+      allow(Integrations::Buzzdesk::CredentialsValidator).to receive(:validate)
+        .and_return(buzzdesk_validator_result(false, :invalid_base_url))
+
+      hook = build(:integrations_hook, :buzzdesk, account: account, settings: settings)
+
+      expect(hook).not_to be_valid
+      expect(hook.errors[:base]).to include(I18n.t('errors.buzzdesk.invalid_base_url'))
+    end
+
+    it 'allows saving a BuzzDesk hook with valid credentials' do
+      allow(Integrations::Buzzdesk::CredentialsValidator).to receive(:validate)
+        .and_return(buzzdesk_validator_result(true))
+
+      hook = build(:integrations_hook, :buzzdesk, account: account, settings: settings)
+
+      expect(hook).to be_valid
+    end
+
+    it 'skips validation when an enabled BuzzDesk hook is saved without changing credentials' do
+      allow(Integrations::Buzzdesk::CredentialsValidator).to receive(:validate)
+        .and_return(buzzdesk_validator_result(true))
+      hook = create(:integrations_hook, :buzzdesk, account: account, settings: settings)
+
+      allow(Integrations::Buzzdesk::CredentialsValidator).to receive(:validate)
+        .and_return(buzzdesk_validator_result(false, :invalid_token))
+
+      expect(hook.save).to be true
+    end
+
+    it 'validates when a disabled BuzzDesk hook is re-enabled' do
+      allow(Integrations::Buzzdesk::CredentialsValidator).to receive(:validate)
+        .and_return(buzzdesk_validator_result(true))
+      hook = create(:integrations_hook, :buzzdesk, account: account, settings: settings)
+      hook.update!(status: :disabled)
+
+      allow(Integrations::Buzzdesk::CredentialsValidator).to receive(:validate)
+        .and_return(buzzdesk_validator_result(false, :invalid_token))
+
+      expect(hook.update(status: :enabled)).to be false
+      expect(hook.errors[:base]).to include(I18n.t('errors.buzzdesk.invalid_token'))
+    end
+  end
+
   def cloudflare_validator_result(success, error = nil)
     Integrations::Cloudflare::RealtimeKitCredentialsValidator::Result.new(success, error)
+  end
+
+  def buzzdesk_validator_result(success, error = nil)
+    Integrations::Buzzdesk::CredentialsValidator::Result.new(success, error)
   end
 end

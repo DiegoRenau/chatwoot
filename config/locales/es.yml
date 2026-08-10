@@ -152,6 +152,13 @@ es:
         permission_request_failed: 'No se pudo enviar la solicitud de permiso de llamada'
     openai:
       invalid_api_key: 'La clave de API de OpenAI no es válida o ha sido revocada. Comprueba tu clave en tu panel de OpenAI.'
+    buzzdesk:
+      missing_credentials: 'La URL de BuzzDesk y el token de API son obligatorios.'
+      invalid_token: 'El token de API de BuzzDesk no es válido. Genera uno nuevo en Perfil → Acceso por Token.'
+      invalid_base_url: 'No se pudo contactar a BuzzDesk en la URL configurada. Verifica la URL e inténtalo de nuevo.'
+      verification_failed: 'No se pudieron verificar las credenciales de BuzzDesk en este momento. Inténtalo de nuevo.'
+      missing_customer_email: 'Este contacto no tiene una dirección de correo, por lo que BuzzDesk no puede identificar al solicitante. Agrega un correo al contacto e inténtalo de nuevo.'
+      unexpected: 'Ocurrió un error inesperado al contactar a BuzzDesk.'
     inboxes:
       imap:
         socket_error: Verifique la conexión de red, la dirección IMAP y vuelva a intentarlo.
@@ -333,6 +340,10 @@ es:
         issue_created: '%{user_name} creó la incidencia de Linear %{issue_id}'
         issue_linked: '%{user_name} vinculó la incidencia de Linear %{issue_id}'
         issue_unlinked: '%{user_name} desvinculó la incidencia de Linear %{issue_id}'
+      buzzdesk:
+        ticket_created: '%{user_name} creó el ticket de BuzzDesk #%{ticket_number}'
+        ticket_linked: '%{user_name} vinculó el ticket de BuzzDesk #%{ticket_number}'
+        ticket_unlinked: '%{user_name} desvinculó el ticket de BuzzDesk #%{ticket_number}'
       whatsapp_call:
         permission_requested: 'Se envió una solicitud de permiso de llamada a %{contact_name}.'
         permission_granted: '%{contact_name} aceptó la solicitud de permiso de llamada.'
@@ -401,6 +412,10 @@ es:
       short_description: 'Crea y vincula incidencias de Linear directamente desde las conversaciones.'
       description: 'Crea problemas en Linear directamente desde tu ventana de conversación. Alternativamente, enlaza problemas existentes en Linear para un proceso de seguimiento de problemas más eficiente y ágil.'
       attachment_link_title: 'Conversación (#%{conversation_id}) con %{name}'
+    buzzdesk:
+      name: 'BuzzDesk'
+      short_description: 'Crea y vincula tickets de mesa de ayuda directamente desde las conversaciones.'
+      description: 'Crea tickets en BuzzDesk directamente desde tu ventana de conversación, o vincula tickets existentes para un flujo de soporte más fluido.'
     notion:
       name: 'Notion'
       short_description: 'Integra bases de datos, documentos y páginas directamente con Captain.'

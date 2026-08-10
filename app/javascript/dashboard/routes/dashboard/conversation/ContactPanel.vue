@@ -24,6 +24,8 @@ import ShopifyOrdersList from 'dashboard/components/widgets/conversation/Shopify
 import SidebarActionsHeader from 'dashboard/components-next/SidebarActionsHeader.vue';
 import LinearIssuesList from 'dashboard/components/widgets/conversation/linear/IssuesList.vue';
 import LinearSetupCTA from 'dashboard/components/widgets/conversation/linear/LinearSetupCTA.vue';
+import BuzzdeskTicketsList from 'dashboard/components/widgets/conversation/buzzdesk/TicketsList.vue';
+import BuzzdeskSetupCTA from 'dashboard/components/widgets/conversation/buzzdesk/BuzzdeskSetupCTA.vue';
 
 const props = defineProps({
   conversationId: {
@@ -72,6 +74,19 @@ const isLinearClientIdConfigured = computed(() => {
 
 const isLinearConnected = computed(
   () => linearIntegration.value?.enabled || false
+);
+
+const buzzdeskIntegration = useFunctionGetter(
+  'integrations/getIntegration',
+  'buzzdesk'
+);
+
+const isBuzzdeskClientIdConfigured = computed(() => {
+  return !!buzzdeskIntegration.value?.id;
+});
+
+const isBuzzdeskConnected = computed(
+  () => buzzdeskIntegration.value?.enabled || false
 );
 
 const store = useStore();
@@ -128,6 +143,7 @@ onMounted(() => {
   store.dispatch('attributes/get', 0);
   // Load integrations to ensure linear integration state is available
   store.dispatch('integrations/get', 'linear');
+  store.dispatch('integrations/get', 'buzzdesk');
 });
 </script>
 
@@ -284,6 +300,24 @@ onMounted(() => {
               "
             >
               <ShopifyOrdersList :contact-id="contactId" />
+            </AccordionItem>
+          </div>
+          <div
+            v-else-if="
+              element.name === 'buzzdesk_tickets' &&
+              isBuzzdeskClientIdConfigured
+            "
+          >
+            <AccordionItem
+              :title="$t('CONVERSATION_SIDEBAR.ACCORDION.BUZZDESK_TICKETS')"
+              :is-open="isContactSidebarItemOpen('is_buzzdesk_tickets_open')"
+              compact
+              @toggle="
+                value => toggleSidebarUIState('is_buzzdesk_tickets_open', value)
+              "
+            >
+              <BuzzdeskSetupCTA v-if="!isBuzzdeskConnected" />
+              <BuzzdeskTicketsList v-else :conversation-id="conversationId" />
             </AccordionItem>
           </div>
           <div v-else-if="element.name === 'contact_notes'">

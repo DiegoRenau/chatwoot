@@ -169,6 +169,13 @@ en:
         permission_request_failed: 'Failed to send call permission request'
     openai:
       invalid_api_key: 'OpenAI API key is invalid or revoked. Please check your key in your OpenAI dashboard.'
+    buzzdesk:
+      missing_credentials: 'BuzzDesk URL and API token are required.'
+      invalid_token: 'BuzzDesk API token is invalid. Please generate a new one under Profile → Token Access.'
+      invalid_base_url: 'Could not reach BuzzDesk at the configured URL. Please check the URL and try again.'
+      verification_failed: 'Could not verify BuzzDesk credentials right now. Please try again.'
+      missing_customer_email: 'This contact has no email address, so BuzzDesk cannot identify the requester. Add an email to the contact and try again.'
+      unexpected: 'An unexpected error occurred while contacting BuzzDesk.'
     inboxes:
       imap:
         socket_error: Please check the network connection, IMAP address and try again.
@@ -350,6 +357,10 @@ en:
         issue_created: 'Linear issue %{issue_id} was created by %{user_name}'
         issue_linked: 'Linear issue %{issue_id} was linked by %{user_name}'
         issue_unlinked: 'Linear issue %{issue_id} was unlinked by %{user_name}'
+      buzzdesk:
+        ticket_created: 'BuzzDesk ticket #%{ticket_number} was created by %{user_name}'
+        ticket_linked: 'BuzzDesk ticket #%{ticket_number} was linked by %{user_name}'
+        ticket_unlinked: 'BuzzDesk ticket #%{ticket_number} was unlinked by %{user_name}'
       whatsapp_call:
         permission_requested: 'Sent a call permission request to %{contact_name}.'
         permission_granted: '%{contact_name} accepted the call permission request.'
@@ -418,6 +429,10 @@ en:
       short_description: 'Create and link Linear issues directly from conversations.'
       description: 'Create issues in Linear directly from your conversation window. Alternatively, link existing Linear issues for a more streamlined and efficient issue tracking process.'
       attachment_link_title: 'Conversation (#%{conversation_id}) with %{name}'
+    buzzdesk:
+      name: 'BuzzDesk'
+      short_description: 'Create and link helpdesk tickets directly from conversations.'
+      description: 'Create tickets in BuzzDesk directly from your conversation window, or link existing tickets for a more streamlined support workflow.'
     notion:
       name: 'Notion'
       short_description: 'Integrate databases, documents and pages directly with Captain.'

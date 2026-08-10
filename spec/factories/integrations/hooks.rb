@@ -32,6 +32,11 @@ FactoryBot.define do
       access_token { SecureRandom.hex }
     end
 
+    trait :buzzdesk do
+      app_id { 'buzzdesk' }
+      settings { { 'base_url' => 'https://support.example.com', 'api_token' => SecureRandom.hex } }
+    end
+
     trait :shopify do
       app_id { 'shopify' }
       access_token { SecureRandom.hex }

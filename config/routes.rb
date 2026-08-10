@@ -403,6 +403,16 @@ Rails.application.routes.draw do
                 get :linked_issues
               end
             end
+            resource :buzzdesk, controller: 'buzzdesk', only: [] do
+              collection do
+                get :groups
+                get :search_tickets
+                post :create_ticket
+                post :link_ticket
+                post :unlink_ticket
+                get :linked_tickets
+              end
+            end
             resource :notion, controller: 'notion', only: [] do
               collection do
                 delete :destroy

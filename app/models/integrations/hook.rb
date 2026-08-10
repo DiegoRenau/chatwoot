@@ -31,6 +31,7 @@ class Integrations::Hook < ApplicationRecord
   validate :ensure_feature_enabled
   validate :validate_openai_api_key, if: :validate_openai_api_key?
   validate :validate_cloudflare_realtimekit_credentials, if: :validate_cloudflare_realtimekit_credentials?
+  validate :validate_buzzdesk_credentials, if: :validate_buzzdesk_credentials?
   validates :app_id, uniqueness: { scope: [:account_id], unless: -> { app.present? && app.params[:allow_multiple_hooks].present? } }
 
   # TODO: This seems to be only used for slack at the moment
@@ -68,6 +69,10 @@ class Integrations::Hook < ApplicationRecord
 
   def notion?
     app_id == 'notion'
+  end
+
+  def buzzdesk?
+    app_id == 'buzzdesk'
   end
 
   def disable
@@ -117,12 +122,20 @@ class Integrations::Hook < ApplicationRecord
       (new_record? || cloudflare_realtimekit_credentials_changed? || will_save_change_to_status?)
   end
 
+  def validate_buzzdesk_credentials?
+    buzzdesk? && enabled? && (new_record? || buzzdesk_credentials_changed? || will_save_change_to_status?)
+  end
+
   def openai_api_key_changed?
     settings_api_key(settings) != settings_api_key(settings_in_database)
   end
 
   def cloudflare_realtimekit_credentials_changed?
     settings_cloudflare_realtimekit_credentials(settings) != settings_cloudflare_realtimekit_credentials(settings_in_database)
+  end
+
+  def buzzdesk_credentials_changed?
+    settings_buzzdesk_credentials(settings) != settings_buzzdesk_credentials(settings_in_database)
   end
 
   def legacy_dyte_settings_unchanged?
@@ -149,6 +162,13 @@ class Integrations::Hook < ApplicationRecord
     errors.add(:base, I18n.t("errors.cloudflare.realtimekit.#{result.error}"))
   end
 
+  def validate_buzzdesk_credentials
+    result = Integrations::Buzzdesk::CredentialsValidator.validate(*settings_buzzdesk_credentials(settings))
+    return if result.success?
+
+    errors.add(:base, I18n.t("errors.buzzdesk.#{result.error}"))
+  end
+
   def settings_api_key(value)
     settings_value(value, 'api_key')
   end
@@ -157,6 +177,13 @@ class Integrations::Hook < ApplicationRecord
     [
       settings_value(value, 'account_id'),
       settings_value(value, 'app_id'),
+      settings_value(value, 'api_token')
+    ]
+  end
+
+  def settings_buzzdesk_credentials(value)
+    [
+      settings_value(value, 'base_url'),
       settings_value(value, 'api_token')
     ]
   end

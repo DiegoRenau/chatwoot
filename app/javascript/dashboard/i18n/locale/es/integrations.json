@@ -386,6 +386,68 @@
         "BUTTON_TEXT": "Conectar espacio de trabajo de Linear"
       }
     },
+    "BUZZDESK": {
+      "HEADER": "BuzzDesk",
+      "ADD_OR_LINK_BUTTON": "Crear/Vincular ticket de BuzzDesk",
+      "LOADING": "Cargando tickets de BuzzDesk...",
+      "LOADING_ERROR": "Hubo un error al recuperar los tickets de BuzzDesk, por favor inténtalo de nuevo",
+      "CREATE": "Crear",
+      "STATUS_UNAVAILABLE": "No se pudo obtener el estado más reciente de este ticket",
+      "LINK": {
+        "SEARCH": "Buscar tickets",
+        "SELECT": "Seleccionar ticket",
+        "TITLE": "Vincular",
+        "EMPTY_LIST": "No se encontraron tickets de BuzzDesk",
+        "LOADING": "Cargando",
+        "ERROR": "Hubo un error al recuperar los tickets de BuzzDesk, por favor inténtalo de nuevo",
+        "LINK_SUCCESS": "Ticket vinculado correctamente",
+        "LINK_ERROR": "Ocurrió un error al vincular el ticket. Inténtalo de nuevo"
+      },
+      "ADD_OR_LINK": {
+        "TITLE": "Crear/vincular ticket de BuzzDesk",
+        "DESCRIPTION": "Crea tickets de BuzzDesk desde las conversaciones, o vincula tickets existentes para un seguimiento sin interrupciones.",
+        "FORM": {
+          "TITLE": {
+            "LABEL": "Título",
+            "PLACEHOLDER": "Introducir título",
+            "REQUIRED_ERROR": "El título es obligatorio"
+          },
+          "DESCRIPTION": {
+            "LABEL": "Descripción",
+            "PLACEHOLDER": "Introducir descripción"
+          },
+          "GROUP": {
+            "LABEL": "Grupo",
+            "PLACEHOLDER": "Seleccionar grupo",
+            "SEARCH": "Buscar grupo",
+            "REQUIRED_ERROR": "El grupo es obligatorio"
+          }
+        },
+        "CREATE": "Crear",
+        "CANCEL": "Cancelar",
+        "CREATE_SUCCESS": "Ticket creado correctamente",
+        "CREATE_ERROR": "Hubo un error al crear el ticket, por favor inténtalo de nuevo",
+        "LOADING_GROUPS_ERROR": "Hubo un error al recuperar los grupos, por favor inténtalo de nuevo"
+      },
+      "UNLINK": {
+        "TITLE": "Desvincular",
+        "SUCCESS": "Ticket desvinculado con éxito",
+        "ERROR": "Se ha producido un error al desvincular el ticket, inténtalo de nuevo"
+      },
+      "NO_LINKED_TICKETS": "No se encontraron tickets vinculados",
+      "DELETE": {
+        "TITLE": "¿Estás seguro de que quieres eliminar la integración?",
+        "MESSAGE": "¿Estás seguro de que quieres eliminar la integración?",
+        "CONFIRM": "Sí, eliminar",
+        "CANCEL": "Cancelar"
+      },
+      "CTA": {
+        "TITLE": "Conectar con BuzzDesk",
+        "AGENT_DESCRIPTION": "BuzzDesk no está conectado. Solicita a tu administrador que conecte una cuenta para usar esta integración.",
+        "DESCRIPTION": "BuzzDesk no está conectado. Haz clic en el botón de abajo para conectar tu cuenta y usar esta integración.",
+        "BUTTON_TEXT": "Conectar BuzzDesk"
+      }
+    },
     "NOTION": {
       "HEADER": "Notion",
       "DELETE": {

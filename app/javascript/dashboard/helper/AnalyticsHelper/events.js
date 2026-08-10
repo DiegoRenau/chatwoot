@@ -148,6 +148,12 @@ export const LINEAR_EVENTS = Object.freeze({
   UNLINK_ISSUE: 'Unlinked a linear issue',
 });
 
+export const BUZZDESK_EVENTS = Object.freeze({
+  CREATE_TICKET: 'Created a buzzdesk ticket',
+  LINK_TICKET: 'Linked a buzzdesk ticket',
+  UNLINK_TICKET: 'Unlinked a buzzdesk ticket',
+});
+
 export const YEAR_IN_REVIEW_EVENTS = Object.freeze({
   MODAL_OPENED: 'Year in Review: Modal opened',
   NEXT_CLICKED: 'Year in Review: Next clicked',

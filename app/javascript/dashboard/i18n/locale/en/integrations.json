@@ -386,6 +386,68 @@
         "BUTTON_TEXT": "Connect Linear workspace"
       }
     },
+    "BUZZDESK": {
+      "HEADER": "BuzzDesk",
+      "ADD_OR_LINK_BUTTON": "Create/Link BuzzDesk Ticket",
+      "LOADING": "Fetching BuzzDesk tickets...",
+      "LOADING_ERROR": "There was an error fetching the BuzzDesk tickets, please try again",
+      "CREATE": "Create",
+      "STATUS_UNAVAILABLE": "Could not fetch the latest status for this ticket",
+      "LINK": {
+        "SEARCH": "Search tickets",
+        "SELECT": "Select ticket",
+        "TITLE": "Link",
+        "EMPTY_LIST": "No BuzzDesk tickets found",
+        "LOADING": "Loading",
+        "ERROR": "There was an error fetching the BuzzDesk tickets, please try again",
+        "LINK_SUCCESS": "Ticket linked successfully",
+        "LINK_ERROR": "There was an error linking the ticket, please try again"
+      },
+      "ADD_OR_LINK": {
+        "TITLE": "Create/link BuzzDesk ticket",
+        "DESCRIPTION": "Create BuzzDesk tickets from conversations, or link existing ones for seamless tracking.",
+        "FORM": {
+          "TITLE": {
+            "LABEL": "Title",
+            "PLACEHOLDER": "Enter title",
+            "REQUIRED_ERROR": "Title is required"
+          },
+          "DESCRIPTION": {
+            "LABEL": "Description",
+            "PLACEHOLDER": "Enter description"
+          },
+          "GROUP": {
+            "LABEL": "Group",
+            "PLACEHOLDER": "Select group",
+            "SEARCH": "Search group",
+            "REQUIRED_ERROR": "Group is required"
+          }
+        },
+        "CREATE": "Create",
+        "CANCEL": "Cancel",
+        "CREATE_SUCCESS": "Ticket created successfully",
+        "CREATE_ERROR": "There was an error creating the ticket, please try again",
+        "LOADING_GROUPS_ERROR": "There was an error fetching the groups, please try again"
+      },
+      "UNLINK": {
+        "TITLE": "Unlink",
+        "SUCCESS": "Ticket unlinked successfully",
+        "ERROR": "There was an error unlinking the ticket, please try again"
+      },
+      "NO_LINKED_TICKETS": "No linked tickets found",
+      "DELETE": {
+        "TITLE": "Are you sure you want to delete the integration?",
+        "MESSAGE": "Are you sure you want to delete the integration?",
+        "CONFIRM": "Yes, delete",
+        "CANCEL": "Cancel"
+      },
+      "CTA": {
+        "TITLE": "Connect to BuzzDesk",
+        "AGENT_DESCRIPTION": "BuzzDesk is not connected. Request your administrator to connect an account to use this integration.",
+        "DESCRIPTION": "BuzzDesk is not connected. Click the button below to connect your account to use this integration.",
+        "BUTTON_TEXT": "Connect BuzzDesk"
+      }
+    },
     "NOTION": {
       "HEADER": "Notion",
       "DELETE": {

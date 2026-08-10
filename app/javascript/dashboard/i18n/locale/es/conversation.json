@@ -410,6 +410,7 @@
       "PREVIOUS_CONVERSATION": "Conversaciones anteriores",
       "MACROS": "Macros",
       "LINEAR_ISSUES": "Problemas lineales vinculados",
+      "BUZZDESK_TICKETS": "Tickets de BuzzDesk vinculados",
       "SHOPIFY_ORDERS": "Pedidos de Shopify",
       "SHARED_FILES": "Archivos adjuntos"
     },

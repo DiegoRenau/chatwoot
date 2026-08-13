@@ -110,7 +110,7 @@ class Api::V1::Accounts::Integrations::BuzzdeskController < Api::V1::Accounts::I
   end
 
   def conversation_context_description
-    [permitted_params[:description], "Chatwoot conversation: #{conversation_link}"].compact_blank.join("\n\n")
+    [permitted_params[:description], "Conversación de BuzzCRM: #{conversation_link}"].compact_blank.join("\n\n")
   end
 
   def conversation_link

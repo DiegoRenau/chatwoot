@@ -92,7 +92,7 @@ RSpec.describe 'BuzzDesk Integration API', type: :request do
 
       it 'includes the conversation link in the ticket description' do
         expect(processor_service).to receive(:create_ticket).with(
-          hash_including(description: a_string_matching(%r{Chatwoot conversation: .*conversations/#{conversation.display_id}}))
+          hash_including(description: a_string_matching(%r{Conversación de BuzzCRM: .*conversations/#{conversation.display_id}}))
         ).and_return(created_ticket)
 
         post "/api/v1/accounts/#{account.id}/integrations/buzzdesk/create_ticket", params: ticket_params, headers: agent.create_new_auth_token,

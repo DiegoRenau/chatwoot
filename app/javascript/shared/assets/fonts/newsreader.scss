@@ -1,0 +1,19 @@
+// Newsreader Variable Font - optical size + weight 400-600 (design system v2)
+// Reserved for long-form body copy; UI chrome stays on Plus Jakarta Sans.
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('shared/assets/fonts/Newsreader/Newsreader-Variable.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('shared/assets/fonts/Newsreader/Newsreader-Italic-Variable.woff2')
+    format('woff2');
+}

@@ -43,6 +43,8 @@ const tailwindConfig = {
         sans: defaultSansFonts,
         inter: ['"Plus Jakarta Sans"', ...defaultSansFonts],
         interDisplay: ['"Plus Jakarta Sans"', ...defaultSansFonts],
+        mono: ['"JetBrains Mono"', ...defaultTheme.fontFamily.mono],
+        serif: ['"Newsreader"', ...defaultTheme.fontFamily.serif],
       },
       fontWeight: {
         420: '420',

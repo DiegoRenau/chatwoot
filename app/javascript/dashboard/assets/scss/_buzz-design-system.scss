@@ -1,0 +1,312 @@
+// scss-lint:disable PropertySortOrder
+// Buzz Design System v1 (SMS-456) + v2 pilot layer.
+// Source of truth: BuzzCRM/BuzzWeb `styles.css` (v1) + `v2.css` (v2 delta),
+// bridged here to CSS custom properties for the dashboard app. Also see
+// BuzzCRM/BuzzWave PR #48 for the React+shadcn port of the same tokens.
+//
+// Philosophy: "hoja tecnica" — hairlines, mono-uppercase rubrics, tabular
+// numerals, warm (non-pure-white) surfaces, square marks over circles,
+// registration marks on panel corners. No playful gradients, no oversized
+// radii.
+//
+// LTR-first: the corner/edge marks below use physical left/right (the rest
+// of this app flips direction via Tailwind's ltr:/rtl: prefixes at the
+// template level, not via CSS logical properties in stylesheets).
+$buzz-warn-bg: #fef3e2;
+$buzz-warn-ink: #b45309;
+
+@layer base {
+  :root {
+    // Brand (hue-210) — the ONLY contrast-measured scale (against --bg
+    // #FBFBF8), inherited from BuzzDesk. Universal brand accent: focus
+    // rings, fills, links, active nav. NOT a per-product accent.
+    --brand-50: 238 246 254; // #eef6fe
+    --brand-100: 217 235 253; // #d9ebfd
+    --brand-200: 185 219 251; // #b9dbfb
+    --brand-500: 84 163 242; // #54a3f2 — dark surfaces ONLY (2.66:1, fails AA on light)
+    --brand-700: 18 127 237; // #127fed — focus rings on light (3.97:1)
+    --brand-800: 16 112 209; // #1070d1 — fills / links / active nav (4.85:1 AA)
+    --brand-900: 13 92 171; // #0d5cab — hover
+    --brand-950: 10 61 113; // #0a3d71 — pressed
+
+    // Surface & ink — warm, never pure white/black.
+    --bg: 251 251 248; // #FBFBF8
+    --surface: 254 254 253; // #FEFEFD
+    --surface-alt: 244 245 241; // #F4F5F1
+    --ink: 11 11 13; // #0B0B0D (18.5:1)
+    --ink-2: 63 63 70; // #3F3F46 (10.1:1)
+    --ink-3: 105 105 115; // #696973 (5.23:1 AA — floor, never go lower for body text)
+    --line: 230 230 225; // #E6E6E1
+    --line-strong: 210 210 203; // #D2D2CB
+
+    // Per-product accent — one cool family, cyan -> indigo, never green.
+    // `ink` = AA text/icon tone, `live` = fills/halos, `wash` = tint bg.
+    --crm-ink: 14 116 144; // #0E7490 (BuzzCRM, cyan)
+    --crm-live: 34 211 238; // #22D3EE
+    --crm-wash: 230 249 253; // #E6F9FD
+    --agt-ink: 3 105 161; // #0369A1 (BuzzAgents, sky)
+    --agt-live: 56 189 248; // #38BDF8
+    --agt-wash: 232 244 254; // #E8F4FE
+    --desk-ink: 16 112 209; // #1070D1 (BuzzDesk, blue)
+    --desk-live: 84 163 242; // #54A3F2
+    --desk-wash: 234 243 254; // #EAF3FE
+    --wave-ink: 59 85 217; // #3B55D9 (BuzzWave, indigo)
+    --wave-live: 76 111 255; // #4C6FFF
+    --wave-wash: 238 240 254; // #EEF0FE
+
+    // Aurora — background halos, RGB triplet so callers pick the alpha.
+    --aur-1: 34 211 238; // cyan
+    --aur-2: 84 163 242; // blue
+    --aur-3: 108 140 255; // indigo
+    --glow-brand: 0 8px 24px -8px rgba(16, 112, 209, 0.45);
+    --glow-soft: 0 0 0 4px rgba(16, 112, 209, 0.1);
+
+    // Spacing
+    --s1: 4px;
+    --s2: 8px;
+    --s3: 12px;
+    --s4: 16px;
+    --s5: 24px;
+    --s6: 32px;
+    --s7: 48px;
+    --s8: 64px;
+    --s9: 96px;
+    --s10: 128px;
+
+    // Shape
+    --r-sm: 6px;
+    --r-md: 10px;
+    --r-lg: 14px;
+    --r-xl: 20px;
+    --r-pill: 999px;
+
+    // Motion
+    --dur-fast: 140ms;
+    --dur: 200ms;
+    --dur-slow: 320ms;
+    --dur-enter: 280ms;
+    --dur-exit: 200ms;
+    --ease: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-move: cubic-bezier(0.77, 0, 0.175, 1);
+
+    // Shadows — blue-tinted, never neutral-gray.
+    --shadow-sm: 0 1px 2px rgba(12, 30, 58, 0.06);
+    --shadow-md: 0 4px 12px -2px rgba(12, 30, 58, 0.12);
+    --shadow-lg: 0 12px 32px -8px rgba(12, 30, 58, 0.18);
+
+    // Layout
+    --maxw: 1200px;
+    --gutter: 28px;
+    --nav-h: 68px;
+  }
+}
+
+// ---------------------------------------------------------------------
+// Composition classes
+// ---------------------------------------------------------------------
+
+// Fixed hairline grid, full-bleed — the page reads as a spec sheet.
+.rules {
+  position: relative;
+  background-image: linear-gradient(to right, rgb(var(--line)) 1px, transparent 1px);
+  background-size: calc(var(--gutter) * 4) 100%;
+}
+
+// Background color halos using the aurora triplets.
+.aurora {
+  position: relative;
+  isolation: isolate;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    right: -20%;
+    bottom: -20%;
+    left: -20%;
+    z-index: -1;
+    pointer-events: none;
+    background: radial-gradient(40% 40% at 20% 15%, rgb(var(--aur-1) / 28%), transparent 70%) no-repeat,
+      radial-gradient(35% 35% at 80% 10%, rgb(var(--aur-2) / 22%), transparent 70%) no-repeat,
+      radial-gradient(45% 45% at 60% 80%, rgb(var(--aur-3) / 18%), transparent 70%) no-repeat;
+  }
+}
+
+.aurora--soft::before {
+  opacity: 0.5;
+}
+
+// Section rubric: italic index/icon in brand-800 + 32px hairline rule.
+.chapter {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s2);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgb(var(--ink-3));
+
+  .chapter__index {
+    font-style: italic;
+    color: rgb(var(--brand-800));
+  }
+
+  &::after {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 1px;
+    background: rgb(var(--line-strong));
+  }
+}
+
+// Mono rubric used standalone (nav dividers, table headers, etc).
+.rubric {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgb(var(--ink-3));
+}
+
+// Tag with a leading color dot (dot color = currentColor).
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s1);
+  font-size: 12px;
+  color: rgb(var(--ink-2));
+
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: var(--r-pill);
+    background: currentColor;
+    flex-shrink: 0;
+  }
+}
+
+// Badges. Live = product wash+ink; warn = amber.
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s1);
+  padding: 2px var(--s2);
+  border-radius: var(--r-sm);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.4;
+  background: rgb(var(--surface-alt));
+  color: rgb(var(--ink-2));
+}
+
+.chip--live {
+  background: rgb(var(--crm-wash));
+  color: rgb(var(--crm-ink));
+}
+
+.chip--warn {
+  background: $buzz-warn-bg;
+  color: $buzz-warn-ink;
+}
+
+// Metric tile with a colored series edge.
+.mtile {
+  position: relative;
+  padding: var(--s4);
+  border: 1px solid rgb(var(--line));
+  border-radius: var(--r-md);
+  background: rgb(var(--surface));
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: var(--s2);
+    bottom: var(--s2);
+    width: 3px;
+    border-radius: var(--r-pill);
+    background: rgb(var(--brand-800));
+  }
+}
+
+// Square mark, 7x7, 1px radius — replaces the circular `.dot` in v2.
+.sq {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 1px;
+  background: currentColor;
+  flex-shrink: 0;
+}
+
+// Registration marks on the 4 corners of a panel, so a borderless panel
+// still reads as a "cut sheet". Add `<span class="reg__bl" />` and
+// `<span class="reg__br" />` as children for the bottom two (a single
+// element only has two pseudo-elements, used here for the top corners).
+.reg {
+  position: relative;
+
+  &::before,
+  &::after,
+  .reg__br,
+  .reg__bl {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-color: rgb(var(--line-strong));
+    border-style: solid;
+    border-width: 0;
+    pointer-events: none;
+  }
+
+  &::before {
+    top: 0;
+    left: 0;
+    border-top-width: 1px;
+    border-left-width: 1px;
+  }
+
+  &::after {
+    top: 0;
+    right: 0;
+    border-top-width: 1px;
+    border-right-width: 1px;
+  }
+}
+
+.reg__bl {
+  bottom: 0;
+  left: 0;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+.reg__br {
+  bottom: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+}
+
+// Data row in mono voice (tables/logs).
+.specs__row {
+  display: flex;
+  align-items: baseline;
+  gap: var(--s3);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  color: rgb(var(--ink-2));
+  padding-top: var(--s2);
+  padding-bottom: var(--s2);
+  border-bottom: 1px solid rgb(var(--line));
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}

@@ -1,0 +1,11 @@
+// JetBrains Mono Variable Font - Supports any weight from 100-800
+// Design system v1 (SMS-456): mono is used for rubrics/labels (uppercase,
+// wide letter-spacing) and tabular data — never for long-form body text.
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 100 800;
+  font-display: swap;
+  src: url('shared/assets/fonts/JetBrainsMono/JetBrainsMono-Variable.woff2')
+    format('woff2');
+}

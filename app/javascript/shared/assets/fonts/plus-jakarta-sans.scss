@@ -1,0 +1,19 @@
+// Plus Jakarta Sans Variable Font - Supports any weight from 200-800
+// Self-hosted (design-system.md: no external Google Fonts CDN)
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('shared/assets/fonts/PlusJakartaSans/PlusJakartaSans-Variable.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('shared/assets/fonts/PlusJakartaSans/PlusJakartaSans-Italic-Variable.woff2')
+    format('woff2');
+}

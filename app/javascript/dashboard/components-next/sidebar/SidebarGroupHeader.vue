@@ -32,7 +32,7 @@ const count = computed(() =>
     :to="to"
     :title="label"
     :class="{
-      'text-n-slate-12 bg-n-slate-3 dark:bg-n-slate-4 font-medium':
+      'text-[rgb(var(--brand-900))] dark:text-[rgb(var(--brand-200))] bg-[rgb(var(--brand-50))] dark:bg-[rgb(var(--brand-800)_/_16%)] font-medium':
         isActive && !hasActiveChild,
       'text-n-slate-12 font-medium': hasActiveChild,
       'text-n-slate-11 hover:bg-n-slate-3 dark:hover:bg-n-slate-4':
@@ -44,7 +44,7 @@ const count = computed(() =>
       <Icon v-if="icon" :icon="icon" class="size-[18px]" />
       <span
         v-if="showBadge"
-        class="size-2 -top-px ltr:-right-px rtl:-left-px bg-woot-500 absolute rounded-full border border-n-solid-2"
+        class="sq -top-px ltr:-right-px rtl:-left-px absolute text-[rgb(var(--brand-800))] border border-n-solid-2"
       />
     </div>
     <div
@@ -61,7 +61,7 @@ const count = computed(() =>
       </span>
       <span
         v-if="dynamicCount && !expandable"
-        class="inline-grid h-5 min-w-5 place-items-center rounded-full bg-n-slate-4 px-1 text-xxs font-medium leading-3 text-n-slate-12 dark:bg-n-slate-5 flex-shrink-0"
+        class="chip flex-shrink-0 dark:!bg-n-slate-5 dark:!text-n-slate-12"
       >
         {{ count }}
       </span>

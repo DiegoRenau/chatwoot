@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_08_06_000000) do
+ActiveRecord::Schema[7.1].define(version: 2026_09_03_000000) do
   # These extensions should be enabled to support this database
   enable_extension "pg_stat_statements"
   enable_extension "pg_trgm"
@@ -659,7 +659,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_08_06_000000) do
     t.datetime "created_at", precision: nil, null: false
     t.datetime "updated_at", precision: nil, null: false
     t.string "website_token"
-    t.string "widget_color", default: "#1f93ff"
+    t.string "widget_color", default: "#0891B2"
     t.string "welcome_title"
     t.string "welcome_tagline"
     t.integer "feature_flags", default: 7, null: false

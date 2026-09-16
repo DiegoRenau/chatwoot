@@ -530,9 +530,9 @@
   "CAPTAIN_SETTINGS": {
     "TITLE": "Mga Setting ng Kapitan",
     "DESCRIPTION": "I-configure ang iyong mga AI na modelo at mga tampok para sa Kapitan. Ang Kapitan ay sumusunod sa credit-based na pagsingil, sisingilin ka ng mga credit para sa bawat aksyon na ginagawa ng Kapitan batay sa napiling modelo.",
-    "LOADING": "Ikinakarga ang pagsasaayos ng Agentrix...",
-    "LINK_TEXT": "Alamin pa tungkol sa Agentrix Credits",
-    "NOT_ENABLED": "Hindi naka-enable ang Agentrix para sa iyong account. Mangyaring i-upgrade ang iyong plano upang ma-access ang mga tampok ng Agentrix.",
+    "LOADING": "Ikinakarga ang pagsasaayos ng BuzzAgents...",
+    "LINK_TEXT": "Alamin pa tungkol sa BuzzAgents Credits",
+    "NOT_ENABLED": "Hindi naka-enable ang BuzzAgents para sa iyong account. Mangyaring i-upgrade ang iyong plano upang ma-access ang mga tampok ng BuzzAgents.",
     "MODEL_CONFIG": {
       "TITLE": "Pagsasaayos ng Modelo",
       "DESCRIPTION": "Pumili ng mga AI model para sa iba't ibang mga tampok.",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Matagumpay na na-update ang mga setting ng Agentrix.",
-      "ERROR": "Nabigong i-update ang mga setting ng Agentrix. Pakisubukang muli."
+      "SUCCESS": "Matagumpay na na-update ang mga setting ng BuzzAgents.",
+      "ERROR": "Nabigong i-update ang mga setting ng BuzzAgents. Pakisubukang muli."
     }
   },
   "BILLING_SETTINGS": {
@@ -605,11 +605,11 @@
     },
     "CAPTAIN": {
       "TITLE": "Kapitan",
-      "DESCRIPTION": "Pamahalaan ang paggamit at mga kredito para sa Agentrix AI.",
+      "DESCRIPTION": "Pamahalaan ang paggamit at mga kredito para sa BuzzAgents AI.",
       "BUTTON_TXT": "Bumili ng karagdagang kredito",
       "DOCUMENTS": "Mga Dokumento",
       "RESPONSES": "Responses",
-      "UPGRADE": "Hindi available ang Agentrix sa libreng plano, mag-upgrade na upang magkaroon ng access sa mga assistant, copilot at iba pa.",
+      "UPGRADE": "Hindi available ang BuzzAgents sa libreng plano, mag-upgrade na upang magkaroon ng access sa mga assistant, copilot at iba pa.",
       "REFRESH_CREDITS": "I-refresh"
     },
     "CHAT_WITH_US": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Bumili ng karagdagang kredito",
       "MODAL_TITLE": "Bumili ng AI Credits",
-      "MODAL_DESCRIPTION": "Bumili ng karagdagang kredito para sa Agentrix AI.",
+      "MODAL_DESCRIPTION": "Bumili ng karagdagang kredito para sa BuzzAgents AI.",
       "CREDITS": "KREDITO",
       "ONE_TIME": "isang beses",
       "POPULAR": "Pinaka Popular",

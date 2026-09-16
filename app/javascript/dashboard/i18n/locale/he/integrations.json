@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Agentrix אינו מופעל בחשבונך.",
+      "DISABLED": "BuzzAgents אינו מופעל בחשבונך.",
       "CLICK_HERE_TO_CONFIGURE": "לחץ כאן כדי להגדיר",
-      "LOADING_CONSOLE": "טוען את קונסולת Agentrix...",
-      "FAILED_TO_LOAD_CONSOLE": "הטעינה של קונסולת Agentrix נכשלה. אנא רענן ונסה שוב."
+      "LOADING_CONSOLE": "טוען את קונסולת BuzzAgents...",
+      "FAILED_TO_LOAD_CONSOLE": "הטעינה של קונסולת BuzzAgents נכשלה. אנא רענן ונסה שוב."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "אירועים מנויים",
@@ -402,7 +402,7 @@
     "OVERVIEW": {
       "HEADER": "סקירה כללית",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "מגרש משחקים",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "הקלד הודעה...",
       "HEADER": "מגרש משחקים",
       "DESCRIPTION": "השתמש במגרש משחקים זה כדי לשלוח הודעות לעוזר שלך ולבדוק אם הוא מגיב בצורה מדויקת, מהירה ובטון שאתה מצפה לו.",
-      "CREDIT_NOTE": "הודעות שנשלחות כאן ייספרו למכסת הזיכויים של Agentrix שלך."
+      "CREDIT_NOTE": "הודעות שנשלחות כאן ייספרו למכסת הזיכויים של BuzzAgents שלך."
     },
     "PAYWALL": {
-      "TITLE": "שדרג כדי להשתמש ב-Agentrix AI",
-      "AVAILABLE_ON": "Agentrix אינו זמין בתוכנית החינמית.",
+      "TITLE": "שדרג כדי להשתמש ב-BuzzAgents AI",
+      "AVAILABLE_ON": "BuzzAgents אינו זמין בתוכנית החינמית.",
       "UPGRADE_PROMPT": "שדרג את התוכנית שלך כדי לקבל גישה לעוזרים שלנו, ל-Copilot ועוד.",
       "UPGRADE_NOW": "שדרג עכשיו",
       "CANCEL_ANYTIME": "תוכל לשנות או לבטל את התוכנית שלך בכל עת"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI זמין רק בתכניות הארגוניות.",
+      "AVAILABLE_ON": "BuzzAgents AI זמין רק בתכניות הארגוניות.",
       "UPGRADE_PROMPT": "שדרג את התוכנית שלך כדי לקבל גישה לעוזרים שלנו, ל-Copilot ועוד.",
       "ASK_ADMIN": "אנא פנה למנהל המערכת שלך לצורך השדרוג."
     },
     "BANNER": {
-      "RESPONSES": "ניצלת יותר מ-80% ממגבלת התגובות שלך. כדי להמשיך להשתמש ב-Agentrix AI, אנא שדרג.",
-      "DOCUMENTS": "מגבלת המסמכים הושגה. שדרג כדי להמשיך להשתמש ב-Agentrix AI."
+      "RESPONSES": "ניצלת יותר מ-80% ממגבלת התגובות שלך. כדי להמשיך להשתמש ב-BuzzAgents AI, אנא שדרג.",
+      "DOCUMENTS": "מגבלת המסמכים הושגה. שדרג כדי להמשיך להשתמש ב-BuzzAgents AI."
     },
     "FORM": {
       "CANCEL": "ביטול",
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "מחיקת הכלי המותאם אישית נכשלה"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "פתח חיוב",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "אנא פנה למנהל המערכת שלך לצורך השדרוג."
       },
@@ -1149,7 +1149,7 @@
         "CLEAR_SEARCH": "נקה מסננים פעילים",
         "FEATURE_SPOTLIGHT": {
           "TITLE": "שאלות נפוצות של קפטן",
-          "NOTE": "Agentrix FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "NOTE": "BuzzAgents FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         }
       }
     },

@@ -324,7 +324,7 @@
     "ACTIVE": "Aktif",
     "COMPANIES": "Syarikat",
     "ALL_COMPANIES": "Semua Syarikat",
-    "CAPTAIN": "Agentrix",
+    "CAPTAIN": "BuzzAgents",
     "CAPTAIN_ASSISTANTS": "Pembantu",
     "CAPTAIN_OVERVIEW": "Gambaran Keseluruhan",
     "CAPTAIN_DOCUMENTS": "Dokumen",
@@ -411,7 +411,7 @@
     },
     "DOCS": "Baca dokumen",
     "SECURITY": "Keselamatan",
-    "CAPTAIN_AI": "Agentrix",
+    "CAPTAIN_AI": "BuzzAgents",
     "CONVERSATION_WORKFLOW": "Aliran Kerja Perbualan",
     "CALLS": "Calls",
     "WHATSAPP_TEMPLATES": "Templates"
@@ -528,11 +528,11 @@
     }
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Tetapan Agentrix",
-    "DESCRIPTION": "Konfigurasikan model AI dan ciri untuk Agentrix anda. Agentrix menggunakan pengebilan berasaskan kredit, anda akan dikenakan kredit untuk setiap tindakan yang diambil Agentrix berdasarkan model yang dipilih.",
-    "LOADING": "Memuatkan konfigurasi Agentrix...",
-    "LINK_TEXT": "Ketahui lebih lanjut tentang Kredit Agentrix",
-    "NOT_ENABLED": "Agentrix tidak diaktifkan untuk akaun anda. Sila naik taraf pelan anda untuk mengakses ciri Agentrix.",
+    "TITLE": "Tetapan BuzzAgents",
+    "DESCRIPTION": "Konfigurasikan model AI dan ciri untuk BuzzAgents anda. BuzzAgents menggunakan pengebilan berasaskan kredit, anda akan dikenakan kredit untuk setiap tindakan yang diambil BuzzAgents berdasarkan model yang dipilih.",
+    "LOADING": "Memuatkan konfigurasi BuzzAgents...",
+    "LINK_TEXT": "Ketahui lebih lanjut tentang Kredit BuzzAgents",
+    "NOT_ENABLED": "BuzzAgents tidak diaktifkan untuk akaun anda. Sila naik taraf pelan anda untuk mengakses ciri BuzzAgents.",
     "MODEL_CONFIG": {
       "TITLE": "Konfigurasi Model",
       "DESCRIPTION": "Pilih model AI untuk ciri yang berbeza.",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Tetapan Agentrix berjaya dikemas kini.",
-      "ERROR": "Gagal mengemas kini tetapan Agentrix. Sila cuba lagi."
+      "SUCCESS": "Tetapan BuzzAgents berjaya dikemas kini.",
+      "ERROR": "Gagal mengemas kini tetapan BuzzAgents. Sila cuba lagi."
     }
   },
   "BILLING_SETTINGS": {
@@ -604,12 +604,12 @@
       "BUTTON_TXT": "Pergi ke portal bil"
     },
     "CAPTAIN": {
-      "TITLE": "Agentrix",
-      "DESCRIPTION": "Urus penggunaan dan kredit untuk Agentrix AI.",
+      "TITLE": "BuzzAgents",
+      "DESCRIPTION": "Urus penggunaan dan kredit untuk BuzzAgents AI.",
       "BUTTON_TXT": "Beli lebih banyak kredit",
       "DOCUMENTS": "Dokumen",
       "RESPONSES": "Responses",
-      "UPGRADE": "Agentrix tidak tersedia dalam pelan percuma, naik taraf sekarang untuk mendapatkan akses kepada pembantu, copilot dan lain-lain.",
+      "UPGRADE": "BuzzAgents tidak tersedia dalam pelan percuma, naik taraf sekarang untuk mendapatkan akses kepada pembantu, copilot dan lain-lain.",
       "REFRESH_CREDITS": "Segarkan"
     },
     "CHAT_WITH_US": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Beli lebih banyak kredit",
       "MODAL_TITLE": "Beli Kredit AI",
-      "MODAL_DESCRIPTION": "Beli kredit tambahan untuk Agentrix AI.",
+      "MODAL_DESCRIPTION": "Beli kredit tambahan untuk BuzzAgents AI.",
       "CREDITS": "CREDITS",
       "ONE_TIME": "sekali sahaja",
       "POPULAR": "Paling Popular",

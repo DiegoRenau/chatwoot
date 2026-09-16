@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Agentrix ei ole teie kontol aktiveeritud.",
+      "DISABLED": "BuzzAgents ei ole teie kontol aktiveeritud.",
       "CLICK_HERE_TO_CONFIGURE": "Klõpsake siin seadistamiseks",
-      "LOADING_CONSOLE": "Laaditakse Agentrix Console’i...",
-      "FAILED_TO_LOAD_CONSOLE": "Agentrix Console’i laadimine ebaõnnestus. Palun värskenda lehte ja proovi uuesti."
+      "LOADING_CONSOLE": "Laaditakse BuzzAgents Console’i...",
+      "FAILED_TO_LOAD_CONSOLE": "BuzzAgents Console’i laadimine ebaõnnestus. Palun värskenda lehte ja proovi uuesti."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Tellitud sündmused",
@@ -402,7 +402,7 @@
     "OVERVIEW": {
       "HEADER": "Ülevaade",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "Mänguväljak",
@@ -487,7 +487,7 @@
       "KICK_OFF_MESSAGE": "Vajad kiiret kokkuvõtet, soovid vaadata varasemaid vestlusi või koostada paremat vastust? Copilot aitab sul asju kiiremini teha.",
       "SEND_MESSAGE": "Saada sõnum...",
       "EMPTY_MESSAGE": "Vastus ei õnnestunud genereerida. Palun proovi uuesti.",
-      "LOADER": "Agentrix mõtleb",
+      "LOADER": "BuzzAgents mõtleb",
       "YOU": "Sina",
       "USE": "Kasuta seda",
       "RESET": "Lähtesta",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "Sisesta oma sõnum...",
       "HEADER": "Mänguväljak",
       "DESCRIPTION": "Kasuta seda mänguväljakut, et saata assistendile sõnumeid ja kontrollida, kas ta vastab täpselt, kiiresti ja soovitud tooniga.",
-      "CREDIT_NOTE": "Siin saadetud sõnumid arvestatakse Agentrixi krediitide hulka."
+      "CREDIT_NOTE": "Siin saadetud sõnumid arvestatakse BuzzAgentsi krediitide hulka."
     },
     "PAYWALL": {
-      "TITLE": "Uuenda, et kasutada Agentrix AI-d",
-      "AVAILABLE_ON": "Agentrix ei ole tasuta plaanis saadaval.",
+      "TITLE": "Uuenda, et kasutada BuzzAgents AI-d",
+      "AVAILABLE_ON": "BuzzAgents ei ole tasuta plaanis saadaval.",
       "UPGRADE_PROMPT": "Uuendage oma plaani, et saada ligipääs meie assistentidele, copiloti ja muule.",
       "UPGRADE_NOW": "Uuenda kohe",
       "CANCEL_ANYTIME": "Saate oma plaani igal ajal muuta või tühistada"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI on saadaval ainult ettevõtte plaanides.",
+      "AVAILABLE_ON": "BuzzAgents AI on saadaval ainult ettevõtte plaanides.",
       "UPGRADE_PROMPT": "Uuendage oma plaani, et saada ligipääs meie assistentidele, copiloti ja muule.",
       "ASK_ADMIN": "Palun pöörduge uuenduse saamiseks oma administraatori poole."
     },
     "BANNER": {
-      "RESPONSES": "Olete kasutanud üle 80% oma vastuste piirist. Agentrix AI kasutamise jätkamiseks palun uuendage.",
-      "DOCUMENTS": "Dokumendi limiit on täis. Agentrix AI kasutamise jätkamiseks uuendage."
+      "RESPONSES": "Olete kasutanud üle 80% oma vastuste piirist. BuzzAgents AI kasutamise jätkamiseks palun uuendage.",
+      "DOCUMENTS": "Dokumendi limiit on täis. BuzzAgents AI kasutamise jätkamiseks uuendage."
     },
     "FORM": {
       "CANCEL": "Tühista",
@@ -655,8 +655,8 @@
         "TITLE": "Assistente pole saadaval",
         "SUBTITLE": "Looge assistent, kes pakub teie kasutajatele kiireid ja täpseid vastuseid. See saab õppida teie abimaterjalidest ja varasematest vestlustest.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Assistent",
-          "NOTE": "Agentrix Assistent suhtleb otse klientidega, õpib teie abidokumentidest ja varasematest vestlustest ning pakub koheseid ja täpseid vastuseid. See käsitleb esialgseid päringuid, pakkudes kiireid lahendusi enne vajadusel agendile suunamist."
+          "TITLE": "BuzzAgents Assistent",
+          "NOTE": "BuzzAgents Assistent suhtleb otse klientidega, õpib teie abidokumentidest ja varasematest vestlustest ning pakub koheseid ja täpseid vastuseid. See käsitleb esialgseid päringuid, pakkudes kiireid lahendusi enne vajadusel agendile suunamist."
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Document",
-          "NOTE": "Dokument Agentrixis on abimehe teadmiste allikas. Ühendades oma abikeskuse või juhendid, saab Agentrix sisu analüüsida ja pakkuda täpseid vastuseid kliendipäringutele."
+          "TITLE": "BuzzAgents Document",
+          "NOTE": "Dokument BuzzAgentsis on abimehe teadmiste allikas. Ühendades oma abikeskuse või juhendid, saab BuzzAgents sisu analüüsida ja pakkuda täpseid vastuseid kliendipäringutele."
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "Failed to delete custom tool"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Open billing",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "KKK kustutamisel tekkis viga, palun proovige uuesti."
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix has found some FAQs your customers were looking for.",
+        "TITLE": "BuzzAgents has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "Lisage küsimus ja sellele vastav vastus teadmistebaasi ning valige assistent, kellega see peaks olema seotud.",
@@ -1145,8 +1145,8 @@
         "SUBTITLE": "KKK-d aitavad teie assistendil pakkuda klientide küsimustele kiireid ja täpseid vastuseid. Neid saab automaatselt teie sisu põhjal genereerida või käsitsi lisada.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix KKK",
-          "NOTE": "Agentrix KKK tuvastab levinud kliendiküsimused—nii need, mis puuduvad teadmistebaasist kui ka korduma kippuvad—ja loob asjakohased KKK-d toe parandamiseks. Saad iga ettepaneku üle vaadata ja otsustada, kas see kinnitada või tagasi lükata."
+          "TITLE": "BuzzAgents KKK",
+          "NOTE": "BuzzAgents KKK tuvastab levinud kliendiküsimused—nii need, mis puuduvad teadmistebaasist kui ka korduma kippuvad—ja loob asjakohased KKK-d toe parandamiseks. Saad iga ettepaneku üle vaadata ja otsustada, kas see kinnitada või tagasi lükata."
         }
       },
       "ERRORS": {

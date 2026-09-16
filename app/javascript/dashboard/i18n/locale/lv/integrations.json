@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Agentrix jūsu kontā nav iespējots.",
+      "DISABLED": "BuzzAgents jūsu kontā nav iespējots.",
       "CLICK_HERE_TO_CONFIGURE": "Noklikšķiniet šeit, lai konfigurētu",
-      "LOADING_CONSOLE": "Notiek Agentrix konsoles ielāde...",
-      "FAILED_TO_LOAD_CONSOLE": "Neizdevās ielādēt Agentrix konsoli. Lūdzu, mēģiniet vēlreiz."
+      "LOADING_CONSOLE": "Notiek BuzzAgents konsoles ielāde...",
+      "FAILED_TO_LOAD_CONSOLE": "Neizdevās ielādēt BuzzAgents konsoli. Lūdzu, mēģiniet vēlreiz."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Abonētie Notikumi",
@@ -402,7 +402,7 @@
     "OVERVIEW": {
       "HEADER": "Pārskats",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "Izmēģinājuma laukums",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "Rakstiet savu ziņojumu...",
       "HEADER": "Izmēģinājuma laukums",
       "DESCRIPTION": "Izmantojiet šo izmēģinājuma laukumu, lai sūtītu ziņojumus savam palīgam un pārbaudītu, vai tas atbild precīzi, ātri un ar gaidīto toni.",
-      "CREDIT_NOTE": "Šeit nosūtītie ziņojumi tiks ieskaitīti jūsu Agentrix kredītos."
+      "CREDIT_NOTE": "Šeit nosūtītie ziņojumi tiks ieskaitīti jūsu BuzzAgents kredītos."
     },
     "PAYWALL": {
-      "TITLE": "Modernizējiet abonementu, lai izmantotu Agentrix AI",
-      "AVAILABLE_ON": "Agentrix nav pieejams bezmaksas abonementā.",
+      "TITLE": "Modernizējiet abonementu, lai izmantotu BuzzAgents AI",
+      "AVAILABLE_ON": "BuzzAgents nav pieejams bezmaksas abonementā.",
       "UPGRADE_PROMPT": "Modernizējiet savu abonementu, lai iegūtu piekļuvi viruālajiem asistentiem un copilot.",
       "UPGRADE_NOW": "Pāriet uz maksas versiju tagad",
       "CANCEL_ANYTIME": "Jūs varat jebkurā laikā mainīt vai atcelt savu versiju"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI ir pieejams tikai Enterprise plānos.",
+      "AVAILABLE_ON": "BuzzAgents AI ir pieejams tikai Enterprise plānos.",
       "UPGRADE_PROMPT": "Modernizējiet savu abonementu, lai iegūtu piekļuvi viruālajiem asistentiem un copilot.",
       "ASK_ADMIN": "Lai pārietu uz maksas versiju, lūdzu sazinieties ar savu administratoru."
     },
     "BANNER": {
-      "RESPONSES": "Jūs esat izmantojis vairāk kā 80% no sava atbilžu ierobežojuma. Lai turpinātu izmantot Agentrix AI, lūdzu, atjauniniet abonementu.",
-      "DOCUMENTS": "Sasniegts dokumentu limits. Atjauniniet abonementu, lai turpinātu izmantot Agentrix AI."
+      "RESPONSES": "Jūs esat izmantojis vairāk kā 80% no sava atbilžu ierobežojuma. Lai turpinātu izmantot BuzzAgents AI, lūdzu, atjauniniet abonementu.",
+      "DOCUMENTS": "Sasniegts dokumentu limits. Atjauniniet abonementu, lai turpinātu izmantot BuzzAgents AI."
     },
     "FORM": {
       "CANCEL": "Atcelt",
@@ -655,8 +655,8 @@
         "TITLE": "Asistenti nav pieejami",
         "SUBTITLE": "Izveidot palīgu, lai sniegtu lietotājiem ātras un precīzas atbildes. Tas var mācīties no Jūsu palīdzības rakstiem un iepriekšējām sarunām.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Assistant",
-          "NOTE": "Agentrix Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "BuzzAgents Assistant",
+          "NOTE": "BuzzAgents Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Document",
-          "NOTE": "A document in Agentrix serves as a knowledge resource for the assistant. By connecting your help center or guides, Agentrix can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "BuzzAgents Document",
+          "NOTE": "A document in BuzzAgents serves as a knowledge resource for the assistant. By connecting your help center or guides, BuzzAgents can analyze the content and provide accurate responses for customer inquiries."
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "Failed to delete custom tool"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Atvērt norēķinus",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Lai pārietu uz maksas versiju, lūdzu sazinieties ar savu administratoru."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "Dzēšot bieži uzdotos jautājumus radās kļūda. Lūdzu, mēģiniet vēlreiz."
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix has found some FAQs your customers were looking for.",
+        "TITLE": "BuzzAgents has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "Pievienot jautājumu un tā atbildi zināšanu bāzei, kā arī izvēlēties asistentu, ar kuru tas būs saistīts.",
@@ -1145,8 +1145,8 @@
         "SUBTITLE": "Bieži uzdotie jautājumi palīdz Jūsu asistentam sniegt ātras un precīzas atbildes uz Jūsu klientu jautājumiem. Tos var ģenerēt automātiski no jūsu satura vai pievienot manuāli.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix FAQ",
-          "NOTE": "Agentrix FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "BuzzAgents FAQ",
+          "NOTE": "BuzzAgents FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         }
       },
       "ERRORS": {

@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Agentrix is not enabled on your account.",
+      "DISABLED": "BuzzAgents is not enabled on your account.",
       "CLICK_HERE_TO_CONFIGURE": "Click here to configure",
-      "LOADING_CONSOLE": "Loading Agentrix Console...",
-      "FAILED_TO_LOAD_CONSOLE": "Failed to load Agentrix Console. Please refresh and try again."
+      "LOADING_CONSOLE": "Loading BuzzAgents Console...",
+      "FAILED_TO_LOAD_CONSOLE": "Failed to load BuzzAgents Console. Please refresh and try again."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Події з підпискою",
@@ -397,12 +397,12 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Agentrix",
+    "NAME": "BuzzAgents",
     "HEADER_KNOW_MORE": "Дізнатися більше",
     "OVERVIEW": {
       "HEADER": "Огляд",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "Тестова зона",
@@ -487,7 +487,7 @@
       "KICK_OFF_MESSAGE": "Потрібен швидкий підсумок, хочете переглянути минулі розмови або скласти кращу відповідь? Copilot допоможе прискорити цей процес.",
       "SEND_MESSAGE": "Надіслати...",
       "EMPTY_MESSAGE": "Виникла помилка під час генерації відповіді. Будь ласка, спробуйте ще раз.",
-      "LOADER": "Agentrix думає",
+      "LOADER": "BuzzAgents думає",
       "YOU": "Ви",
       "USE": "Використати це",
       "RESET": "Скинути",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "Введіть Ваше повідомлення...",
       "HEADER": "Тестова зона",
       "DESCRIPTION": "Використовуйте цю тестову зону, щоб надсилати повідомлення своєму асистентові і перевіряти, чи відповідає він точно, швидко і в очікуваному тоні.",
-      "CREDIT_NOTE": "Повідомлення, надіслані тут, зараховуються до ваших кредитів Agentrix."
+      "CREDIT_NOTE": "Повідомлення, надіслані тут, зараховуються до ваших кредитів BuzzAgents."
     },
     "PAYWALL": {
-      "TITLE": "Оновіть план для використання Agentrix AI",
-      "AVAILABLE_ON": "Agentrix недоступний на безкоштовному плані.",
+      "TITLE": "Оновіть план для використання BuzzAgents AI",
+      "AVAILABLE_ON": "BuzzAgents недоступний на безкоштовному плані.",
       "UPGRADE_PROMPT": "Оновіть план, щоб отримати доступ до наших асистентів, Copilot і не тільки.",
       "UPGRADE_NOW": "Оновити зараз",
       "CANCEL_ANYTIME": "Ви можете змінити або скасувати план у будь-який час"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI доступний тільки в планах Enterprise.",
+      "AVAILABLE_ON": "BuzzAgents AI доступний тільки в планах Enterprise.",
       "UPGRADE_PROMPT": "Оновіть план, щоб отримати доступ до наших асистентів, Copilot і не тільки.",
       "ASK_ADMIN": "Будь ласка, зверніться до адміністратора для оновлення."
     },
     "BANNER": {
-      "RESPONSES": "Ви використали понад 80% ліміту відповідей. Щоб продовжити використовувати Agentrix AI, будь ласка, оновіть план.",
-      "DOCUMENTS": "Досягнуто ліміту документів. Оновіть план, щоб продовжити використовувати Agentrix AI."
+      "RESPONSES": "Ви використали понад 80% ліміту відповідей. Щоб продовжити використовувати BuzzAgents AI, будь ласка, оновіть план.",
+      "DOCUMENTS": "Досягнуто ліміту документів. Оновіть план, щоб продовжити використовувати BuzzAgents AI."
     },
     "FORM": {
       "CANCEL": "Скасувати",
@@ -655,8 +655,8 @@
         "TITLE": "No assistants available",
         "SUBTITLE": "Create an assistant to provide quick and accurate responses to your users. It can learn from your help articles and past conversations.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Assistant",
-          "NOTE": "Agentrix Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "BuzzAgents Assistant",
+          "NOTE": "BuzzAgents Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Document",
-          "NOTE": "A document in Agentrix serves as a knowledge resource for the assistant. By connecting your help center or guides, Agentrix can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "BuzzAgents Document",
+          "NOTE": "A document in BuzzAgents serves as a knowledge resource for the assistant. By connecting your help center or guides, BuzzAgents can analyze the content and provide accurate responses for customer inquiries."
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "Failed to delete custom tool"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Відкрити рахунок",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Будь ласка, зверніться до адміністратора для оновлення."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "There was an error deleting the FAQ, please try again."
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix has found some FAQs your customers were looking for.",
+        "TITLE": "BuzzAgents has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "Add a question and its corresponding answer to the knowledge base and select the assistant it should be associated with.",
@@ -1145,8 +1145,8 @@
         "SUBTITLE": "FAQs help your assistant provide quick and accurate answers to questions from your customers. They can be generated automatically from your content or can be added manually.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix FAQ",
-          "NOTE": "Agentrix FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "BuzzAgents FAQ",
+          "NOTE": "BuzzAgents FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         }
       },
       "ERRORS": {

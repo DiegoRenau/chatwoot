@@ -324,7 +324,7 @@
     "ACTIVE": "Activo",
     "COMPANIES": "Empresas",
     "ALL_COMPANIES": "Todas las empresas",
-    "CAPTAIN": "Agentrix",
+    "CAPTAIN": "BuzzAgents",
     "CAPTAIN_ASSISTANTS": "Asistentes",
     "CAPTAIN_OVERVIEW": "Resumen",
     "CAPTAIN_DOCUMENTS": "Documentos",
@@ -411,7 +411,7 @@
     },
     "DOCS": "Leer documentos",
     "SECURITY": "Seguridad",
-    "CAPTAIN_AI": "Agentrix",
+    "CAPTAIN_AI": "BuzzAgents",
     "CONVERSATION_WORKFLOW": "Flujo de conversación",
     "CALLS": "Llamadas",
     "WHATSAPP_TEMPLATES": "Plantillas"
@@ -528,11 +528,11 @@
     }
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Configuración de Agentrix",
-    "DESCRIPTION": "Configura los modelos de IA y las funciones de Agentrix. Agentrix funciona con facturación basada en créditos: se te cobrarán créditos por cada acción que realice Agentrix según el modelo seleccionado.",
-    "LOADING": "Cargando la configuración de Agentrix...",
-    "LINK_TEXT": "Más información sobre los créditos de Agentrix",
-    "NOT_ENABLED": "Agentrix no está habilitado para tu cuenta. Actualiza tu plan para acceder a las funciones de Agentrix.",
+    "TITLE": "Configuración de BuzzAgents",
+    "DESCRIPTION": "Configura los modelos de IA y las funciones de BuzzAgents. BuzzAgents funciona con facturación basada en créditos: se te cobrarán créditos por cada acción que realice BuzzAgents según el modelo seleccionado.",
+    "LOADING": "Cargando la configuración de BuzzAgents...",
+    "LINK_TEXT": "Más información sobre los créditos de BuzzAgents",
+    "NOT_ENABLED": "BuzzAgents no está habilitado para tu cuenta. Actualiza tu plan para acceder a las funciones de BuzzAgents.",
     "MODEL_CONFIG": {
       "TITLE": "Configuración de modelos",
       "DESCRIPTION": "Selecciona los modelos de IA para las distintas funciones.",
@@ -575,8 +575,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Configuración de Agentrix actualizada con éxito.",
-      "ERROR": "No se pudo actualizar la configuración de Agentrix. Intenta de nuevo."
+      "SUCCESS": "Configuración de BuzzAgents actualizada con éxito.",
+      "ERROR": "No se pudo actualizar la configuración de BuzzAgents. Intenta de nuevo."
     }
   },
   "BILLING_SETTINGS": {
@@ -606,12 +606,12 @@
       "BUTTON_TXT": "Ir al portal de facturación"
     },
     "CAPTAIN": {
-      "TITLE": "Agentrix",
-      "DESCRIPTION": "Gestione el uso y los créditos para Agentrix AI.",
+      "TITLE": "BuzzAgents",
+      "DESCRIPTION": "Gestione el uso y los créditos para BuzzAgents AI.",
       "BUTTON_TXT": "Comprar más créditos",
       "DOCUMENTS": "Documentos",
       "RESPONSES": "Respuestas",
-      "UPGRADE": "Agentrix no está disponible en el plan gratuito, actualice su suscripción ahora para tener acceso a asistentes, copilot y más.",
+      "UPGRADE": "BuzzAgents no está disponible en el plan gratuito, actualice su suscripción ahora para tener acceso a asistentes, copilot y más.",
       "REFRESH_CREDITS": "Actualizar"
     },
     "CHAT_WITH_US": {
@@ -623,7 +623,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Comprar más créditos",
       "MODAL_TITLE": "Comprar créditos de IA",
-      "MODAL_DESCRIPTION": "Compra créditos adicionales para Agentrix AI.",
+      "MODAL_DESCRIPTION": "Compra créditos adicionales para BuzzAgents AI.",
       "CREDITS": "CRÉDITOS",
       "ONE_TIME": "pago único",
       "POPULAR": "Más popular",

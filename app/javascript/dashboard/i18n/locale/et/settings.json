@@ -528,11 +528,11 @@
     }
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Agentrix Settings",
-    "DESCRIPTION": "Seadista oma AI mudelid ja funktsioonid Agentrixile. Agentrix kasutab krediidipõhist arveldamist, iga Agentrixi tegevuse eest valitud mudeli alusel võetakse krediite.",
-    "LOADING": "Loading Agentrix configuration...",
-    "LINK_TEXT": "Learn more about Agentrix Credits",
-    "NOT_ENABLED": "Agentrix ei ole sinu kontol lubatud. Palun uuenda oma plaani, et pääseda Agentrixi funktsioonidele ligi.",
+    "TITLE": "BuzzAgents Settings",
+    "DESCRIPTION": "Seadista oma AI mudelid ja funktsioonid BuzzAgentsile. BuzzAgents kasutab krediidipõhist arveldamist, iga BuzzAgentsi tegevuse eest valitud mudeli alusel võetakse krediite.",
+    "LOADING": "Loading BuzzAgents configuration...",
+    "LINK_TEXT": "Learn more about BuzzAgents Credits",
+    "NOT_ENABLED": "BuzzAgents ei ole sinu kontol lubatud. Palun uuenda oma plaani, et pääseda BuzzAgentsi funktsioonidele ligi.",
     "MODEL_CONFIG": {
       "TITLE": "Mudeli seadistus",
       "DESCRIPTION": "Vali AI mudelid erinevate funktsioonide jaoks.",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Agentrix settings updated successfully.",
-      "ERROR": "Failed to update Agentrix settings. Please try again."
+      "SUCCESS": "BuzzAgents settings updated successfully.",
+      "ERROR": "Failed to update BuzzAgents settings. Please try again."
     }
   },
   "BILLING_SETTINGS": {
@@ -605,11 +605,11 @@
     },
     "CAPTAIN": {
       "TITLE": "Kapten",
-      "DESCRIPTION": "Halda Agentrix AI kasutust ja krediite.",
+      "DESCRIPTION": "Halda BuzzAgents AI kasutust ja krediite.",
       "BUTTON_TXT": "Osta rohkem krediite",
       "DOCUMENTS": "Dokumendid",
       "RESPONSES": "Responses",
-      "UPGRADE": "Agentrix ei ole tasuta plaanis saadaval, uuenda kohe, et saada ligipääs assistentidele, copilotile ja muule.",
+      "UPGRADE": "BuzzAgents ei ole tasuta plaanis saadaval, uuenda kohe, et saada ligipääs assistentidele, copilotile ja muule.",
       "REFRESH_CREDITS": "Värskenda"
     },
     "CHAT_WITH_US": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Osta rohkem krediite",
       "MODAL_TITLE": "Osta AI krediite",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Agentrix AI.",
+      "MODAL_DESCRIPTION": "Purchase additional credits for BuzzAgents AI.",
       "CREDITS": "KREDIIDID",
       "ONE_TIME": "ühekordne",
       "POPULAR": "Kõige populaarsem",

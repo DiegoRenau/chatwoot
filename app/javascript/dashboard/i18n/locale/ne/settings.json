@@ -413,7 +413,7 @@
     },
     "DOCS": "डक्स पढ्नु",
     "SECURITY": "सुरक्षा",
-    "CAPTAIN_AI": "Agentrix",
+    "CAPTAIN_AI": "BuzzAgents",
     "CONVERSATION_WORKFLOW": "वार्ता कार्यप्रवाह"
   },
   "DATA_IMPORTS": {
@@ -528,11 +528,11 @@
     }
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Agentrix सेटिङहरू",
-    "DESCRIPTION": "Agentrix का लागि तपाईंका AI मोडेल र सुविधाहरू कन्फिगर गर्नुहोस्। Agentrix क्रेडिटमा आधारित बिलिङमा चल्छ, चयन गरिएको मोडेलअनुसार Agentrix ले प्रत्येक कार्य गर्दा तपाईंको क्रेडिट कटौती हुनेछ।",
-    "LOADING": "Agentrix कन्फिगरेसन लोड हुँदैछ...",
-    "LINK_TEXT": "Agentrix क्रेडिटबारे थप जान्नुहोस्",
-    "NOT_ENABLED": "तपाईंको खातामा Agentrix सक्षम गरिएको छैन। Agentrix सुविधाहरू प्रयोग गर्न योजना स्तरोन्नति गर्नुहोस्।",
+    "TITLE": "BuzzAgents सेटिङहरू",
+    "DESCRIPTION": "BuzzAgents का लागि तपाईंका AI मोडेल र सुविधाहरू कन्फिगर गर्नुहोस्। BuzzAgents क्रेडिटमा आधारित बिलिङमा चल्छ, चयन गरिएको मोडेलअनुसार BuzzAgents ले प्रत्येक कार्य गर्दा तपाईंको क्रेडिट कटौती हुनेछ।",
+    "LOADING": "BuzzAgents कन्फिगरेसन लोड हुँदैछ...",
+    "LINK_TEXT": "BuzzAgents क्रेडिटबारे थप जान्नुहोस्",
+    "NOT_ENABLED": "तपाईंको खातामा BuzzAgents सक्षम गरिएको छैन। BuzzAgents सुविधाहरू प्रयोग गर्न योजना स्तरोन्नति गर्नुहोस्।",
     "MODEL_CONFIG": {
       "TITLE": "मोडेल कन्फिगरेसन",
       "DESCRIPTION": "विभिन्न सुविधाहरूका लागि AI मोडेलहरू छान्नुहोस्।",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Agentrix सेटिङहरू सफलतापूर्वक अद्यावधिक गरियो।",
-      "ERROR": "Agentrix सेटिङहरू अद्यावधिक गर्न असफल। कृपया फेरि प्रयास गर्नुहोस्।"
+      "SUCCESS": "BuzzAgents सेटिङहरू सफलतापूर्वक अद्यावधिक गरियो।",
+      "ERROR": "BuzzAgents सेटिङहरू अद्यावधिक गर्न असफल। कृपया फेरि प्रयास गर्नुहोस्।"
     }
   },
   "BILLING_SETTINGS": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "थप क्रेडिट किन्नुहोस्",
       "MODAL_TITLE": "AI क्रेडिट किन्नुहोस्",
-      "MODAL_DESCRIPTION": "Agentrix AI का लागि थप क्रेडिट किन्नुहोस्।",
+      "MODAL_DESCRIPTION": "BuzzAgents AI का लागि थप क्रेडिट किन्नुहोस्।",
       "CREDITS": "CREDITS",
       "ONE_TIME": "एक पटकको",
       "POPULAR": "सबैभन्दा लोकप्रिय",

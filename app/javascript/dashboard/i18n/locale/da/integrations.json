@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Agentrix is not enabled on your account.",
+      "DISABLED": "BuzzAgents is not enabled on your account.",
       "CLICK_HERE_TO_CONFIGURE": "Click here to configure",
-      "LOADING_CONSOLE": "Loading Agentrix Console...",
-      "FAILED_TO_LOAD_CONSOLE": "Failed to load Agentrix Console. Please refresh and try again."
+      "LOADING_CONSOLE": "Loading BuzzAgents Console...",
+      "FAILED_TO_LOAD_CONSOLE": "Failed to load BuzzAgents Console. Please refresh and try again."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Abonnerede Begivenheder",
@@ -397,12 +397,12 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Agentrix",
+    "NAME": "BuzzAgents",
     "HEADER_KNOW_MORE": "Få mere at vide",
     "OVERVIEW": {
       "HEADER": "Oversigt",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "Legeplads",
@@ -487,7 +487,7 @@
       "KICK_OFF_MESSAGE": "Brug for et hurtigt sammendrag, vil du tjekke tidligere samtaler eller udarbejde et bedre svar? Copilot er her for at fremskynde processen.",
       "SEND_MESSAGE": "Send besked...",
       "EMPTY_MESSAGE": "Der opstod en fejl ved generering af svaret. Prøv igen.",
-      "LOADER": "Agentrix tænker",
+      "LOADER": "BuzzAgents tænker",
       "YOU": "Dig",
       "USE": "Brug dette",
       "RESET": "Nulstil",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "Skriv din besked...",
       "HEADER": "Legeplads",
       "DESCRIPTION": "Brug denne legeplads til at sende beskeder til din assistent og tjekke, om den svarer korrekt, hurtigt og i den tone, du forventer.",
-      "CREDIT_NOTE": "Beskeder sendt her tæller mod dine Agentrix-kreditter."
+      "CREDIT_NOTE": "Beskeder sendt her tæller mod dine BuzzAgents-kreditter."
     },
     "PAYWALL": {
-      "TITLE": "Opgrader for at bruge Agentrix AI",
-      "AVAILABLE_ON": "Agentrix er ikke tilgængelig på gratisplanen.",
+      "TITLE": "Opgrader for at bruge BuzzAgents AI",
+      "AVAILABLE_ON": "BuzzAgents er ikke tilgængelig på gratisplanen.",
       "UPGRADE_PROMPT": "Opgrader din plan for at få adgang til vores assistenter, copilot og mere.",
       "UPGRADE_NOW": "Upgrade now",
       "CANCEL_ANYTIME": "You can change or cancel your plan anytime"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI er kun tilgængelig i Enterprise-planerne.",
+      "AVAILABLE_ON": "BuzzAgents AI er kun tilgængelig i Enterprise-planerne.",
       "UPGRADE_PROMPT": "Opgrader din plan for at få adgang til vores assistenter, copilot og mere.",
       "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
     },
     "BANNER": {
-      "RESPONSES": "Du har brugt over 80 % af din svargrænse. For at fortsætte med at bruge Agentrix AI skal du opgradere.",
-      "DOCUMENTS": "Dokumentgrænse nået. Opgrader for at fortsætte med at bruge Agentrix AI."
+      "RESPONSES": "Du har brugt over 80 % af din svargrænse. For at fortsætte med at bruge BuzzAgents AI skal du opgradere.",
+      "DOCUMENTS": "Dokumentgrænse nået. Opgrader for at fortsætte med at bruge BuzzAgents AI."
     },
     "FORM": {
       "CANCEL": "Annuller",
@@ -655,8 +655,8 @@
         "TITLE": "No assistants available",
         "SUBTITLE": "Create an assistant to provide quick and accurate responses to your users. It can learn from your help articles and past conversations.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Assistant",
-          "NOTE": "Agentrix Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "BuzzAgents Assistant",
+          "NOTE": "BuzzAgents Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Document",
-          "NOTE": "A document in Agentrix serves as a knowledge resource for the assistant. By connecting your help center or guides, Agentrix can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "BuzzAgents Document",
+          "NOTE": "A document in BuzzAgents serves as a knowledge resource for the assistant. By connecting your help center or guides, BuzzAgents can analyze the content and provide accurate responses for customer inquiries."
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "Failed to delete custom tool"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Open billing",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "There was an error deleting the FAQ, please try again."
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix has found some FAQs your customers were looking for.",
+        "TITLE": "BuzzAgents has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "Add a question and its corresponding answer to the knowledge base and select the assistant it should be associated with.",
@@ -1145,8 +1145,8 @@
         "SUBTITLE": "FAQs help your assistant provide quick and accurate answers to questions from your customers. They can be generated automatically from your content or can be added manually.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix FAQ",
-          "NOTE": "Agentrix FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "BuzzAgents FAQ",
+          "NOTE": "BuzzAgents FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         }
       },
       "ERRORS": {

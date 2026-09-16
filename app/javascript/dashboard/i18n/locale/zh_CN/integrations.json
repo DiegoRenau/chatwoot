@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "您的账户未启用 Agentrix。",
+      "DISABLED": "您的账户未启用 BuzzAgents。",
       "CLICK_HERE_TO_CONFIGURE": "点击此处配置",
-      "LOADING_CONSOLE": "正在加载 Agentrix 控制台……",
-      "FAILED_TO_LOAD_CONSOLE": "加载 Agentrix 控制台失败。请刷新页面并重试。"
+      "LOADING_CONSOLE": "正在加载 BuzzAgents 控制台……",
+      "FAILED_TO_LOAD_CONSOLE": "加载 BuzzAgents 控制台失败。请刷新页面并重试。"
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "订阅事件",
@@ -397,12 +397,12 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Agentrix",
+    "NAME": "BuzzAgents",
     "HEADER_KNOW_MORE": "了解更多",
     "OVERVIEW": {
       "HEADER": "概览",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "试验场",
@@ -487,7 +487,7 @@
       "KICK_OFF_MESSAGE": "需要快速摘要、回顾过往对话，或是优化回复内容？Copilot 可助您一臂之力，全面提升工作效率。",
       "SEND_MESSAGE": "发送消息...",
       "EMPTY_MESSAGE": "生成响应时出错。请重试。",
-      "LOADER": "Agentrix 正在思考",
+      "LOADER": "BuzzAgents 正在思考",
       "YOU": "您",
       "USE": "使用此",
       "RESET": "重置",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "输入您的消息...",
       "HEADER": "试验场",
       "DESCRIPTION": "使用此试验场向您的助手发送消息，并检查其是否能够准确、快速地以您期望的语气做出回应。",
-      "CREDIT_NOTE": "这里发送的消息将计入您的 Agentrix 积分。"
+      "CREDIT_NOTE": "这里发送的消息将计入您的 BuzzAgents 积分。"
     },
     "PAYWALL": {
-      "TITLE": "升级以使用 Agentrix AI",
-      "AVAILABLE_ON": "Agentrix 在免费计划中不可用。",
+      "TITLE": "升级以使用 BuzzAgents AI",
+      "AVAILABLE_ON": "BuzzAgents 在免费计划中不可用。",
       "UPGRADE_PROMPT": "升级您的计划以获取我们的助手、副驾驶等功能。",
       "UPGRADE_NOW": "立即升级",
       "CANCEL_ANYTIME": "您可以随时更改或取消您的计划"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI 仅适用于企业计划。",
+      "AVAILABLE_ON": "BuzzAgents AI 仅适用于企业计划。",
       "UPGRADE_PROMPT": "升级您的计划以获取我们的助手、副驾驶等功能。",
       "ASK_ADMIN": "请联系您的管理员进行升级。"
     },
     "BANNER": {
-      "RESPONSES": "您已使用超过 80% 的回复限制。要继续使用 Agentrix AI，请升级。",
-      "DOCUMENTS": "文档限制已满。升级以继续使用 Agentrix AI。"
+      "RESPONSES": "您已使用超过 80% 的回复限制。要继续使用 BuzzAgents AI，请升级。",
+      "DOCUMENTS": "文档限制已满。升级以继续使用 BuzzAgents AI。"
     },
     "FORM": {
       "CANCEL": "取消",
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix 文档",
-          "NOTE": "在 Agentrix 中的文档作为助理的知识资源。通过连接您的帮助中心或指南，Agentrix 可以分析内容并为客户询问提供准确的回答。"
+          "TITLE": "BuzzAgents 文档",
+          "NOTE": "在 BuzzAgents 中的文档作为助理的知识资源。通过连接您的帮助中心或指南，BuzzAgents 可以分析内容并为客户询问提供准确的回答。"
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "Failed to delete custom tool"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "查看计费",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "请联系您的管理员进行升级。"
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "删除常见问题时出错，请重试"
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix has found some FAQs your customers were looking for.",
+        "TITLE": "BuzzAgents has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "将问题及其对应的答案添加到知识库，并选择应关联的助手。",
@@ -1145,8 +1145,8 @@
         "SUBTITLE": "常见问题帮助您的助手为客户提供快速准确的答案。它们可以从您的内容自动生成，也可以手动添加。",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix 常见问题",
-          "NOTE": "Agentrix FAQs 检测常见的客户问题——无论是知识库中缺失的问题还是经常被问到的问题——并生成相关的常见问题以改善支持。您可以查看每个建议，并决定是否批准或拒绝它。"
+          "TITLE": "BuzzAgents 常见问题",
+          "NOTE": "BuzzAgents FAQs 检测常见的客户问题——无论是知识库中缺失的问题还是经常被问到的问题——并生成相关的常见问题以改善支持。您可以查看每个建议，并决定是否批准或拒绝它。"
         }
       },
       "ERRORS": {

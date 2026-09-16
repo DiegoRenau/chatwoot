@@ -324,7 +324,7 @@
     "ACTIVE": "Aktiv",
     "COMPANIES": "Şirkətlər",
     "ALL_COMPANIES": "Bütün Şirkətlər",
-    "CAPTAIN": "Agentrix",
+    "CAPTAIN": "BuzzAgents",
     "CAPTAIN_ASSISTANTS": "Köməkçilər",
     "CAPTAIN_OVERVIEW": "Ümumi Baxış",
     "CAPTAIN_DOCUMENTS": "Sənədlər",
@@ -530,9 +530,9 @@
   "CAPTAIN_SETTINGS": {
     "TITLE": "Kapitan Ayarları",
     "DESCRIPTION": "Kapitan üçün AI modellərinizi və xüsusiyyətlərinizi konfiqurasiya edin. Kapitan kredit əsaslı ödəniş sistemi ilə işləyir, seçilmiş modelə əsasən Kapitanın hər hərəkəti üçün kreditlər hesablanacaq.",
-    "LOADING": "Agentrix konfiqurasiyası yüklənir...",
-    "LINK_TEXT": "Agentrix Krediti haqqında daha çox məlumat əldə edin",
-    "NOT_ENABLED": "Agentrix hesabınız üçün aktiv deyil. Agentrix xüsusiyyətlərinə daxil olmaq üçün planınızı yüksəldin.",
+    "LOADING": "BuzzAgents konfiqurasiyası yüklənir...",
+    "LINK_TEXT": "BuzzAgents Krediti haqqında daha çox məlumat əldə edin",
+    "NOT_ENABLED": "BuzzAgents hesabınız üçün aktiv deyil. BuzzAgents xüsusiyyətlərinə daxil olmaq üçün planınızı yüksəldin.",
     "MODEL_CONFIG": {
       "TITLE": "Model Konfiqurasiyası",
       "DESCRIPTION": "Fərqli xüsusiyyətlər üçün AI modellərini seçin.",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Agentrix parametrləri uğurla yeniləndi.",
-      "ERROR": "Agentrix parametrlərini yeniləmək alınmadı. Zəhmət olmasa, yenidən cəhd edin."
+      "SUCCESS": "BuzzAgents parametrləri uğurla yeniləndi.",
+      "ERROR": "BuzzAgents parametrlərini yeniləmək alınmadı. Zəhmət olmasa, yenidən cəhd edin."
     }
   },
   "BILLING_SETTINGS": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Daha çox kredit al",
       "MODAL_TITLE": "AI Kreditləri Al",
-      "MODAL_DESCRIPTION": "Agentrix AI üçün əlavə kreditlər satın alın.",
+      "MODAL_DESCRIPTION": "BuzzAgents AI üçün əlavə kreditlər satın alın.",
       "CREDITS": "KREDİTLƏR",
       "ONE_TIME": "bir dəfəlik",
       "POPULAR": "Ən Populyar",

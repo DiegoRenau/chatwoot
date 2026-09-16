@@ -528,11 +528,11 @@
     }
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Agentrix Settings",
-    "DESCRIPTION": "Configure your AI models and features for Agentrix. Agentrix follows a credit based billing, you will be charged credits for every action Agentrix takes based on the model selected.",
-    "LOADING": "Loading Agentrix configuration...",
-    "LINK_TEXT": "Learn more about Agentrix Credits",
-    "NOT_ENABLED": "Agentrix is not enabled for your account. Please upgrade your plan to access Agentrix features.",
+    "TITLE": "BuzzAgents Settings",
+    "DESCRIPTION": "Configure your AI models and features for BuzzAgents. BuzzAgents follows a credit based billing, you will be charged credits for every action BuzzAgents takes based on the model selected.",
+    "LOADING": "Loading BuzzAgents configuration...",
+    "LINK_TEXT": "Learn more about BuzzAgents Credits",
+    "NOT_ENABLED": "BuzzAgents is not enabled for your account. Please upgrade your plan to access BuzzAgents features.",
     "MODEL_CONFIG": {
       "TITLE": "Model Configuration",
       "DESCRIPTION": "Select AI models for different features.",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Agentrix settings updated successfully.",
-      "ERROR": "Failed to update Agentrix settings. Please try again."
+      "SUCCESS": "BuzzAgents settings updated successfully.",
+      "ERROR": "Failed to update BuzzAgents settings. Please try again."
     }
   },
   "BILLING_SETTINGS": {
@@ -605,11 +605,11 @@
     },
     "CAPTAIN": {
       "TITLE": "Капитан",
-      "DESCRIPTION": "Управляйте использованием и кредитами для Agentrix AI.",
+      "DESCRIPTION": "Управляйте использованием и кредитами для BuzzAgents AI.",
       "BUTTON_TXT": "Купить дополнительные кредиты",
       "DOCUMENTS": "Документы",
       "RESPONSES": "Ответы",
-      "UPGRADE": "Agentrix недоступен в бесплатном тарифном плане, обновите его, чтобы получить доступ к ассистентам, copilot и другим функциям.",
+      "UPGRADE": "BuzzAgents недоступен в бесплатном тарифном плане, обновите его, чтобы получить доступ к ассистентам, copilot и другим функциям.",
       "REFRESH_CREDITS": "Обновить"
     },
     "CHAT_WITH_US": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Купить дополнительные кредиты",
       "MODAL_TITLE": "Купить ИИ кредиты",
-      "MODAL_DESCRIPTION": "Купить дополнительные кредиты для Agentrix AI.",
+      "MODAL_DESCRIPTION": "Купить дополнительные кредиты для BuzzAgents AI.",
       "CREDITS": "КРЕДИТЫ",
       "ONE_TIME": "один раз",
       "POPULAR": "Самый популярный",

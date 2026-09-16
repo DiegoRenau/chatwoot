@@ -324,7 +324,7 @@
     "ACTIVE": "状态",
     "COMPANIES": "公司",
     "ALL_COMPANIES": "All Companies",
-    "CAPTAIN": "Agentrix",
+    "CAPTAIN": "BuzzAgents",
     "CAPTAIN_ASSISTANTS": "助手",
     "CAPTAIN_OVERVIEW": "概览",
     "CAPTAIN_DOCUMENTS": "文档",
@@ -411,7 +411,7 @@
     },
     "DOCS": "阅读文档",
     "SECURITY": "安全",
-    "CAPTAIN_AI": "Agentrix",
+    "CAPTAIN_AI": "BuzzAgents",
     "CONVERSATION_WORKFLOW": "Conversation Workflow",
     "CALLS": "Calls",
     "WHATSAPP_TEMPLATES": "Templates"
@@ -528,11 +528,11 @@
     }
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Agentrix Settings",
-    "DESCRIPTION": "Configure your AI models and features for Agentrix. Agentrix follows a credit based billing, you will be charged credits for every action Agentrix takes based on the model selected.",
-    "LOADING": "Loading Agentrix configuration...",
-    "LINK_TEXT": "Learn more about Agentrix Credits",
-    "NOT_ENABLED": "Agentrix is not enabled for your account. Please upgrade your plan to access Agentrix features.",
+    "TITLE": "BuzzAgents Settings",
+    "DESCRIPTION": "Configure your AI models and features for BuzzAgents. BuzzAgents follows a credit based billing, you will be charged credits for every action BuzzAgents takes based on the model selected.",
+    "LOADING": "Loading BuzzAgents configuration...",
+    "LINK_TEXT": "Learn more about BuzzAgents Credits",
+    "NOT_ENABLED": "BuzzAgents is not enabled for your account. Please upgrade your plan to access BuzzAgents features.",
     "MODEL_CONFIG": {
       "TITLE": "Model Configuration",
       "DESCRIPTION": "Select AI models for different features.",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Agentrix settings updated successfully.",
-      "ERROR": "Failed to update Agentrix settings. Please try again."
+      "SUCCESS": "BuzzAgents settings updated successfully.",
+      "ERROR": "Failed to update BuzzAgents settings. Please try again."
     }
   },
   "BILLING_SETTINGS": {
@@ -604,12 +604,12 @@
       "BUTTON_TXT": "前往账单门户"
     },
     "CAPTAIN": {
-      "TITLE": "Agentrix",
-      "DESCRIPTION": "管理 Agentrix AI 的使用和积分。",
+      "TITLE": "BuzzAgents",
+      "DESCRIPTION": "管理 BuzzAgents AI 的使用和积分。",
       "BUTTON_TXT": "购买更多积分",
       "DOCUMENTS": "文档",
       "RESPONSES": "常见问题",
-      "UPGRADE": "Agentrix 在免费计划中不可用，立即升级以获取助手、副驾驶等更多功能。",
+      "UPGRADE": "BuzzAgents 在免费计划中不可用，立即升级以获取助手、副驾驶等更多功能。",
       "REFRESH_CREDITS": "刷新"
     },
     "CHAT_WITH_US": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "购买更多积分",
       "MODAL_TITLE": "Buy AI Credits",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Agentrix AI.",
+      "MODAL_DESCRIPTION": "Purchase additional credits for BuzzAgents AI.",
       "CREDITS": "CREDITS",
       "ONE_TIME": "one-time",
       "POPULAR": "Most Popular",

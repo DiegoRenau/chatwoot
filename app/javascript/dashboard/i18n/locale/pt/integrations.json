@@ -397,12 +397,12 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Agentrix",
+    "NAME": "BuzzAgents",
     "HEADER_KNOW_MORE": "Saiba mais",
     "OVERVIEW": {
       "HEADER": "Visão geral",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "Área de testes",
@@ -487,7 +487,7 @@
       "KICK_OFF_MESSAGE": "Precisa de um resumo rápido, quer consultar conversas anteriores ou redigir uma resposta melhor? O Copilot está aqui para acelerar o processo.",
       "SEND_MESSAGE": "Enviar mensagem...",
       "EMPTY_MESSAGE": "Ocorreu um erro ao gerar a resposta. Por favor, tente novamente.",
-      "LOADER": "Agentrix está pensando",
+      "LOADER": "BuzzAgents está pensando",
       "YOU": "Você",
       "USE": "Usar isto",
       "RESET": "Resetar",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "Escreva a sua mensagem...",
       "HEADER": "Área de testes",
       "DESCRIPTION": "Use este playground para enviar mensagens para o seu assistente e verificar se ele responde com precisão, rápido e no tom esperado.",
-      "CREDIT_NOTE": "As mensagens aqui enviadas vão contar para os créditos do seu Agentrix."
+      "CREDIT_NOTE": "As mensagens aqui enviadas vão contar para os créditos do seu BuzzAgents."
     },
     "PAYWALL": {
-      "TITLE": "Faça upgrade para usar o Agentrix AI",
-      "AVAILABLE_ON": "Agentrix não está disponível no plano gratuito.",
+      "TITLE": "Faça upgrade para usar o BuzzAgents AI",
+      "AVAILABLE_ON": "BuzzAgents não está disponível no plano gratuito.",
       "UPGRADE_PROMPT": "Faça upgrade do seu plano para ter acesso aos nossos assistentes, copiloto e mais.",
       "UPGRADE_NOW": "Fazer upgrade agora",
       "CANCEL_ANYTIME": "Pode alterar ou cancelar o plano a qualquer momento"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI está disponível apenas nos planos Enterprise.",
+      "AVAILABLE_ON": "BuzzAgents AI está disponível apenas nos planos Enterprise.",
       "UPGRADE_PROMPT": "Faça upgrade do seu plano para ter acesso aos nossos assistentes, copiloto e mais.",
       "ASK_ADMIN": "Por favor, entre em contato com o administrador para atualização."
     },
     "BANNER": {
-      "RESPONSES": "Você usou mais de 80% do seu limite de respostas. Para continuar usando o Agentrix AI, por favor faça upgrade.",
-      "DOCUMENTS": "Limite de documentos atingido. Faça upgrade para continuar utilizando o Agentrix AI."
+      "RESPONSES": "Você usou mais de 80% do seu limite de respostas. Para continuar usando o BuzzAgents AI, por favor faça upgrade.",
+      "DOCUMENTS": "Limite de documentos atingido. Faça upgrade para continuar utilizando o BuzzAgents AI."
     },
     "FORM": {
       "CANCEL": "Cancelar",
@@ -655,8 +655,8 @@
         "TITLE": "No assistants available",
         "SUBTITLE": "Create an assistant to provide quick and accurate responses to your users. It can learn from your help articles and past conversations.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Assistant",
-          "NOTE": "Agentrix Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "BuzzAgents Assistant",
+          "NOTE": "BuzzAgents Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Document",
-          "NOTE": "A document in Agentrix serves as a knowledge resource for the assistant. By connecting your help center or guides, Agentrix can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "BuzzAgents Document",
+          "NOTE": "A document in BuzzAgents serves as a knowledge resource for the assistant. By connecting your help center or guides, BuzzAgents can analyze the content and provide accurate responses for customer inquiries."
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "Failed to delete custom tool"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Abrir faturação",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Por favor, entre em contato com o administrador para atualização."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "There was an error deleting the FAQ, please try again."
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix has found some FAQs your customers were looking for.",
+        "TITLE": "BuzzAgents has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "Add a question and its corresponding answer to the knowledge base and select the assistant it should be associated with.",
@@ -1145,8 +1145,8 @@
         "SUBTITLE": "FAQs help your assistant provide quick and accurate answers to questions from your customers. They can be generated automatically from your content or can be added manually.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix FAQ",
-          "NOTE": "Agentrix FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "BuzzAgents FAQ",
+          "NOTE": "BuzzAgents FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         }
       },
       "ERRORS": {

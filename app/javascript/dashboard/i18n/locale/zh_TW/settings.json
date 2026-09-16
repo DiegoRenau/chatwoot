@@ -324,7 +324,7 @@
     "ACTIVE": "進行中",
     "COMPANIES": "公司",
     "ALL_COMPANIES": "所有公司",
-    "CAPTAIN": "Agentrix",
+    "CAPTAIN": "BuzzAgents",
     "CAPTAIN_ASSISTANTS": "助理",
     "CAPTAIN_OVERVIEW": "總覽",
     "CAPTAIN_DOCUMENTS": "文件",
@@ -411,7 +411,7 @@
     },
     "DOCS": "閱讀文件",
     "SECURITY": "安全性",
-    "CAPTAIN_AI": "Agentrix",
+    "CAPTAIN_AI": "BuzzAgents",
     "CONVERSATION_WORKFLOW": "對話工作流程",
     "CALLS": "Calls",
     "WHATSAPP_TEMPLATES": "Templates"
@@ -528,11 +528,11 @@
     }
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Agentrix 設定",
-    "DESCRIPTION": "設定 Agentrix 的 AI 模型和功能。Agentrix 採用點數計費制，您將根據所選模型為 Agentrix 執行的每項操作支付點數。",
-    "LOADING": "正在載入 Agentrix 設定...",
-    "LINK_TEXT": "了解更多關於 Agentrix 點數",
-    "NOT_ENABLED": "您的帳戶尚未啟用 Agentrix。請升級您的方案以使用 Agentrix 功能。",
+    "TITLE": "BuzzAgents 設定",
+    "DESCRIPTION": "設定 BuzzAgents 的 AI 模型和功能。BuzzAgents 採用點數計費制，您將根據所選模型為 BuzzAgents 執行的每項操作支付點數。",
+    "LOADING": "正在載入 BuzzAgents 設定...",
+    "LINK_TEXT": "了解更多關於 BuzzAgents 點數",
+    "NOT_ENABLED": "您的帳戶尚未啟用 BuzzAgents。請升級您的方案以使用 BuzzAgents 功能。",
     "MODEL_CONFIG": {
       "TITLE": "模型設定",
       "DESCRIPTION": "為不同功能選擇 AI 模型。",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Agentrix 設定已成功更新。",
-      "ERROR": "更新 Agentrix 設定失敗，請再試一次。"
+      "SUCCESS": "BuzzAgents 設定已成功更新。",
+      "ERROR": "更新 BuzzAgents 設定失敗，請再試一次。"
     }
   },
   "BILLING_SETTINGS": {
@@ -604,12 +604,12 @@
       "BUTTON_TXT": "前往帳單入口"
     },
     "CAPTAIN": {
-      "TITLE": "Agentrix",
-      "DESCRIPTION": "管理 Agentrix AI 的用量和點數。",
+      "TITLE": "BuzzAgents",
+      "DESCRIPTION": "管理 BuzzAgents AI 的用量和點數。",
       "BUTTON_TXT": "購買更多點數",
       "DOCUMENTS": "文件",
       "RESPONSES": "點數",
-      "UPGRADE": "Agentrix 在免費方案中不可用，立即升級以使用助理、Co-pilot 等功能。",
+      "UPGRADE": "BuzzAgents 在免費方案中不可用，立即升級以使用助理、Co-pilot 等功能。",
       "REFRESH_CREDITS": "重新整理"
     },
     "CHAT_WITH_US": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "購買更多點數",
       "MODAL_TITLE": "購買 AI 點數",
-      "MODAL_DESCRIPTION": "為 Agentrix AI 購買額外的點數。",
+      "MODAL_DESCRIPTION": "為 BuzzAgents AI 購買額外的點數。",
       "CREDITS": "點數",
       "ONE_TIME": "一次性",
       "POPULAR": "最熱門",

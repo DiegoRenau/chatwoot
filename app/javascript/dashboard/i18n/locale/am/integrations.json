@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "አገናኞችን ፈልግ...",
     "NO_RESULTS": "የፈለጉትን አገናኝቶች አልተገኙም",
     "CAPTAIN": {
-      "DISABLED": "Agentrix በአካውንትዎ ላይ አልተነሳም።",
+      "DISABLED": "BuzzAgents በአካውንትዎ ላይ አልተነሳም።",
       "CLICK_HERE_TO_CONFIGURE": "ለማስተካከል እዚህ ጠቅ ያድርጉ",
-      "LOADING_CONSOLE": "Agentrix Console እየጫነ ነው...",
-      "FAILED_TO_LOAD_CONSOLE": "Agentrix Console ለመጫን አልተሳካም። እባክዎን ዳግም ያስመልክቱ እና ይሞክሩ።"
+      "LOADING_CONSOLE": "BuzzAgents Console እየጫነ ነው...",
+      "FAILED_TO_LOAD_CONSOLE": "BuzzAgents Console ለመጫን አልተሳካም። እባክዎን ዳግም ያስመልክቱ እና ይሞክሩ።"
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "ተመዝግቧል የሆኑ ክስተቶች",
@@ -402,7 +402,7 @@
     "OVERVIEW": {
       "HEADER": "አጠቃላይ እይታ",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "መጫወቻ ቦታ",
@@ -487,7 +487,7 @@
       "KICK_OFF_MESSAGE": "ፈጣን ማጠቃለያ ይፈልጋሉ? ያለፉትን ውይይቶች ማረጋገጥ ይፈልጋሉ? ወይም የተሻለ መልስ ማዘጋጀት ይፈልጋሉ? Copilot እዚህ ነው ነገሮችን ለማሳካት።",
       "SEND_MESSAGE": "መልእክት ላክ...",
       "EMPTY_MESSAGE": "መልስ ለመፍጠር ስህተት ተከስቷል። እባክዎ እንደገና ይሞክሩ።",
-      "LOADER": "Agentrix እየሰራ ነው",
+      "LOADER": "BuzzAgents እየሰራ ነው",
       "YOU": "አንተ",
       "USE": "ይጠቀሙበት",
       "RESET": "እንደገና ማስጀመር",
@@ -525,20 +525,20 @@
       "CREDIT_NOTE": "እዚህ የተላኩ መልእክቶች ወደ ካፕቴን ክሬዲቶችዎ ይቆጠራሉ።"
     },
     "PAYWALL": {
-      "TITLE": "Agentrix AI እንዲጠቀሙ ያሻሽሉ",
-      "AVAILABLE_ON": "Agentrix በነፃ እቅድ ላይ አይገኝም።",
+      "TITLE": "BuzzAgents AI እንዲጠቀሙ ያሻሽሉ",
+      "AVAILABLE_ON": "BuzzAgents በነፃ እቅድ ላይ አይገኝም።",
       "UPGRADE_PROMPT": "እርስዎ እቅድዎን ያሻሽሉ እንዲሁም እርዳኞቻችንን፣ ኮፒሎትን እና ተጨማሪ ነገሮችን ያግኙ።",
       "UPGRADE_NOW": "አሁን ያሻሽሉ",
       "CANCEL_ANYTIME": "እቅድዎን በማንኛውም ጊዜ መቀየር ወይም መሰረዝ ይችላሉ"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI በኢንተርፕራይዝ እቅዶች ብቻ ይገኛል።",
+      "AVAILABLE_ON": "BuzzAgents AI በኢንተርፕራይዝ እቅዶች ብቻ ይገኛል።",
       "UPGRADE_PROMPT": "እባክዎ እቅድዎን ያሻሽሉ እንዲሁም እንደ አስማሚዎቻችን፣ ኮፓይሎት እና ተጨማሪ አገልግሎቶች ያግኙ።",
       "ASK_ADMIN": "እባክዎ ለእቅድ ማሻሻያ ከአስተዳደሩ ጋር ያግኙ።"
     },
     "BANNER": {
-      "RESPONSES": "የመልስ አገዛዝዎን ከ<b>80</b>% በላይ ተጠቅመዋል። Agentrix AI ለመቀጠል እባክዎ እቅድዎን ያሻሽሉ።",
-      "DOCUMENTS": "የሰነድ አገዛዝ ደረሰ። Agentrix AI ለመቀጠል እባክዎ እቅድዎን ያሻሽሉ።"
+      "RESPONSES": "የመልስ አገዛዝዎን ከ<b>80</b>% በላይ ተጠቅመዋል። BuzzAgents AI ለመቀጠል እባክዎ እቅድዎን ያሻሽሉ።",
+      "DOCUMENTS": "የሰነድ አገዛዝ ደረሰ። BuzzAgents AI ለመቀጠል እባክዎ እቅድዎን ያሻሽሉ።"
     },
     "FORM": {
       "CANCEL": "ሰርዝ",
@@ -656,7 +656,7 @@
         "SUBTITLE": "በተጠቃሚዎችዎ ፈጣና ትክክለኛ መልሶች ለማቅረብ አስማሚ ይፍጠሩ። ከእርስዎ የእርዳታ ሰነዶችና ያለፉ ውይይቶች ማማረር ይችላል።",
         "FEATURE_SPOTLIGHT": {
           "TITLE": "የካፕቴን አስማሪ",
-          "NOTE": "Agentrix Assistant በቀጥታ ከደንበኞች ጋር ይገናኛል፣ ከእርዳታ ሰነዶችዎና ከያለፈው ውይይቶች ይማራል፣ እና ፈጣን፣ ትክክለኛ ምላሾችን ይሰጣል። የመጀመሪያ ጥያቄዎችን ይከታተላል፣ ፈጣን መፍትሄዎችን ሰጥቶ ከዚያ በኋላ በፍላጎት ሲኖር ወደ ወኪል ይላካል።"
+          "NOTE": "BuzzAgents Assistant በቀጥታ ከደንበኞች ጋር ይገናኛል፣ ከእርዳታ ሰነዶችዎና ከያለፈው ውይይቶች ይማራል፣ እና ፈጣን፣ ትክክለኛ ምላሾችን ይሰጣል። የመጀመሪያ ጥያቄዎችን ይከታተላል፣ ፈጣን መፍትሄዎችን ሰጥቶ ከዚያ በኋላ በፍላጎት ሲኖር ወደ ወኪል ይላካል።"
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix ሰነድ",
-          "NOTE": "በAgentrix ውስጥ ሰነድ እንደ ለማድረግ ምንጭ እንደሚሰራ አገልግሎት አገልግሎት ነው። የእርዳታ ማዕከላችሁን ወይም መምሪያዎችን በመገናኘት፣ Agentrix ይዘቱን ማብራሪያ ማድረግ እና ለደንበኞች ጥያቄዎች ትክክለኛ ምላሾችን ማቅረብ ይችላል።"
+          "TITLE": "BuzzAgents ሰነድ",
+          "NOTE": "በBuzzAgents ውስጥ ሰነድ እንደ ለማድረግ ምንጭ እንደሚሰራ አገልግሎት አገልግሎት ነው። የእርዳታ ማዕከላችሁን ወይም መምሪያዎችን በመገናኘት፣ BuzzAgents ይዘቱን ማብራሪያ ማድረግ እና ለደንበኞች ጥያቄዎች ትክክለኛ ምላሾችን ማቅረብ ይችላል።"
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "ብልጽግና መሣሪያውን ማስወገድ አልተሳካም"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Open billing",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "FAQ ለማጥፋት ስህተት አጋጥሟል፣ እባክህ እንደገና ይሞክሩ።"
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix ደንበኞችዎ የሚፈልጉትን አንዳንድ የተደጋጋሚ ጥያቄዎች ተገናኝቷል።",
+        "TITLE": "BuzzAgents ደንበኞችዎ የሚፈልጉትን አንዳንድ የተደጋጋሚ ጥያቄዎች ተገናኝቷል።",
         "ACTION": "እዚህ ይጫኑ ለማረጋገጥ"
       },
       "FORM_DESCRIPTION": "ጥያቄ እና ከዚያ ተዛማጅ መልስ ወደ እውቀት ቋት ያክሉ እና ከሚዛመደው አስማሪ ይምረጡ።",
@@ -1145,8 +1145,8 @@
         "SUBTITLE": "የተደጋጋሚ ጥያቄዎች አገልጋይዎን ከደንበኞችዎ ጥያቄዎች በፍጥነትና ትክክለኛ መልስ ለማቅረብ ይረዳሉ። እነዚህ ከይዘትዎ በራስሰር ሊፈጠሩ ወይም በእጅ ሊጨምሩ ይችላሉ።",
         "CLEAR_SEARCH": "እየሰሩ ያሉ አሰሳዎችን አጽዳ",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix ተደጋጋሚ ጥያቄዎች",
-          "NOTE": "Agentrix ተደጋጋሚ ጥያቄዎች በደንበኞች መካከል የተለመዱ ጥያቄዎችን ይገነባል—እነሱ ከእርዳታ መረጃ ቤትዎ ውስጥ እንኳን ከሌለው ወይም በተደጋጋሚ የሚጠየቁ ሆነው—እና የሚዛመዱ ተደጋጋሚ ጥያቄዎችን ለድጋፍ ማሻሻል ይፈጥራል። እያንዳንዱን ምክር ማስተካከል ወይም ማቋረጥ መወሰን ይችላሉ።"
+          "TITLE": "BuzzAgents ተደጋጋሚ ጥያቄዎች",
+          "NOTE": "BuzzAgents ተደጋጋሚ ጥያቄዎች በደንበኞች መካከል የተለመዱ ጥያቄዎችን ይገነባል—እነሱ ከእርዳታ መረጃ ቤትዎ ውስጥ እንኳን ከሌለው ወይም በተደጋጋሚ የሚጠየቁ ሆነው—እና የሚዛመዱ ተደጋጋሚ ጥያቄዎችን ለድጋፍ ማሻሻል ይፈጥራል። እያንዳንዱን ምክር ማስተካከል ወይም ማቋረጥ መወሰን ይችላሉ።"
         }
       },
       "ERRORS": {

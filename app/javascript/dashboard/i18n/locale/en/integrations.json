@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Agentrix is not enabled on your account.",
+      "DISABLED": "BuzzAgents is not enabled on your account.",
       "CLICK_HERE_TO_CONFIGURE": "Click here to configure",
-      "LOADING_CONSOLE": "Loading Agentrix Console...",
-      "FAILED_TO_LOAD_CONSOLE": "Failed to load Agentrix Console. Please refresh and try again."
+      "LOADING_CONSOLE": "Loading BuzzAgents Console...",
+      "FAILED_TO_LOAD_CONSOLE": "Failed to load BuzzAgents Console. Please refresh and try again."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Subscribed Events",
@@ -459,7 +459,7 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Agentrix",
+    "NAME": "BuzzAgents",
     "HEADER_KNOW_MORE": "Know more",
     "OVERVIEW": {
       "HEADER": "Overview",
@@ -641,7 +641,7 @@
       "KICK_OFF_MESSAGE": "Need a quick summary, want to check past conversations, or draft a better reply? Copilot’s here to speed things up.",
       "SEND_MESSAGE": "Send message...",
       "EMPTY_MESSAGE": "There was an error generating the response. Please try again.",
-      "LOADER": "Agentrix is thinking",
+      "LOADER": "BuzzAgents is thinking",
       "YOU": "You",
       "USE": "Use this",
       "RESET": "Reset",
@@ -676,23 +676,23 @@
       "MESSAGE_PLACEHOLDER": "Type your message...",
       "HEADER": "Playground",
       "DESCRIPTION": "Use this playground to send messages to your assistant and check if it responds accurately, quickly, and in the tone you expect.",
-      "CREDIT_NOTE": "Messages sent here will count toward your Agentrix credits."
+      "CREDIT_NOTE": "Messages sent here will count toward your BuzzAgents credits."
     },
     "PAYWALL": {
-      "TITLE": "Upgrade to use Agentrix AI",
-      "AVAILABLE_ON": "Agentrix is not available on the free plan.",
+      "TITLE": "Upgrade to use BuzzAgents AI",
+      "AVAILABLE_ON": "BuzzAgents is not available on the free plan.",
       "UPGRADE_PROMPT": "Upgrade your plan to get access to our assistants, copilot and more.",
       "UPGRADE_NOW": "Upgrade now",
       "CANCEL_ANYTIME": "You can change or cancel your plan anytime"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI is only available in the Enterprise plans.",
+      "AVAILABLE_ON": "BuzzAgents AI is only available in the Enterprise plans.",
       "UPGRADE_PROMPT": "Upgrade your plan to get access to our assistants, copilot and more.",
       "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
     },
     "BANNER": {
-      "RESPONSES": "You've used over 80% of your response limit. To continue using Agentrix AI, please upgrade.",
-      "DOCUMENTS": "Document limit reached. Upgrade to continue using Agentrix AI."
+      "RESPONSES": "You've used over 80% of your response limit. To continue using BuzzAgents AI, please upgrade.",
+      "DOCUMENTS": "Document limit reached. Upgrade to continue using BuzzAgents AI."
     },
     "FORM": {
       "CANCEL": "Cancel",
@@ -761,7 +761,7 @@
           "ALLOW_CONVERSATION_FAQS": "Generate FAQs from resolved conversations",
           "ALLOW_MEMORIES": "Capture key details as memories from customer interactions.",
           "ALLOW_CITATIONS": "Include source citations in responses",
-          "ALLOW_CONTACT_ATTRIBUTES": "Allow Agentrix to update contact attributes"
+          "ALLOW_CONTACT_ATTRIBUTES": "Allow BuzzAgents to update contact attributes"
         },
         "TEMPERATURE": {
           "LABEL": "Response Temperature",
@@ -895,8 +895,8 @@
         "TITLE": "No assistants available",
         "SUBTITLE": "Create an assistant to provide quick and accurate responses to your users. It can learn from your help articles and past conversations.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Assistant",
-          "NOTE": "Agentrix Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "BuzzAgents Assistant",
+          "NOTE": "BuzzAgents Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
         }
       },
       "GUARDRAILS": {
@@ -1192,8 +1192,8 @@
         "FILTERED_TITLE": "No documents match your filters",
         "FILTERED_SUBTITLE": "Try adjusting your filters to find what you're looking for.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Document",
-          "NOTE": "A document in Agentrix serves as a knowledge resource for the assistant. By connecting your help center or guides, Agentrix can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "BuzzAgents Document",
+          "NOTE": "A document in BuzzAgents serves as a knowledge resource for the assistant. By connecting your help center or guides, BuzzAgents can analyze the content and provide accurate responses for customer inquiries."
         }
       },
       "USED_IN_CONVERSATIONS": "Used in {n} conversation | Used in {n} conversations",
@@ -1394,8 +1394,8 @@
         "SUBTITLE": "FAQs help your assistant provide quick and accurate answers to questions from your customers. They can be generated automatically from your content or can be added manually.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix FAQ",
-          "NOTE": "Agentrix FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "BuzzAgents FAQ",
+          "NOTE": "BuzzAgents FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         },
         "NO_PENDING_TITLE": "There are no more pending FAQs to review"
       },
@@ -1417,7 +1417,7 @@
         "ALL": "All"
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix has found some FAQs your customers were looking for.",
+        "TITLE": "BuzzAgents has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "NO_USED_CONVERSATIONS": "No conversations found for this FAQ."

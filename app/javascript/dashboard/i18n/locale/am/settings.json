@@ -528,11 +528,11 @@
     }
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "የAgentrix ቅንብሮች",
-    "DESCRIPTION": "ለAgentrix የAI ሞዴሎችና ባለስልጣናት ያስተካክሉ። Agentrix በክሬዲት መሠረት ክፍያ ያደርጋል፣ ለእያንዳንዱ እርምጃ በሞዴሉ መሠረት ክሬዲቶች ይከፈላሉ።.",
-    "LOADING": "የAgentrix ቅንብር እየጫነ ነው...",
-    "LINK_TEXT": "ስለ Agentrix ክሬዲቶች ተጨማሪ ያውቁ",
-    "NOT_ENABLED": "Agentrix ለመለያዎ አልተነሳሳም። ለAgentrix ባለስልጣናት ባለስልጣናት እቅድዎን ያሻሽሉ።.",
+    "TITLE": "የBuzzAgents ቅንብሮች",
+    "DESCRIPTION": "ለBuzzAgents የAI ሞዴሎችና ባለስልጣናት ያስተካክሉ። BuzzAgents በክሬዲት መሠረት ክፍያ ያደርጋል፣ ለእያንዳንዱ እርምጃ በሞዴሉ መሠረት ክሬዲቶች ይከፈላሉ።.",
+    "LOADING": "የBuzzAgents ቅንብር እየጫነ ነው...",
+    "LINK_TEXT": "ስለ BuzzAgents ክሬዲቶች ተጨማሪ ያውቁ",
+    "NOT_ENABLED": "BuzzAgents ለመለያዎ አልተነሳሳም። ለBuzzAgents ባለስልጣናት ባለስልጣናት እቅድዎን ያሻሽሉ።.",
     "MODEL_CONFIG": {
       "TITLE": "የሞዴል ቅንብር",
       "DESCRIPTION": "ለተለያዩ ባለስልጣናት AI ሞዴሎችን ይምረጡ።.",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "የAgentrix ቅንብሮች በተሳካ ሁኔታ ተሻሽለዋል።.",
-      "ERROR": "የAgentrix ቅንብሮችን ማሻሻያ አልተሳካም። እባክዎ እንደገና ይሞክሩ።."
+      "SUCCESS": "የBuzzAgents ቅንብሮች በተሳካ ሁኔታ ተሻሽለዋል።.",
+      "ERROR": "የBuzzAgents ቅንብሮችን ማሻሻያ አልተሳካም። እባክዎ እንደገና ይሞክሩ።."
     }
   },
   "BILLING_SETTINGS": {
@@ -605,11 +605,11 @@
     },
     "CAPTAIN": {
       "TITLE": "ካፕቴን",
-      "DESCRIPTION": "ለAgentrix AI አጠቃቀምና ክሬዲቶችን ያስተዳድሩ።.",
+      "DESCRIPTION": "ለBuzzAgents AI አጠቃቀምና ክሬዲቶችን ያስተዳድሩ።.",
       "BUTTON_TXT": "ተጨማሪ ክሬዲቶች ግዙ",
       "DOCUMENTS": "ሰነዶች",
       "RESPONSES": "Responses",
-      "UPGRADE": "Agentrix በነፃ እቅድ ላይ አይገኝም፣ አሁን ያሻሽሉ እና ለአስስታንት፣ ኮፓይሎት እና ሌሎች ያግኙ።.",
+      "UPGRADE": "BuzzAgents በነፃ እቅድ ላይ አይገኝም፣ አሁን ያሻሽሉ እና ለአስስታንት፣ ኮፓይሎት እና ሌሎች ያግኙ።.",
       "REFRESH_CREDITS": "አዘምን"
     },
     "CHAT_WITH_US": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "ተጨማሪ ክሬዲቶች ግዛ",
       "MODAL_TITLE": "AI ክሬዲቶች ግዛ",
-      "MODAL_DESCRIPTION": "Agentrix AI ለተጨማሪ ክሬዲቶች ግዛ.",
+      "MODAL_DESCRIPTION": "BuzzAgents AI ለተጨማሪ ክሬዲቶች ግዛ.",
       "CREDITS": "ክሬዲቶች",
       "ONE_TIME": "አንድ ጊዜ",
       "POPULAR": "በጣም ተወዳጅ",

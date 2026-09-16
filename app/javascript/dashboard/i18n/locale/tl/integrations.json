@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Hindi naka-enable ang Agentrix sa iyong account.",
+      "DISABLED": "Hindi naka-enable ang BuzzAgents sa iyong account.",
       "CLICK_HERE_TO_CONFIGURE": "I-click dito upang i-configure",
-      "LOADING_CONSOLE": "Naglo-load ang Agentrix Console...",
-      "FAILED_TO_LOAD_CONSOLE": "Nabigong i-load ang Agentrix Console. Pakirefresh at subukang muli."
+      "LOADING_CONSOLE": "Naglo-load ang BuzzAgents Console...",
+      "FAILED_TO_LOAD_CONSOLE": "Nabigong i-load ang BuzzAgents Console. Pakirefresh at subukang muli."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Mga Nakalistang Kaganapan",
@@ -397,12 +397,12 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Agentrix",
+    "NAME": "BuzzAgents",
     "HEADER_KNOW_MORE": "Alamin pa",
     "OVERVIEW": {
       "HEADER": "Pangkalahatan",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "Palaruan",
@@ -487,7 +487,7 @@
       "KICK_OFF_MESSAGE": "Kailangan ng mabilis na buod, nais tingnan ang mga nakaraang pag-uusap, o gumawa ng mas magandang sagot? Narito ang Copilot para pabilisin ang mga bagay.",
       "SEND_MESSAGE": "Magpadala ng mensahe...",
       "EMPTY_MESSAGE": "Nagkaroon ng error sa pagbuo ng sagot. Pakisubukang muli.",
-      "LOADER": "Nag-iisip si Agentrix",
+      "LOADER": "Nag-iisip si BuzzAgents",
       "YOU": "Ikaw",
       "USE": "Gamitin ito",
       "RESET": "I-reset",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "I-type ang iyong mensahe...",
       "HEADER": "Palaruan",
       "DESCRIPTION": "Gamitin ang playground na ito upang magpadala ng mga mensahe sa iyong assistant at suriin kung ito ay tumutugon nang tumpak, mabilis, at sa inaasahang tono.",
-      "CREDIT_NOTE": "Ang mga mensaheng ipinadala dito ay bibilangin para sa iyong Agentrix credits."
+      "CREDIT_NOTE": "Ang mga mensaheng ipinadala dito ay bibilangin para sa iyong BuzzAgents credits."
     },
     "PAYWALL": {
-      "TITLE": "Mag-upgrade para magamit ang Agentrix AI",
-      "AVAILABLE_ON": "Hindi available ang Agentrix sa libreng plano.",
+      "TITLE": "Mag-upgrade para magamit ang BuzzAgents AI",
+      "AVAILABLE_ON": "Hindi available ang BuzzAgents sa libreng plano.",
       "UPGRADE_PROMPT": "I-upgrade ang iyong plano para ma-access ang aming mga assistant, copilot at iba pa.",
       "UPGRADE_NOW": "Mag-upgrade ngayon",
       "CANCEL_ANYTIME": "Maaari mong baguhin o kanselahin ang iyong plano anumang oras"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Ang Agentrix AI ay available lamang sa mga Enterprise na plano.",
+      "AVAILABLE_ON": "Ang BuzzAgents AI ay available lamang sa mga Enterprise na plano.",
       "UPGRADE_PROMPT": "I-upgrade ang iyong plano para ma-access ang aming mga assistant, copilot at iba pa.",
       "ASK_ADMIN": "Mangyaring makipag-ugnayan sa iyong administrator para sa pag-upgrade."
     },
     "BANNER": {
-      "RESPONSES": "Ginamit mo na ang mahigit 80% ng iyong limitasyon sa mga tugon. Upang magpatuloy sa paggamit ng Agentrix AI, pakigawa ng pag-upgrade.",
-      "DOCUMENTS": "Naabot na ang limit ng dokumento. Mag-upgrade upang magpatuloy sa paggamit ng Agentrix AI."
+      "RESPONSES": "Ginamit mo na ang mahigit 80% ng iyong limitasyon sa mga tugon. Upang magpatuloy sa paggamit ng BuzzAgents AI, pakigawa ng pag-upgrade.",
+      "DOCUMENTS": "Naabot na ang limit ng dokumento. Mag-upgrade upang magpatuloy sa paggamit ng BuzzAgents AI."
     },
     "FORM": {
       "CANCEL": "Kanselahin",
@@ -655,8 +655,8 @@
         "TITLE": "Walang mga assistant na magagamit",
         "SUBTITLE": "Gumawa ng assistant upang magbigay ng mabilis at tumpak na mga tugon sa iyong mga user. Maaari itong matuto mula sa iyong mga help article at mga nakaraang pag-uusap.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Assistant",
-          "NOTE": "Direktang nakikipag-ugnayan ang Agentrix Assistant sa mga customer, natututo mula sa iyong mga dokumento ng tulong at mga nakaraang usapan, at nagbibigay ng agarang, tumpak na mga sagot. Hinahawakan nito ang mga unang tanong, nagbibigay ng mabilis na solusyon bago ilipat sa isang ahente kung kinakailangan."
+          "TITLE": "BuzzAgents Assistant",
+          "NOTE": "Direktang nakikipag-ugnayan ang BuzzAgents Assistant sa mga customer, natututo mula sa iyong mga dokumento ng tulong at mga nakaraang usapan, at nagbibigay ng agarang, tumpak na mga sagot. Hinahawakan nito ang mga unang tanong, nagbibigay ng mabilis na solusyon bago ilipat sa isang ahente kung kinakailangan."
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Document",
-          "NOTE": "Ang isang dokumento sa Agentrix ay nagsisilbing pinagkukunan ng kaalaman para sa assistant. Sa pamamagitan ng pagkonekta ng iyong help center o mga gabay, maaaring suriin ni Agentrix ang nilalaman at magbigay ng tumpak na mga sagot para sa mga tanong ng customer."
+          "TITLE": "BuzzAgents Document",
+          "NOTE": "Ang isang dokumento sa BuzzAgents ay nagsisilbing pinagkukunan ng kaalaman para sa assistant. Sa pamamagitan ng pagkonekta ng iyong help center o mga gabay, maaaring suriin ni BuzzAgents ang nilalaman at magbigay ng tumpak na mga sagot para sa mga tanong ng customer."
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "Nagkaroon ng error sa pagtanggal ng pasadyang kasangkapan"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Open billing",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "Nagkaroon ng error sa pagtanggal ng FAQ, pakisubukang muli."
       },
       "PENDING_BANNER": {
-        "TITLE": "Nakakita ang Agentrix ng ilang FAQ na hinahanap ng iyong mga customer.",
+        "TITLE": "Nakakita ang BuzzAgents ng ilang FAQ na hinahanap ng iyong mga customer.",
         "ACTION": "Pindutin dito upang suriin"
       },
       "FORM_DESCRIPTION": "Magdagdag ng tanong at ang kaukulang sagot sa knowledge base at piliin ang assistant na iuugnay dito.",
@@ -1145,8 +1145,8 @@
         "SUBTITLE": "Tinutulungan ng FAQs ang iyong assistant na magbigay ng mabilis at tumpak na sagot sa mga tanong mula sa iyong mga customer. Maaari itong malikha nang awtomatiko mula sa iyong nilalaman o maidagdag nang manu-mano.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix FAQ",
-          "NOTE": "Natutukoy ng Agentrix FAQs ang mga karaniwang tanong ng customer—kung wala man sa iyong knowledge base o madalas itanong—at lumilikha ng mga kaugnay na FAQs upang mapabuti ang suporta. Maaari mong suriin ang bawat mungkahi at magpasya kung aaprubahan o tatanggihan ito."
+          "TITLE": "BuzzAgents FAQ",
+          "NOTE": "Natutukoy ng BuzzAgents FAQs ang mga karaniwang tanong ng customer—kung wala man sa iyong knowledge base o madalas itanong—at lumilikha ng mga kaugnay na FAQs upang mapabuti ang suporta. Maaari mong suriin ang bawat mungkahi at magpasya kung aaprubahan o tatanggihan ito."
         }
       },
       "ERRORS": {

@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Agentrix آپ کے اکاؤنٹ پر فعال نہیں ہے۔",
+      "DISABLED": "BuzzAgents آپ کے اکاؤنٹ پر فعال نہیں ہے۔",
       "CLICK_HERE_TO_CONFIGURE": "ترتیب دینے کے لیے یہاں کلک کریں",
-      "LOADING_CONSOLE": "Agentrix Console لوڈ ہو رہا ہے...",
-      "FAILED_TO_LOAD_CONSOLE": "Agentrix Console لوڈ کرنے میں ناکامی۔ براہ کرم صفحہ تازہ کریں اور دوبارہ کوشش کریں۔"
+      "LOADING_CONSOLE": "BuzzAgents Console لوڈ ہو رہا ہے...",
+      "FAILED_TO_LOAD_CONSOLE": "BuzzAgents Console لوڈ کرنے میں ناکامی۔ براہ کرم صفحہ تازہ کریں اور دوبارہ کوشش کریں۔"
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "سبسکرائب شدہ واقعات",
@@ -402,7 +402,7 @@
     "OVERVIEW": {
       "HEADER": "جائزہ",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "پلے گراؤنڈ",
@@ -487,7 +487,7 @@
       "KICK_OFF_MESSAGE": "کیا آپ کو فوری خلاصہ چاہیے، پچھلی بات چیت چیک کرنا چاہتے ہیں، یا بہتر جواب تیار کرنا چاہتے ہیں؟ کوپائلٹ یہاں ہے تاکہ کام تیز ہو جائے۔",
       "SEND_MESSAGE": "پیغام بھیجیں...",
       "EMPTY_MESSAGE": "جواب تیار کرنے میں خرابی ہوئی۔ براہ کرم دوبارہ کوشش کریں۔",
-      "LOADER": "Agentrix سوچ رہا ہے",
+      "LOADER": "BuzzAgents سوچ رہا ہے",
       "YOU": "آپ",
       "USE": "اسے استعمال کریں",
       "RESET": "ری سیٹ کریں",
@@ -525,20 +525,20 @@
       "CREDIT_NOTE": "یہاں بھیجے گئے پیغامات آپ کے کپٹن کریڈٹس میں شمار ہوں گے۔"
     },
     "PAYWALL": {
-      "TITLE": "Agentrix AI استعمال کرنے کے لیے اپ گریڈ کریں",
-      "AVAILABLE_ON": "Agentrix مفت پلان پر دستیاب نہیں ہے۔",
+      "TITLE": "BuzzAgents AI استعمال کرنے کے لیے اپ گریڈ کریں",
+      "AVAILABLE_ON": "BuzzAgents مفت پلان پر دستیاب نہیں ہے۔",
       "UPGRADE_PROMPT": "ہمارے اسسٹنٹس، کوپائلٹ اور مزید تک رسائی کے لیے اپنا پلان اپ گریڈ کریں۔",
       "UPGRADE_NOW": "ابھی اپ گریڈ کریں",
       "CANCEL_ANYTIME": "آپ کسی بھی وقت اپنا پلان تبدیل یا منسوخ کر سکتے ہیں"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI صرف انٹرپرائز پلانز میں دستیاب ہے۔",
+      "AVAILABLE_ON": "BuzzAgents AI صرف انٹرپرائز پلانز میں دستیاب ہے۔",
       "UPGRADE_PROMPT": "ہمارے اسسٹنٹس، کوپائلٹ اور مزید تک رسائی کے لیے اپنا پلان اپ گریڈ کریں۔",
       "ASK_ADMIN": "براہ کرم اپ گریڈ کے لیے اپنے ایڈمنسٹریٹر سے رابطہ کریں۔"
     },
     "BANNER": {
-      "RESPONSES": "آپ نے اپنے جواب کی حد کا 80% سے زیادہ استعمال کر لیا ہے۔ Agentrix AI استعمال جاری رکھنے کے لیے براہ کرم اپ گریڈ کریں۔",
-      "DOCUMENTS": "دستاویز کی حد پوری ہو گئی ہے۔ Agentrix AI استعمال جاری رکھنے کے لیے اپ گریڈ کریں۔"
+      "RESPONSES": "آپ نے اپنے جواب کی حد کا 80% سے زیادہ استعمال کر لیا ہے۔ BuzzAgents AI استعمال جاری رکھنے کے لیے براہ کرم اپ گریڈ کریں۔",
+      "DOCUMENTS": "دستاویز کی حد پوری ہو گئی ہے۔ BuzzAgents AI استعمال جاری رکھنے کے لیے اپ گریڈ کریں۔"
     },
     "FORM": {
       "CANCEL": "منسوخ کریں",
@@ -655,8 +655,8 @@
         "TITLE": "کوئی اسسٹنٹ دستیاب نہیں",
         "SUBTITLE": "ایک اسسٹنٹ بنائیں جو آپ کے صارفین کو تیز اور درست جوابات فراہم کرے۔ یہ آپ کے مدد کے مضامین اور پچھلی گفتگوؤں سے سیکھ سکتا ہے۔",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix اسسٹنٹ",
-          "NOTE": "Agentrix اسسٹنٹ براہ راست صارفین سے بات چیت کرتا ہے، آپ کے مدد کے دستاویزات اور پچھلی گفتگوؤں سے سیکھتا ہے، اور فوری، درست جوابات فراہم کرتا ہے۔ یہ ابتدائی سوالات کو سنبھالتا ہے، تیز حل فراہم کرتا ہے اور ضرورت پڑنے پر ایجنٹ کو منتقل کر دیتا ہے۔"
+          "TITLE": "BuzzAgents اسسٹنٹ",
+          "NOTE": "BuzzAgents اسسٹنٹ براہ راست صارفین سے بات چیت کرتا ہے، آپ کے مدد کے دستاویزات اور پچھلی گفتگوؤں سے سیکھتا ہے، اور فوری، درست جوابات فراہم کرتا ہے۔ یہ ابتدائی سوالات کو سنبھالتا ہے، تیز حل فراہم کرتا ہے اور ضرورت پڑنے پر ایجنٹ کو منتقل کر دیتا ہے۔"
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix دستاویز",
-          "NOTE": "Agentrix میں ایک دستاویز اسسٹنٹ کے لیے علم کا ذریعہ ہوتی ہے۔ آپ کے مدد مرکز یا رہنما خطوط کو منسلک کر کے، Agentrix مواد کا تجزیہ کر سکتا ہے اور صارفین کی پوچھ گچھ کے لیے درست جوابات فراہم کر سکتا ہے۔"
+          "TITLE": "BuzzAgents دستاویز",
+          "NOTE": "BuzzAgents میں ایک دستاویز اسسٹنٹ کے لیے علم کا ذریعہ ہوتی ہے۔ آپ کے مدد مرکز یا رہنما خطوط کو منسلک کر کے، BuzzAgents مواد کا تجزیہ کر سکتا ہے اور صارفین کی پوچھ گچھ کے لیے درست جوابات فراہم کر سکتا ہے۔"
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "Failed to delete custom tool"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Open billing",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "FAQ حذف کرنے میں خرابی ہوئی، براہ کرم دوبارہ کوشش کریں۔"
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix has found some FAQs your customers were looking for.",
+        "TITLE": "BuzzAgents has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "ایک سوال اور اس کا متعلقہ جواب علم کے ذخیرے میں شامل کریں اور اس اسسٹنٹ کا انتخاب کریں جس سے یہ منسلک ہونا چاہیے۔",

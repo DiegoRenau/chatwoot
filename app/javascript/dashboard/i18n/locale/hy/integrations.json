@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Որոնել ինտեգրացիաներ...",
     "NO_RESULTS": "Ձեր որոնմանը համապատասխան ինտեգրացիաներ չեն գտնվել",
     "CAPTAIN": {
-      "DISABLED": "Agentrix-ը ձեր հաշվում ակտիվացված չէ։",
+      "DISABLED": "BuzzAgents-ը ձեր հաշվում ակտիվացված չէ։",
       "CLICK_HERE_TO_CONFIGURE": "Սեղմեք այստեղ կարգավորելու համար",
-      "LOADING_CONSOLE": "Բեռնվում է Agentrix կոնսոլը...",
-      "FAILED_TO_LOAD_CONSOLE": "Չհաջողվեց բեռնել Agentrix կոնսոլը։ Խնդրում ենք թարմացնել և փորձել կրկին։"
+      "LOADING_CONSOLE": "Բեռնվում է BuzzAgents կոնսոլը...",
+      "FAILED_TO_LOAD_CONSOLE": "Չհաջողվեց բեռնել BuzzAgents կոնսոլը։ Խնդրում ենք թարմացնել և փորձել կրկին։"
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Բաժանորդագրված իրադարձություններ",
@@ -397,12 +397,12 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Agentrix",
+    "NAME": "BuzzAgents",
     "HEADER_KNOW_MORE": "Իմանալ ավելին",
     "OVERVIEW": {
       "HEADER": "Ընդհանուր տեսք",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "Խաղադաշտ",
@@ -487,7 +487,7 @@
       "KICK_OFF_MESSAGE": "Ցանկանու՞մ եք արագ ամփոփում, ստուգել անցյալ զրույցները կամ կազմել ավելի լավ պատասխան։ Կոպիլոտը այստեղ է՝ արագացնելու գործընթացը։",
       "SEND_MESSAGE": "Ուղարկել հաղորդագրություն...",
       "EMPTY_MESSAGE": "Սխալ է տեղի ունեցել պատասխանի ստեղծման ժամանակ։ Խնդրում ենք փորձել կրկին։",
-      "LOADER": "Agentrix-ը մտածում է",
+      "LOADER": "BuzzAgents-ը մտածում է",
       "YOU": "Դուք",
       "USE": "Օգտագործել սա",
       "RESET": "Վերականգնել",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "Մուտքագրեք ձեր հաղորդագրությունը...",
       "HEADER": "Խաղադաշտ",
       "DESCRIPTION": "Օգտագործեք այս խաղադաշտը՝ հաղորդագրություններ ուղարկելու ձեր օգնականին և ստուգելու, թե արդյոք այն պատասխանում է ճշգրիտ, արագ և սպասվող տոնով։",
-      "CREDIT_NOTE": "Այստեղ ուղարկված հաղորդագրությունները կհաշվվեն ձեր Agentrix կրեդիտների մեջ։"
+      "CREDIT_NOTE": "Այստեղ ուղարկված հաղորդագրությունները կհաշվվեն ձեր BuzzAgents կրեդիտների մեջ։"
     },
     "PAYWALL": {
-      "TITLE": "Թարմացրեք՝ օգտագործելու համար Agentrix AI",
-      "AVAILABLE_ON": "Agentrix հասանելի չէ անվճար պլանում։",
+      "TITLE": "Թարմացրեք՝ օգտագործելու համար BuzzAgents AI",
+      "AVAILABLE_ON": "BuzzAgents հասանելի չէ անվճար պլանում։",
       "UPGRADE_PROMPT": "Թարմացրեք ձեր պլանը՝ ստանալու համար մեր օգնականներին, copilot-ին և ավելին։",
       "UPGRADE_NOW": "Թարմացնել հիմա",
       "CANCEL_ANYTIME": "Դուք կարող եք ցանկացած պահի փոխել կամ չեղարկել ձեր պլանը"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI-ը հասանելի է միայն Enterprise փաթեթներում։",
+      "AVAILABLE_ON": "BuzzAgents AI-ը հասանելի է միայն Enterprise փաթեթներում։",
       "UPGRADE_PROMPT": "Թարմացրեք ձեր պլանը՝ ստանալու համար մեր օգնականներին, copilot-ին և ավելին։",
       "ASK_ADMIN": "Խնդրում ենք դիմել ձեր ադմինիստրատորին թարմացման համար։"
     },
     "BANNER": {
       "RESPONSES": "Դուք օգտագործել եք ձեր պատասխանների սահմանաչափի ավելի քան 80%-ը։ Շարունակելու համար խնդրում ենք թարմացնել։",
-      "DOCUMENTS": "Փաստաթղթերի սահմանաչափը լրացել է։ Շարունակելու համար թարմացրեք Agentrix AI։"
+      "DOCUMENTS": "Փաստաթղթերի սահմանաչափը լրացել է։ Շարունակելու համար թարմացրեք BuzzAgents AI։"
     },
     "FORM": {
       "CANCEL": "Չեղարկել",
@@ -655,8 +655,8 @@
         "TITLE": "Օգնականներ չկան",
         "SUBTITLE": "Ստեղծեք օգնական՝ ձեր օգտատերերին արագ և ճշգրիտ պատասխաններ տրամադրելու համար։ Այն կարող է սովորել ձեր օգնության հոդվածներից և անցյալ զրույցներից։",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Օգնական",
-          "NOTE": "Agentrix Օգնականը անմիջականորեն ներգրավվում է հաճախորդների հետ, սովորում է ձեր օգնության փաստաթղթերից և անցյալ զրույցներից, և տրամադրում է արագ, ճշգրիտ պատասխաններ։ Այն կառավարում է սկզբնական հարցումները, ապահովելով արագ լուծումներ, նախքան անհրաժեշտության դեպքում փոխանցել գործակալին։"
+          "TITLE": "BuzzAgents Օգնական",
+          "NOTE": "BuzzAgents Օգնականը անմիջականորեն ներգրավվում է հաճախորդների հետ, սովորում է ձեր օգնության փաստաթղթերից և անցյալ զրույցներից, և տրամադրում է արագ, ճշգրիտ պատասխաններ։ Այն կառավարում է սկզբնական հարցումները, ապահովելով արագ լուծումներ, նախքան անհրաժեշտության դեպքում փոխանցել գործակալին։"
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Փաստաթուղթ",
-          "NOTE": "Agentrix-ում փաստաթուղթը ծառայում է որպես գիտելիքների աղբյուր օգնականի համար։ Կապելով ձեր օգնության կենտրոնը կամ ուղեցույցները՝ Agentrix-ը կարող է վերլուծել բովանդակությունը և տրամադրել ճշգրիտ պատասխաններ հաճախորդների հարցումների համար։"
+          "TITLE": "BuzzAgents Փաստաթուղթ",
+          "NOTE": "BuzzAgents-ում փաստաթուղթը ծառայում է որպես գիտելիքների աղբյուր օգնականի համար։ Կապելով ձեր օգնության կենտրոնը կամ ուղեցույցները՝ BuzzAgents-ը կարող է վերլուծել բովանդակությունը և տրամադրել ճշգրիտ պատասխաններ հաճախորդների հարցումների համար։"
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "Gagal memadam alat tersuai"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Open billing",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "ՀՏՀ-ն ջնջելիս սխալ է տեղի ունեցել, խնդրում ենք փորձել կրկին։"
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix-ը գտել է հաճախորդների փնտրած ՀՏՀ-ները։",
+        "TITLE": "BuzzAgents-ը գտել է հաճախորդների փնտրած ՀՏՀ-ները։",
         "ACTION": "Սեղմեք այստեղ՝ դիտարկելու համար"
       },
       "FORM_DESCRIPTION": "Ավելացրեք հարց և նրա համապատասխան պատասխան գիտելիքների բազայում և ընտրեք օգնականին, որի հետ այն պետք է կապվի։",

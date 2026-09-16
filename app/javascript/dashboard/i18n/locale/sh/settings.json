@@ -529,10 +529,10 @@
   },
   "CAPTAIN_SETTINGS": {
     "TITLE": "Postavke Kapetana",
-    "DESCRIPTION": "Konfigurirajte svoje AI modele i značajke za Agentrix. Agentrix koristi naplatu temeljenu na kreditima, bit ćete naplaćeni kredite za svaku radnju koju Agentrix izvrši na temelju odabranog modela.",
-    "LOADING": "Loading Agentrix configuration...",
-    "LINK_TEXT": "Learn more about Agentrix Credits",
-    "NOT_ENABLED": "Agentrix nije omogućen za vaš račun. Molimo nadogradite svoj plan da biste pristupili značajkama Agentrixa.",
+    "DESCRIPTION": "Konfigurirajte svoje AI modele i značajke za BuzzAgents. BuzzAgents koristi naplatu temeljenu na kreditima, bit ćete naplaćeni kredite za svaku radnju koju BuzzAgents izvrši na temelju odabranog modela.",
+    "LOADING": "Loading BuzzAgents configuration...",
+    "LINK_TEXT": "Learn more about BuzzAgents Credits",
+    "NOT_ENABLED": "BuzzAgents nije omogućen za vaš račun. Molimo nadogradite svoj plan da biste pristupili značajkama BuzzAgentsa.",
     "MODEL_CONFIG": {
       "TITLE": "Konfiguracija modela",
       "DESCRIPTION": "Odaberite AI modele za različite značajke.",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Agentrix settings updated successfully.",
-      "ERROR": "Failed to update Agentrix settings. Please try again."
+      "SUCCESS": "BuzzAgents settings updated successfully.",
+      "ERROR": "Failed to update BuzzAgents settings. Please try again."
     }
   },
   "BILLING_SETTINGS": {
@@ -605,11 +605,11 @@
     },
     "CAPTAIN": {
       "TITLE": "Kapetan",
-      "DESCRIPTION": "Manage usage and credits for Agentrix AI.",
+      "DESCRIPTION": "Manage usage and credits for BuzzAgents AI.",
       "BUTTON_TXT": "Kupi više kredita",
       "DOCUMENTS": "Dokumenti",
       "RESPONSES": "Responses",
-      "UPGRADE": "Agentrix nije dostupan na besplatnom planu, nadogradi sada da bi dobio pristup asistentima, copilot i više.",
+      "UPGRADE": "BuzzAgents nije dostupan na besplatnom planu, nadogradi sada da bi dobio pristup asistentima, copilot i više.",
       "REFRESH_CREDITS": "Osvježi"
     },
     "CHAT_WITH_US": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Kupi više kredita",
       "MODAL_TITLE": "Kupi AI kredite",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Agentrix AI.",
+      "MODAL_DESCRIPTION": "Purchase additional credits for BuzzAgents AI.",
       "CREDITS": "KREDITI",
       "ONE_TIME": "jednokratno",
       "POPULAR": "Najpopularnije",

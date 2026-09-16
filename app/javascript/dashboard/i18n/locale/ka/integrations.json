@@ -23,7 +23,7 @@
     "SEARCH_PLACEHOLDER": "ინტეგრაციების ძიება...",
     "NO_RESULTS": "ინტეგრაციები ვერ მოიძებნა თქვენი ძიების მიხედვით",
     "CAPTAIN": {
-      "DISABLED": "Agentrix თქვენი ანგარიშისთვის ჩართული არ არის.",
+      "DISABLED": "BuzzAgents თქვენი ანგარიშისთვის ჩართული არ არის.",
       "CLICK_HERE_TO_CONFIGURE": "დააჭირეთ აქ კონფიგურაციისთვის",
       "LOADING_CONSOLE": "კაპიტანის კონსოლის ჩატვირთვა...",
       "FAILED_TO_LOAD_CONSOLE": "კაპიტანის კონსოლის ჩატვირთვა ვერ მოხერხდა. გთხოვთ, განაახლეთ გვერდი და სცადეთ თავიდან."
@@ -402,7 +402,7 @@
     "OVERVIEW": {
       "HEADER": "მიმოხილვა",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "სათამაშო მოედანი",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "ჩაწერეთ თქვენი შეტყობინება...",
       "HEADER": "სათამაშო მოედანი",
       "DESCRIPTION": "გამოიყენეთ ეს სათამაშო მოედანი, რათა გაუგზავნოთ შეტყობინებები თქვენს ასისტენტს და შეამოწმოთ, პასუხობს თუ არა ის ზუსტად, სწრაფად და იმ ტონით, რასაც ელით.",
-      "CREDIT_NOTE": "აქ გაგზავნილი შეტყობინებები ჩაითვლება თქვენი Agentrix კრედიტების ფარგლებში."
+      "CREDIT_NOTE": "აქ გაგზავნილი შეტყობინებები ჩაითვლება თქვენი BuzzAgents კრედიტების ფარგლებში."
     },
     "PAYWALL": {
-      "TITLE": "გააუმჯობესეთ Agentrix AI-ის გამოყენებისთვის",
-      "AVAILABLE_ON": "Agentrix ხელმისაწვდომი არ არის უფასო გეგმაზე.",
+      "TITLE": "გააუმჯობესეთ BuzzAgents AI-ის გამოყენებისთვის",
+      "AVAILABLE_ON": "BuzzAgents ხელმისაწვდომი არ არის უფასო გეგმაზე.",
       "UPGRADE_PROMPT": "გააუმჯობესეთ თქვენი გეგმა, რომ მიიღოთ წვდომა ასისტენტებზე, copilote-ზე და სხვა ფუნქციებზე.",
       "UPGRADE_NOW": "ახლავე განაახლეთ",
       "CANCEL_ANYTIME": "თქვენ შეგიძლიათ ნებისმიერ დროს შეცვალოთ ან გააუქმოთ თქვენი გეგმა"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI ხელმისაწვდომია მხოლოდ Enterprise გეგმებში.",
+      "AVAILABLE_ON": "BuzzAgents AI ხელმისაწვდომია მხოლოდ Enterprise გეგმებში.",
       "UPGRADE_PROMPT": "განაახლეთ თქვენი გეგმა, რათა მიიღოთ წვდომა ჩვენს ასისტენტებზე, კოპილოტზე და სხვა ფუნქციებზე.",
       "ASK_ADMIN": "გთხოვთ, მიმართეთ თქვენს ადმინისტრატორს განახლებისთვის."
     },
     "BANNER": {
-      "RESPONSES": "თქვენ გამოიყენეთ თქვენი პასუხების ლიმიტის 80%-ზე მეტი. Agentrix AI-ს გამოყენების გაგრძელებისთვის, გთხოვთ განაახლეთ.",
-      "DOCUMENTS": "დოკუმენტების ლიმიტი მიღწეულია. განაახლეთ, რომ გააგრძელოთ Agentrix AI-ის გამოყენება."
+      "RESPONSES": "თქვენ გამოიყენეთ თქვენი პასუხების ლიმიტის 80%-ზე მეტი. BuzzAgents AI-ს გამოყენების გაგრძელებისთვის, გთხოვთ განაახლეთ.",
+      "DOCUMENTS": "დოკუმენტების ლიმიტი მიღწეულია. განაახლეთ, რომ გააგრძელოთ BuzzAgents AI-ის გამოყენება."
     },
     "FORM": {
       "CANCEL": "გაუქმება",
@@ -655,8 +655,8 @@
         "TITLE": "დახმარება არ არის",
         "SUBTITLE": "შექმენით ასისტენტი, რომელიც სწრაფ და ზუსტ პასუხებს მისცემს თქვენს მომხმარებლებს. ის სწავლობს თქვენი დახმარების სტატიებიდან და წარსული საუბრებიდან.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix ასისტენტი",
-          "NOTE": "Agentrix ასისტენტი უშუალოდ ურთიერთობს მომხმარებლებთან, სწავლობს თქვენი დახმარების დოკუმენტაციიდან და წარსული საუბრებიდან და უზრუნველყოფს სწრაფ, ზუსტ პასუხებს. ის აგვარებს საწყის კითხვებს, სწრაფად იძლევა გადაწყვეტილებებს და საჭიროების შემთხვევაში გადასცემს აგენტს."
+          "TITLE": "BuzzAgents ასისტენტი",
+          "NOTE": "BuzzAgents ასისტენტი უშუალოდ ურთიერთობს მომხმარებლებთან, სწავლობს თქვენი დახმარების დოკუმენტაციიდან და წარსული საუბრებიდან და უზრუნველყოფს სწრაფ, ზუსტ პასუხებს. ის აგვარებს საწყის კითხვებს, სწრაფად იძლევა გადაწყვეტილებებს და საჭიროების შემთხვევაში გადასცემს აგენტს."
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix დოკუმენტი",
-          "NOTE": "Agentrix-ში დოკუმენტი ასისტენტისთვის ცოდნის რესურსის როლს ასრულებს. თქვენი დახმარების ცენტრის ან სახელმძღვანელოების დაკავშირებით, Agentrix აფასებს შინაარსს და უზრუნველყოფს ზუსტ პასუხებს მომხმარებელთა კითხვებზე."
+          "TITLE": "BuzzAgents დოკუმენტი",
+          "NOTE": "BuzzAgents-ში დოკუმენტი ასისტენტისთვის ცოდნის რესურსის როლს ასრულებს. თქვენი დახმარების ცენტრის ან სახელმძღვანელოების დაკავშირებით, BuzzAgents აფასებს შინაარსს და უზრუნველყოფს ზუსტ პასუხებს მომხმარებელთა კითხვებზე."
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "კასტომური ხელსაწყოს წაშლა ვერ მოხერხდა"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Open billing",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "FAQ-ის წაშლისას მოხდა შეცდომა, გთხოვთ, სცადეთ თავიდან."
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix-მა იპოვა რამდენიმე FAQ, რომელსაც თქვენი მომხმარებლები ეძებდნენ.",
+        "TITLE": "BuzzAgents-მა იპოვა რამდენიმე FAQ, რომელსაც თქვენი მომხმარებლები ეძებდნენ.",
         "ACTION": "დააჭირეთ აქ გადახედვისთვის"
       },
       "FORM_DESCRIPTION": "დაამატეთ კითხვა და მისი შესაბამისი პასუხი ცოდნის ბაზაში და აირჩიეთ ასისტენტი, რომელთანაც უნდა იყოს დაკავშირებული.",
@@ -1146,7 +1146,7 @@
         "CLEAR_SEARCH": "აქტიური ფილტრების გასუფთავება",
         "FEATURE_SPOTLIGHT": {
           "TITLE": "კაპიტანის ხშირად დასმული კითხვები",
-          "NOTE": "Agentrix FAQs ამოიცნობს ხშირ მომხმარებლის კითხვებს — იქნება ისინი თქვენი ცოდნის ბაზაში არარსებული ან ხშირად დასმული — და ქმნის შესაბამის ხშირად დასმულ კითხვებს მხარდაჭერის გაუმჯობესებისთვის. შეგიძლიათ შეამოწმოთ თითოეული წინადადება და გადაწყვიტოთ მისი დამტკიცება თუ უარყოფა."
+          "NOTE": "BuzzAgents FAQs ამოიცნობს ხშირ მომხმარებლის კითხვებს — იქნება ისინი თქვენი ცოდნის ბაზაში არარსებული ან ხშირად დასმული — და ქმნის შესაბამის ხშირად დასმულ კითხვებს მხარდაჭერის გაუმჯობესებისთვის. შეგიძლიათ შეამოწმოთ თითოეული წინადადება და გადაწყვიტოთ მისი დამტკიცება თუ უარყოფა."
         }
       },
       "ERRORS": {

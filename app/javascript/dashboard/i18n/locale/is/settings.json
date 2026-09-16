@@ -324,7 +324,7 @@
     "ACTIVE": "Active",
     "COMPANIES": "Companies",
     "ALL_COMPANIES": "All Companies",
-    "CAPTAIN": "Agentrix",
+    "CAPTAIN": "BuzzAgents",
     "CAPTAIN_ASSISTANTS": "Assistants",
     "CAPTAIN_OVERVIEW": "Overview",
     "CAPTAIN_DOCUMENTS": "Documents",
@@ -411,7 +411,7 @@
     },
     "DOCS": "Read docs",
     "SECURITY": "Security",
-    "CAPTAIN_AI": "Agentrix",
+    "CAPTAIN_AI": "BuzzAgents",
     "CONVERSATION_WORKFLOW": "Conversation Workflow",
     "CALLS": "Calls",
     "WHATSAPP_TEMPLATES": "Templates"
@@ -528,11 +528,11 @@
     }
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Agentrix Settings",
-    "DESCRIPTION": "Configure your AI models and features for Agentrix. Agentrix follows a credit based billing, you will be charged credits for every action Agentrix takes based on the model selected.",
-    "LOADING": "Loading Agentrix configuration...",
-    "LINK_TEXT": "Learn more about Agentrix Credits",
-    "NOT_ENABLED": "Agentrix is not enabled for your account. Please upgrade your plan to access Agentrix features.",
+    "TITLE": "BuzzAgents Settings",
+    "DESCRIPTION": "Configure your AI models and features for BuzzAgents. BuzzAgents follows a credit based billing, you will be charged credits for every action BuzzAgents takes based on the model selected.",
+    "LOADING": "Loading BuzzAgents configuration...",
+    "LINK_TEXT": "Learn more about BuzzAgents Credits",
+    "NOT_ENABLED": "BuzzAgents is not enabled for your account. Please upgrade your plan to access BuzzAgents features.",
     "MODEL_CONFIG": {
       "TITLE": "Model Configuration",
       "DESCRIPTION": "Select AI models for different features.",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Agentrix settings updated successfully.",
-      "ERROR": "Failed to update Agentrix settings. Please try again."
+      "SUCCESS": "BuzzAgents settings updated successfully.",
+      "ERROR": "Failed to update BuzzAgents settings. Please try again."
     }
   },
   "BILLING_SETTINGS": {
@@ -604,12 +604,12 @@
       "BUTTON_TXT": "Go to the billing portal"
     },
     "CAPTAIN": {
-      "TITLE": "Agentrix",
-      "DESCRIPTION": "Manage usage and credits for Agentrix AI.",
+      "TITLE": "BuzzAgents",
+      "DESCRIPTION": "Manage usage and credits for BuzzAgents AI.",
       "BUTTON_TXT": "Buy more credits",
       "DOCUMENTS": "Documents",
       "RESPONSES": "Responses",
-      "UPGRADE": "Agentrix is not available on the free plan, upgrade now to get access to assistants, copilot and more.",
+      "UPGRADE": "BuzzAgents is not available on the free plan, upgrade now to get access to assistants, copilot and more.",
       "REFRESH_CREDITS": "Uppfæra"
     },
     "CHAT_WITH_US": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Buy more credits",
       "MODAL_TITLE": "Buy AI Credits",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Agentrix AI.",
+      "MODAL_DESCRIPTION": "Purchase additional credits for BuzzAgents AI.",
       "CREDITS": "CREDITS",
       "ONE_TIME": "one-time",
       "POPULAR": "Most Popular",

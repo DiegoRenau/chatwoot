@@ -528,11 +528,11 @@
     }
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Agentrix Settings",
-    "DESCRIPTION": "Configure your AI models and features for Agentrix. Agentrix follows a credit based billing, you will be charged credits for every action Agentrix takes based on the model selected.",
-    "LOADING": "Loading Agentrix configuration...",
-    "LINK_TEXT": "Learn more about Agentrix Credits",
-    "NOT_ENABLED": "Agentrix is not enabled for your account. Please upgrade your plan to access Agentrix features.",
+    "TITLE": "BuzzAgents Settings",
+    "DESCRIPTION": "Configure your AI models and features for BuzzAgents. BuzzAgents follows a credit based billing, you will be charged credits for every action BuzzAgents takes based on the model selected.",
+    "LOADING": "Loading BuzzAgents configuration...",
+    "LINK_TEXT": "Learn more about BuzzAgents Credits",
+    "NOT_ENABLED": "BuzzAgents is not enabled for your account. Please upgrade your plan to access BuzzAgents features.",
     "MODEL_CONFIG": {
       "TITLE": "Model Configuration",
       "DESCRIPTION": "Select AI models for different features.",
@@ -573,8 +573,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Agentrix settings updated successfully.",
-      "ERROR": "Failed to update Agentrix settings. Please try again."
+      "SUCCESS": "BuzzAgents settings updated successfully.",
+      "ERROR": "Failed to update BuzzAgents settings. Please try again."
     }
   },
   "BILLING_SETTINGS": {
@@ -605,11 +605,11 @@
     },
     "CAPTAIN": {
       "TITLE": "キャプテン",
-      "DESCRIPTION": "Agentrix AIの使用状況とクレジットを管理する。",
+      "DESCRIPTION": "BuzzAgents AIの使用状況とクレジットを管理する。",
       "BUTTON_TXT": "クレジットを追加購入する",
       "DOCUMENTS": "ドキュメント",
       "RESPONSES": "応答数",
-      "UPGRADE": "Agentrixは無料プランでは利用できません。アシスタント、Copilotなどの機能を利用するには、プランをアップグレードしてください。",
+      "UPGRADE": "BuzzAgentsは無料プランでは利用できません。アシスタント、Copilotなどの機能を利用するには、プランをアップグレードしてください。",
       "REFRESH_CREDITS": "再読み込み"
     },
     "CHAT_WITH_US": {
@@ -621,7 +621,7 @@
     "TOPUP": {
       "BUY_CREDITS": "クレジットを追加購入する",
       "MODAL_TITLE": "Buy AI Credits",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Agentrix AI.",
+      "MODAL_DESCRIPTION": "Purchase additional credits for BuzzAgents AI.",
       "CREDITS": "CREDITS",
       "ONE_TIME": "one-time",
       "POPULAR": "Most Popular",

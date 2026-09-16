@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Agentrix hesabınızda aktiv deyil.",
+      "DISABLED": "BuzzAgents hesabınızda aktiv deyil.",
       "CLICK_HERE_TO_CONFIGURE": "Konfiqurasiya etmək üçün bura klikləyin",
-      "LOADING_CONSOLE": "Agentrix Konsolu yüklənir...",
-      "FAILED_TO_LOAD_CONSOLE": "Agentrix Konsolu yüklənmədi. Zəhmət olmasa səhifəni yeniləyin və yenidən cəhd edin."
+      "LOADING_CONSOLE": "BuzzAgents Konsolu yüklənir...",
+      "FAILED_TO_LOAD_CONSOLE": "BuzzAgents Konsolu yüklənmədi. Zəhmət olmasa səhifəni yeniləyin və yenidən cəhd edin."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Abunə olunan hadisələr",
@@ -397,12 +397,12 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Agentrix",
+    "NAME": "BuzzAgents",
     "HEADER_KNOW_MORE": "Daha ətraflı",
     "OVERVIEW": {
       "HEADER": "Ümumi Baxış",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "Sınaq sahəsi",
@@ -487,7 +487,7 @@
       "KICK_OFF_MESSAGE": "Qısa xülasəyə ehtiyacınız var, əvvəlki söhbətlərə baxmaq istəyirsiniz, yoxsa daha yaxşı cavab hazırlamaq istəyirsiniz? Copilot işləri sürətləndirmək üçün buradadır.",
       "SEND_MESSAGE": "Mesaj göndərin...",
       "EMPTY_MESSAGE": "Cavab yaradılarkən xəta baş verdi. Zəhmət olmasa yenidən cəhd edin.",
-      "LOADER": "Agentrix düşünür",
+      "LOADER": "BuzzAgents düşünür",
       "YOU": "Siz",
       "USE": "Bunu istifadə et",
       "RESET": "Sıfırla",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "Mesajınızı yazın...",
       "HEADER": "Sınaq sahəsi",
       "DESCRIPTION": "Bu sınaq sahəsində köməkçinizə mesaj göndərin və cavabların dəqiq, sürətli və istədiyiniz tonda olub-olmadığını yoxlayın.",
-      "CREDIT_NOTE": "Burada göndərilən mesajlar Agentrix kreditlərinizdən çıxılacaq."
+      "CREDIT_NOTE": "Burada göndərilən mesajlar BuzzAgents kreditlərinizdən çıxılacaq."
     },
     "PAYWALL": {
-      "TITLE": "Agentrix AI istifadə etmək üçün yüksəldin",
-      "AVAILABLE_ON": "Agentrix pulsuz planda mövcud deyil.",
+      "TITLE": "BuzzAgents AI istifadə etmək üçün yüksəldin",
+      "AVAILABLE_ON": "BuzzAgents pulsuz planda mövcud deyil.",
       "UPGRADE_PROMPT": "Assistentlərimizə, copilot və daha çoxuna çıxış əldə etmək üçün planınızı yüksəldin.",
       "UPGRADE_NOW": "İndi yüksəlt",
       "CANCEL_ANYTIME": "Planınızı istənilən vaxt dəyişə və ya ləğv edə bilərsiniz"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI yalnız Enterprise planlarında mövcuddur.",
+      "AVAILABLE_ON": "BuzzAgents AI yalnız Enterprise planlarında mövcuddur.",
       "UPGRADE_PROMPT": "Assistentlərimizə, copilot və daha çoxuna çıxış əldə etmək üçün planınızı yüksəldin.",
       "ASK_ADMIN": "Təkmilləşdirmə üçün administratorunuzla əlaqə saxlayın."
     },
     "BANNER": {
-      "RESPONSES": "Cavab limitinizin 80%-dən çoxunu istifadə etmisiniz. Agentrix AI-dan istifadə etməyə davam etmək üçün zəhmət olmasa tarifinizi yüksəldin.",
-      "DOCUMENTS": "Sənəd limiti çatdı. Agentrix AI-dan istifadəni davam etdirmək üçün yüksəldin."
+      "RESPONSES": "Cavab limitinizin 80%-dən çoxunu istifadə etmisiniz. BuzzAgents AI-dan istifadə etməyə davam etmək üçün zəhmət olmasa tarifinizi yüksəldin.",
+      "DOCUMENTS": "Sənəd limiti çatdı. BuzzAgents AI-dan istifadəni davam etdirmək üçün yüksəldin."
     },
     "FORM": {
       "CANCEL": "Ləğv et",
@@ -655,8 +655,8 @@
         "TITLE": "Assistent yoxdur",
         "SUBTITLE": "İstifadəçilərinizə sürətli və dəqiq cavablar vermək üçün köməkçi yaradın. O, yardım məqalələrinizdən və əvvəlki söhbətlərdən öyrənə bilər.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Assistent",
-          "NOTE": "Agentrix Assistent birbaşa müştərilərlə ünsiyyət qurur, kömək sənədlərinizdən və keçmiş söhbətlərdən öyrənir və dərhal, dəqiq cavablar verir. O, ilkin sorğuları idarə edir və lazım olduqda agentə ötürür."
+          "TITLE": "BuzzAgents Assistent",
+          "NOTE": "BuzzAgents Assistent birbaşa müştərilərlə ünsiyyət qurur, kömək sənədlərinizdən və keçmiş söhbətlərdən öyrənir və dərhal, dəqiq cavablar verir. O, ilkin sorğuları idarə edir və lazım olduqda agentə ötürür."
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Sənəd",
-          "NOTE": "Agentrix-da sənəd assistent üçün bilik mənbəyi rolunu oynayır. Kömək mərkəzinizi və ya təlimatları bağlayaraq, Agentrix məzmunu analiz edə və müştəri sorğuları üçün dəqiq cavablar verə bilər."
+          "TITLE": "BuzzAgents Sənəd",
+          "NOTE": "BuzzAgents-da sənəd assistent üçün bilik mənbəyi rolunu oynayır. Kömək mərkəzinizi və ya təlimatları bağlayaraq, BuzzAgents məzmunu analiz edə və müştəri sorğuları üçün dəqiq cavablar verə bilər."
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "Xüsusi alət silinmədi"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Open billing",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "FAQ silinərkən xəta baş verdi, zəhmət olmasa yenidən cəhd edin."
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix müştərilərinizin axtardığı bəzi FAQ-ları tapdı.",
+        "TITLE": "BuzzAgents müştərilərinizin axtardığı bəzi FAQ-ları tapdı.",
         "ACTION": "Baxmaq üçün bura klikləyin"
       },
       "FORM_DESCRIPTION": "Bilik bazasına sual və ona uyğun cavabı əlavə edin, sonra onun əlaqələndiriləcəyi köməkçini seçin.",
@@ -1145,8 +1145,8 @@
         "SUBTITLE": "FAQ-lar köməkçinizə müştərilərinizdən gələn suallara sürətli və dəqiq cavablar verməyə kömək edir. Onlar məzmununuzdan avtomatik yaradına və ya əl ilə əlavə edilə bilər.",
         "CLEAR_SEARCH": "Aktiv filtrləri təmizlə",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix FAQ",
-          "NOTE": "Agentrix FAQ tez-tez verilən və ya bilik bazasında olmayan müştəri suallarını aşkar edir və uyğun FAQ-lar yaradır. Hər təklifi nəzərdən keçirə və təsdiqləyə və ya rədd edə bilərsiniz."
+          "TITLE": "BuzzAgents FAQ",
+          "NOTE": "BuzzAgents FAQ tez-tez verilən və ya bilik bazasında olmayan müştəri suallarını aşkar edir və uyğun FAQ-lar yaradır. Hər təklifi nəzərdən keçirə və təsdiqləyə və ya rədd edə bilərsiniz."
         }
       },
       "ERRORS": {

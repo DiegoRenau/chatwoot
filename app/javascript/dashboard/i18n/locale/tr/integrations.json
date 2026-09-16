@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Agentrix is not enabled on your account.",
+      "DISABLED": "BuzzAgents is not enabled on your account.",
       "CLICK_HERE_TO_CONFIGURE": "Click here to configure",
-      "LOADING_CONSOLE": "Loading Agentrix Console...",
-      "FAILED_TO_LOAD_CONSOLE": "Failed to load Agentrix Console. Please refresh and try again."
+      "LOADING_CONSOLE": "Loading BuzzAgents Console...",
+      "FAILED_TO_LOAD_CONSOLE": "Failed to load BuzzAgents Console. Please refresh and try again."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Abone Olunan Olaylar",
@@ -397,12 +397,12 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Agentrix",
+    "NAME": "BuzzAgents",
     "HEADER_KNOW_MORE": "Daha fazla bilgi edinin",
     "OVERVIEW": {
       "HEADER": "Önizleme",
       "WELCOME": {
-        "LABEL": "Agentrix summary",
+        "LABEL": "BuzzAgents summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -435,7 +435,7 @@
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "Estimate: Agentrix replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
+          "HINT": "Estimate: BuzzAgents replies times ~2 minutes of assumed agent effort per reply. Directional, not measured labor."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
@@ -461,8 +461,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Agentrix docs",
-          "DESCRIPTION": "Guides and how-tos for Agentrix"
+          "TITLE": "BuzzAgents docs",
+          "DESCRIPTION": "Guides and how-tos for BuzzAgents"
         },
         "PLAYGROUND": {
           "TITLE": "Oyun Alanı",
@@ -487,7 +487,7 @@
       "KICK_OFF_MESSAGE": "Hızlı bir özet mi gerekiyor, geçmiş konuşmaları mı kontrol etmek istiyorsunuz, yoksa daha iyi bir yanıt mı tasarlamak istiyorsunuz? Copilot işleri hızlandırmak için burada.",
       "SEND_MESSAGE": "Mesajı Gönder...",
       "EMPTY_MESSAGE": "Yanıt oluşturulurken bir hata oluştu. Lütfen tekrar deneyin.",
-      "LOADER": "Agentrix düşünüyor",
+      "LOADER": "BuzzAgents düşünüyor",
       "YOU": "Sen",
       "USE": "Bunu kullan",
       "RESET": "Sıfırla",
@@ -522,23 +522,23 @@
       "MESSAGE_PLACEHOLDER": "Mesajınızı yazın...",
       "HEADER": "Oyun Alanı",
       "DESCRIPTION": "Bu oyun alanını asistanınıza mesaj göndermek ve yanıtlarının doğru, hızlı ve beklediğiniz tonda olup olmadığını kontrol etmek için kullanın.",
-      "CREDIT_NOTE": "Buradan gönderilen mesajlar Agentrix kredilerinize sayılacaktır."
+      "CREDIT_NOTE": "Buradan gönderilen mesajlar BuzzAgents kredilerinize sayılacaktır."
     },
     "PAYWALL": {
-      "TITLE": "Agentrix AI kullanmak için yükseltin",
-      "AVAILABLE_ON": "Agentrix ücretsiz planda kullanılamaz.",
+      "TITLE": "BuzzAgents AI kullanmak için yükseltin",
+      "AVAILABLE_ON": "BuzzAgents ücretsiz planda kullanılamaz.",
       "UPGRADE_PROMPT": "Asistanlarımıza, Copilot'a ve daha fazlasına erişim sağlamak için planınızı yükseltin.",
       "UPGRADE_NOW": "Şimdi yükselt",
       "CANCEL_ANYTIME": "You can change or cancel your plan anytime"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Agentrix AI yalnızca Enterprise planlarında mevcuttur.",
+      "AVAILABLE_ON": "BuzzAgents AI yalnızca Enterprise planlarında mevcuttur.",
       "UPGRADE_PROMPT": "Asistanlarımıza, Copilot'a ve daha fazlasına erişim sağlamak için planınızı yükseltin.",
       "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
     },
     "BANNER": {
-      "RESPONSES": "Yanıt sınırınızın %80'inden fazlasını kullandınız. Agentrix AI'yı kullanmaya devam etmek için lütfen yükseltin.",
-      "DOCUMENTS": "Belge sınırı aşıldı. Agentrix AI'yı kullanmaya devam etmek için yükseltme yapın."
+      "RESPONSES": "Yanıt sınırınızın %80'inden fazlasını kullandınız. BuzzAgents AI'yı kullanmaya devam etmek için lütfen yükseltin.",
+      "DOCUMENTS": "Belge sınırı aşıldı. BuzzAgents AI'yı kullanmaya devam etmek için yükseltme yapın."
     },
     "FORM": {
       "CANCEL": "İptal Et",
@@ -655,8 +655,8 @@
         "TITLE": "No assistants available",
         "SUBTITLE": "Kullanıcılara hızlı ve doğru yanıtlar sağlayacak bir asistan oluşturun. Asistan, yardım makalelerinizden ve geçmiş konuşmalardan öğrenebilir.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Assistant",
-          "NOTE": "Agentrix Asistan, doğrudan müşterilerle etkileşim kurar, yardım belgelerinizden ve geçmiş konuşmalardan öğrenir ve anında, doğru yanıtlar sunar. Başlangıçtaki sorgulamaları ele alır, hızlı çözümler sunar ve gerektiğinde bir temsilciye aktarır."
+          "TITLE": "BuzzAgents Assistant",
+          "NOTE": "BuzzAgents Asistan, doğrudan müşterilerle etkileşim kurar, yardım belgelerinizden ve geçmiş konuşmalardan öğrenir ve anında, doğru yanıtlar sunar. Başlangıçtaki sorgulamaları ele alır, hızlı çözümler sunar ve gerektiğinde bir temsilciye aktarır."
         }
       },
       "GUARDRAILS": {
@@ -948,8 +948,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix Belge",
-          "NOTE": "Agentrix'daki bir belge, asistan için bir bilgi kaynağı görevi görür. Yardım merkezinizi veya kılavuzlarınızı bağlayarak Agentrix, içeriği analiz edebilir ve müşteri sorularına doğru yanıtlar sağlayabilir."
+          "TITLE": "BuzzAgents Belge",
+          "NOTE": "BuzzAgents'daki bir belge, asistan için bir bilgi kaynağı görevi görür. Yardım merkezinizi veya kılavuzlarınızı bağlayarak BuzzAgents, içeriği analiz edebilir ve müşteri sorularına doğru yanıtlar sağlayabilir."
         }
       }
     },
@@ -988,14 +988,14 @@
         "ERROR_MESSAGE": "Özel araç silinemedi"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Agentrix",
-        "AVAILABLE_ON": "Agentrix Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with BuzzAgents",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Fatura Detayları",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Agentrix Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "BuzzAgents Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
       },
@@ -1108,7 +1108,7 @@
         "ERROR_MESSAGE": "There was an error deleting the FAQ, please try again."
       },
       "PENDING_BANNER": {
-        "TITLE": "Agentrix has found some FAQs your customers were looking for.",
+        "TITLE": "BuzzAgents has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "Add a question and its corresponding answer to the knowledge base and select the assistant it should be associated with.",
@@ -1145,8 +1145,8 @@
         "SUBTITLE": "SSS, asistanınızın müşterilerinizden gelen sorulara hızlı ve doğru yanıtlar vermesine yardımcı olur. Bunlar içeriğinizden otomatik olarak oluşturulabilir veya manuel olarak eklenebilir.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Agentrix FAQ",
-          "NOTE": "Agentrix SSS, bilgi tabanınızda eksik olan veya sıkça sorulan yaygın müşteri sorularını tespit eder ve desteği geliştirmek için ilgili SSS'leri oluşturur. Her öneriyi inceleyebilir ve onaylayıp onaylamamaya karar verebilirsiniz."
+          "TITLE": "BuzzAgents FAQ",
+          "NOTE": "BuzzAgents SSS, bilgi tabanınızda eksik olan veya sıkça sorulan yaygın müşteri sorularını tespit eder ve desteği geliştirmek için ilgili SSS'leri oluşturur. Her öneriyi inceleyebilir ve onaylayıp onaylamamaya karar verebilirsiniz."
         }
       },
       "ERRORS": {

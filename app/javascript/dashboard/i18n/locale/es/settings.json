@@ -264,7 +264,8 @@
     "EMAIL_VERIFICATION_SENT": "El correo electrónico de verificación ha sido enviado. Por favor, comprueba tu bandeja de entrada.",
     "ACCOUNT_SUSPENDED": {
       "TITLE": "Cuenta suspendida",
-      "MESSAGE": "Tu cuenta está suspendida. Comuníquese con el equipo de soporte para obtener más información."
+      "MESSAGE": "Tu cuenta está suspendida. Comuníquese con el equipo de soporte para obtener más información.",
+      "MANAGE_BILLING": "Gestionar facturación"
     },
     "NO_ACCOUNTS": {
       "TITLE": "No se encontró ninguna cuenta",
@@ -324,7 +325,6 @@
     "COMPANIES": "Empresas",
     "ALL_COMPANIES": "Todas las empresas",
     "CAPTAIN": "Agentrix",
-    "CALLS": "Llamadas",
     "CAPTAIN_ASSISTANTS": "Asistentes",
     "CAPTAIN_OVERVIEW": "Resumen",
     "CAPTAIN_DOCUMENTS": "Documentos",
@@ -412,7 +412,9 @@
     "DOCS": "Leer documentos",
     "SECURITY": "Seguridad",
     "CAPTAIN_AI": "Agentrix",
-    "CONVERSATION_WORKFLOW": "Flujo de conversación"
+    "CONVERSATION_WORKFLOW": "Flujo de conversación",
+    "CALLS": "Llamadas",
+    "WHATSAPP_TEMPLATES": "Plantillas"
   },
   "DATA_IMPORTS": {
     "HEADER": "Datos",
@@ -432,7 +434,7 @@
       "TITLE": "Nueva importación",
       "SOURCE": "Fuente",
       "NAME": "Importar nombre",
-      "NAME_PLACEHOLDER": "Migración de julio de Intercom",
+      "NAME_PLACEHOLDER": "Migración de soporte de julio",
       "ACCESS_KEY": "Clave de acceso Intercom",
       "ACCESS_KEY_PLACEHOLDER": "Pegue su clave de acceso Intercom",
       "DATA_TYPES": "Datos a importar",
@@ -441,7 +443,13 @@
       "INVALID_KEY": "No se pudo validar esta clave de acceso.",
       "ACTIVE_IMPORT": "Espere a que finalice la importación activa antes de comenzar otra.",
       "CANCEL": "Cancelar",
-      "IMPORT": "Importar"
+      "IMPORT": "Importar",
+      "INTERCOM_ACCESS_KEY": "Clave de acceso Intercom",
+      "INTERCOM_ACCESS_KEY_PLACEHOLDER": "Pegue su clave de acceso Intercom",
+      "FRESHDESK_API_KEY": "Clave de API de Freshdesk",
+      "FRESHDESK_API_KEY_PLACEHOLDER": "Pega tu clave de API de Freshdesk",
+      "FRESHDESK_DOMAIN": "Dominio de Freshdesk",
+      "FRESHDESK_DOMAIN_PLACEHOLDER": "acme.freshdesk.com"
     },
     "EXPORT": {
       "TITLE": "Las exportaciones están en camino",
@@ -462,7 +470,8 @@
       "STATUS": "Estado",
       "IMPORTED": "Importado",
       "CREATED": "Creado",
-      "ABANDON": "Abandonar"
+      "ABANDON": "Abandonar",
+      "RETRY": "Reintentar"
     },
     "DETAIL": {
       "BACK": "Volver a las importaciones",
@@ -507,9 +516,15 @@
       }
     },
     "ALERTS": {
-      "IMPORT_STARTED": "La importación de Intercom ha comenzado.",
-      "IMPORT_ABANDONED": "La importación de Intercom ha sido abandonada.",
-      "IMPORT_FAILED": "No se pudo iniciar la importación de Intercom."
+      "IMPORT_STARTED": "La importación ha comenzado.",
+      "IMPORT_ABANDONED": "La importación se ha abandonado.",
+      "IMPORT_FAILED": "No se pudo iniciar la importación.",
+      "IMPORT_RETRIED": "La importación se ha añadido a la cola para reanudarse.",
+      "IMPORT_RETRY_FAILED": "No se pudo reintentar la importación."
+    },
+    "DEFAULT_IMPORT_NAMES": {
+      "INTERCOM": "Importar Intercom",
+      "FRESHDESK": "Importación de Freshdesk"
     }
   },
   "CAPTAIN_SETTINGS": {

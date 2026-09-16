@@ -264,7 +264,8 @@
     "EMAIL_VERIFICATION_SENT": "验证邮件已发送。请检查您的收件箱。",
     "ACCOUNT_SUSPENDED": {
       "TITLE": "账户已暂停",
-      "MESSAGE": "您的账户已被暂停。请联系支持团队以获取更多信息。"
+      "MESSAGE": "您的账户已被暂停。请联系支持团队以获取更多信息。",
+      "MANAGE_BILLING": "Manage billing"
     },
     "NO_ACCOUNTS": {
       "TITLE": "No account found",
@@ -411,7 +412,9 @@
     "DOCS": "阅读文档",
     "SECURITY": "安全",
     "CAPTAIN_AI": "Agentrix",
-    "CONVERSATION_WORKFLOW": "Conversation Workflow"
+    "CONVERSATION_WORKFLOW": "Conversation Workflow",
+    "CALLS": "Calls",
+    "WHATSAPP_TEMPLATES": "Templates"
   },
   "DATA_IMPORTS": {
     "HEADER": "Data",
@@ -431,7 +434,7 @@
       "TITLE": "New import",
       "SOURCE": "Source",
       "NAME": "Import name",
-      "NAME_PLACEHOLDER": "July Intercom migration",
+      "NAME_PLACEHOLDER": "July support migration",
       "ACCESS_KEY": "Intercom access key",
       "ACCESS_KEY_PLACEHOLDER": "Paste your Intercom access key",
       "DATA_TYPES": "Data to import",
@@ -440,7 +443,13 @@
       "INVALID_KEY": "Could not validate this access key.",
       "ACTIVE_IMPORT": "Wait for the active import to finish before starting another one.",
       "CANCEL": "取消",
-      "IMPORT": "导入"
+      "IMPORT": "导入",
+      "INTERCOM_ACCESS_KEY": "Intercom access key",
+      "INTERCOM_ACCESS_KEY_PLACEHOLDER": "Paste your Intercom access key",
+      "FRESHDESK_API_KEY": "Freshdesk API key",
+      "FRESHDESK_API_KEY_PLACEHOLDER": "Paste your Freshdesk API key",
+      "FRESHDESK_DOMAIN": "Freshdesk domain",
+      "FRESHDESK_DOMAIN_PLACEHOLDER": "acme.freshdesk.com"
     },
     "EXPORT": {
       "TITLE": "Exports are on the way",
@@ -461,7 +470,8 @@
       "STATUS": "状态",
       "IMPORTED": "Imported",
       "CREATED": "创建时间",
-      "ABANDON": "Abandon"
+      "ABANDON": "Abandon",
+      "RETRY": "重试"
     },
     "DETAIL": {
       "BACK": "Back to imports",
@@ -506,9 +516,15 @@
       }
     },
     "ALERTS": {
-      "IMPORT_STARTED": "Intercom import has started.",
-      "IMPORT_ABANDONED": "Intercom import has been abandoned.",
-      "IMPORT_FAILED": "Could not start the Intercom import."
+      "IMPORT_STARTED": "Import has started.",
+      "IMPORT_ABANDONED": "Import has been abandoned.",
+      "IMPORT_FAILED": "Could not start the import.",
+      "IMPORT_RETRIED": "Import has been queued to resume.",
+      "IMPORT_RETRY_FAILED": "Could not retry the import."
+    },
+    "DEFAULT_IMPORT_NAMES": {
+      "INTERCOM": "Intercom import",
+      "FRESHDESK": "Freshdesk import"
     }
   },
   "CAPTAIN_SETTINGS": {

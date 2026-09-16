@@ -49,6 +49,11 @@
       "DISABLE_MFA_DESC": "Elimina la autenticación de dos factores de tu cuenta",
       "DISABLE_BUTTON": "Desactivar Autenticación de Dos Factores"
     },
+    "LOW_BACKUP_CODES": {
+      "MESSAGE": "Te queda {n} código de recuperación. Genera códigos nuevos para evitar perder el acceso si ya no puedes usar tu autenticador. | Te quedan {n} códigos de recuperación. Genera códigos nuevos para evitar perder el acceso si ya no puedes usar tu autenticador.",
+      "NONE_LEFT": "No te queda ningún código de recuperación. Genera códigos nuevos ahora para evitar perder el acceso si ya no puedes usar tu autenticador.",
+      "ACTION": "Generar códigos"
+    },
     "DISABLE": {
       "TITLE": "Desactivar Autenticación de Dos Factores",
       "DESCRIPTION": "Deberás ingresar tu contraseña y un código de verificación para desactivar la autenticación de dos factores.",

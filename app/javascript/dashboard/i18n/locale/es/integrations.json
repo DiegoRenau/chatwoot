@@ -386,6 +386,15 @@
         "BUTTON_TEXT": "Conectar espacio de trabajo de Linear"
       }
     },
+    "NOTION": {
+      "HEADER": "Notion",
+      "DELETE": {
+        "TITLE": "¿Estás seguro de que quieres eliminar la integración de Notion?",
+        "MESSAGE": "Eliminar esta integración eliminará el acceso a tu espacio de trabajo de Notion y detendrá toda la funcionalidad relacionada.",
+        "CONFIRM": "Sí, eliminar",
+        "CANCEL": "Cancelar"
+      }
+    },
     "BUZZDESK": {
       "HEADER": "BuzzDesk",
       "ADD_OR_LINK_BUTTON": "Crear/Vincular ticket de BuzzDesk",
@@ -447,15 +456,6 @@
         "DESCRIPTION": "BuzzDesk no está conectado. Haz clic en el botón de abajo para conectar tu cuenta y usar esta integración.",
         "BUTTON_TEXT": "Conectar BuzzDesk"
       }
-    },
-    "NOTION": {
-      "HEADER": "Notion",
-      "DELETE": {
-        "TITLE": "¿Estás seguro de que quieres eliminar la integración de Notion?",
-        "MESSAGE": "Eliminar esta integración eliminará el acceso a tu espacio de trabajo de Notion y detendrá toda la funcionalidad relacionada.",
-        "CONFIRM": "Sí, eliminar",
-        "CANCEL": "Cancelar"
-      }
     }
   },
   "CAPTAIN": {
@@ -473,8 +473,8 @@
         "DISMISS": "Descartar"
       },
       "COVERAGE_BANNER": {
-        "TEXT": "Las Preguntas Frecuentes {count} están pendientes de revisión, manteniendo la cobertura en {coverage}%. Aprovéchalas para que tu asistente pueda resolver más por sí solo.",
-        "ACTION": "Revisar FAQs",
+        "TEXT": "Hay {count} sugerencias de FAQ listas para revisar, lo que mantiene la cobertura en el {coverage} %. Apruébalas para que tu asistente pueda resolver más consultas por sí solo.",
+        "ACTION": "Revisar sugerencias",
         "DISMISS": "Descartar"
       },
       "RANGES": {
@@ -509,18 +509,17 @@
         }
       },
       "DRILLDOWN": {
-        "CLOSE": "Detalles de cierre",
         "EMPTY": "No se encontraron registros para esta métrica.",
         "ERROR": "No se pudo cargar los registros. Por favor, inténtelo de nuevo.",
         "LOAD_MORE": "Cargar más",
-        "RESULT_COUNT_CONVERSATION": "Conversación {count} | Conversaciones {count}"
+        "RESULT_COUNT_CONVERSATION": "{count} conversación | {count} conversaciones"
       },
       "KNOWLEDGE": {
         "TITLE": "Cobertura del conocimiento",
         "COVERAGE": "{pct}% aprobado",
         "APPROVED": "FAQs Aprobadas",
-        "PENDING": "Pending FAQs",
-        "DOCUMENTS": "Documents"
+        "DOCUMENTS": "Documents",
+        "SUGGESTIONS": "Sugerencias de FAQ"
       },
       "LINKS": {
         "DOCS": {
@@ -1235,6 +1234,13 @@
           "TITLE": "FAQ de Agentrix",
           "NOTE": "Agentrix FAQ detecta preguntas comunes de clientes, ya sea que falten en tu base de conocimiento o se pregunten con frecuencia, y genera FAQs relevantes para mejorar el soporte. Puedes revisar cada sugerencia y decidir si aprobarla o rechazarla."
         }
+      },
+      "ERRORS": {
+        "LOAD": "Se produjo un error al cargar las FAQ. Inténtalo de nuevo."
+      },
+      "SUGGESTIONS_BANNER": {
+        "TITLE": "Captain agrupó las preguntas recurrentes de los clientes en sugerencias de FAQ.",
+        "ACTION": "Revisar sugerencias"
       }
     },
     "INBOXES": {
@@ -1266,6 +1272,43 @@
       "EMPTY_STATE": {
         "TITLE": "No hay bandejas de entrada conectadas",
         "SUBTITLE": "Conectar una bandeja de entrada permite al asistente manejar las preguntas iniciales de tus clientes antes de transferírtelas."
+      }
+    },
+    "FAQ_SUGGESTIONS": {
+      "HEADER": "Sugerencias de FAQ",
+      "SEARCH_PLACEHOLDER": "Buscar sugerencias...",
+      "QUEUE_COUNT": "{count} sugerencia por revisar | {count} sugerencias por revisar",
+      "QUEUE_HINT": "Ordenadas según la demanda de los clientes",
+      "SOURCE_COUNT": "{count} conversación | {count} conversaciones",
+      "REVIEW": "Revisar fuentes",
+      "APPROVE": "Aprobar",
+      "APPROVE_FAQ": "Aprobar FAQ",
+      "DISMISS": "Descartar",
+      "SAVE": "Guardar cambios",
+      "DETAILS": {
+        "TITLE": "Revisar sugerencia de FAQ",
+        "DESCRIPTION": "Captain agrupó {count} conversación en esta sugerencia. Revisa las pruebas y perfecciona la FAQ antes de aprobarla. | Captain agrupó {count} conversaciones en esta sugerencia. Revisa las pruebas y perfecciona la FAQ antes de aprobarla.",
+        "SOURCES": "Conversaciones de origen",
+        "SOURCE_PROGRESS": "{visible} de {total}",
+        "NO_SOURCES": "No se encontraron conversaciones de origen accesibles.",
+        "RETRY": "Reintentar"
+      },
+      "EMPTY_STATE": {
+        "TITLE": "La cola de revisión está vacía",
+        "SUBTITLE": "Las nuevas sugerencias de FAQ aparecerán aquí cuando estén listas para revisar.",
+        "CLEAR_SEARCH": "Borrar búsqueda"
+      },
+      "SUCCESS": {
+        "APPROVED": "La FAQ se aprobó y se añadió al conocimiento de Captain.",
+        "DISMISSED": "Sugerencia descartada.",
+        "SAVED": "Sugerencia actualizada."
+      },
+      "ERRORS": {
+        "LOAD": "Se produjo un error al cargar las sugerencias de FAQ. Inténtalo de nuevo.",
+        "LOAD_DETAILS": "Se produjo un error al cargar las conversaciones de origen.",
+        "APPROVE": "Se produjo un error al aprobar la FAQ. Inténtalo de nuevo.",
+        "DISMISS": "Se produjo un error al descartar la sugerencia. Inténtalo de nuevo.",
+        "SAVE": "Se produjo un error al guardar la sugerencia. Inténtalo de nuevo."
       }
     }
   }

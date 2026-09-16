@@ -264,7 +264,8 @@
     "EMAIL_VERIFICATION_SENT": "Doğrulama E-Postası gönderildi. Lütfen gelen kutunuzu kontrol edin.",
     "ACCOUNT_SUSPENDED": {
       "TITLE": "Hesap Askıya Alındı",
-      "MESSAGE": "Hesabınız askıya alındı. Daha fazla bilgi için lütfen destek ekibine ulaşın."
+      "MESSAGE": "Hesabınız askıya alındı. Daha fazla bilgi için lütfen destek ekibine ulaşın.",
+      "MANAGE_BILLING": "Manage billing"
     },
     "NO_ACCOUNTS": {
       "TITLE": "Hesap bulunamadı",
@@ -411,7 +412,9 @@
     "DOCS": "Dokümantasyonu oku",
     "SECURITY": "Güvenlik",
     "CAPTAIN_AI": "Agentrix",
-    "CONVERSATION_WORKFLOW": "Konuşma Akışı"
+    "CONVERSATION_WORKFLOW": "Konuşma Akışı",
+    "CALLS": "Calls",
+    "WHATSAPP_TEMPLATES": "Templates"
   },
   "DATA_IMPORTS": {
     "HEADER": "Data",
@@ -431,7 +434,7 @@
       "TITLE": "New import",
       "SOURCE": "Source",
       "NAME": "Import name",
-      "NAME_PLACEHOLDER": "July Intercom migration",
+      "NAME_PLACEHOLDER": "July support migration",
       "ACCESS_KEY": "Intercom access key",
       "ACCESS_KEY_PLACEHOLDER": "Paste your Intercom access key",
       "DATA_TYPES": "Data to import",
@@ -440,7 +443,13 @@
       "INVALID_KEY": "Could not validate this access key.",
       "ACTIVE_IMPORT": "Wait for the active import to finish before starting another one.",
       "CANCEL": "İptal Et",
-      "IMPORT": "İçe Aktar"
+      "IMPORT": "İçe Aktar",
+      "INTERCOM_ACCESS_KEY": "Intercom access key",
+      "INTERCOM_ACCESS_KEY_PLACEHOLDER": "Paste your Intercom access key",
+      "FRESHDESK_API_KEY": "Freshdesk API key",
+      "FRESHDESK_API_KEY_PLACEHOLDER": "Paste your Freshdesk API key",
+      "FRESHDESK_DOMAIN": "Freshdesk domain",
+      "FRESHDESK_DOMAIN_PLACEHOLDER": "acme.freshdesk.com"
     },
     "EXPORT": {
       "TITLE": "Exports are on the way",
@@ -461,7 +470,8 @@
       "STATUS": "Durum",
       "IMPORTED": "Imported",
       "CREATED": "Oluşturuldu",
-      "ABANDON": "Abandon"
+      "ABANDON": "Abandon",
+      "RETRY": "Tekrar dene"
     },
     "DETAIL": {
       "BACK": "Back to imports",
@@ -506,9 +516,15 @@
       }
     },
     "ALERTS": {
-      "IMPORT_STARTED": "Intercom import has started.",
-      "IMPORT_ABANDONED": "Intercom import has been abandoned.",
-      "IMPORT_FAILED": "Could not start the Intercom import."
+      "IMPORT_STARTED": "Import has started.",
+      "IMPORT_ABANDONED": "Import has been abandoned.",
+      "IMPORT_FAILED": "Could not start the import.",
+      "IMPORT_RETRIED": "Import has been queued to resume.",
+      "IMPORT_RETRY_FAILED": "Could not retry the import."
+    },
+    "DEFAULT_IMPORT_NAMES": {
+      "INTERCOM": "Intercom import",
+      "FRESHDESK": "Freshdesk import"
     }
   },
   "CAPTAIN_SETTINGS": {

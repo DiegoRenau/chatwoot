@@ -272,7 +272,3 @@
   display_name: Delayed Automations
   enabled: false
   column: feature_flags_ext_1
-- name: buzzdesk_integration
-  display_name: BuzzDesk Integration
-  enabled: true
-  column: feature_flags_ext_1

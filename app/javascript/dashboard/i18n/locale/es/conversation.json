@@ -429,8 +429,7 @@
       "MACROS": "Macros",
       "LINEAR_ISSUES": "Problemas lineales vinculados",
       "SHOPIFY_ORDERS": "Pedidos de Shopify",
-      "SHARED_FILES": "Archivos adjuntos",
-      "BUZZDESK_TICKETS": "Tickets de BuzzDesk vinculados"
+      "SHARED_FILES": "Archivos adjuntos"
     },
     "SHARED_FILES": {
       "EMPTY": "Todavía no hay archivos adjuntos",

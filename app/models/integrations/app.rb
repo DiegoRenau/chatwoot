@@ -64,8 +64,6 @@ class Integrations::App
       account.feature_enabled?('crm_integration')
     when 'notion'
       notion_enabled?(account)
-    when 'buzzdesk'
-      account.feature_enabled?('buzzdesk_integration')
     else
       true
     end

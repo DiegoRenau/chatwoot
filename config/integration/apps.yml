@@ -251,6 +251,7 @@ buzzdesk:
   i18n_key: buzzdesk
   hook_type: account
   allow_multiple_hooks: false
+  feature_flag: buzzdesk_integration
   settings_json_schema:
     {
       'type': 'object',

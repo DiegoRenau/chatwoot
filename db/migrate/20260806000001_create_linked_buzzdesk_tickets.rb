@@ -1,5 +1,10 @@
 class CreateLinkedBuzzdeskTickets < ActiveRecord::Migration[7.1]
   def change
+    # Installs that ran this migration under its previous version number
+    # (20260806000000, which collided with an upstream 4.17.x migration)
+    # already have the table, and see the renumbered file as pending.
+    return if table_exists?(:linked_buzzdesk_tickets)
+
     create_table :linked_buzzdesk_tickets do |t|
       t.references :account, null: false, index: true
       t.references :conversation, null: false, index: true
